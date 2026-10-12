@@ -1,0 +1,518 @@
+[
+    {
+        "name": "Mike",
+        "type": "toggle",
+        "img": "images/items/mike.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mike"
+    },
+    {
+        "name": "Orange Ocean Quickdraw Key",
+        "type": "toggle",
+        "img": "images/items/orangeoceanquickdrawkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanquickdrawkey"
+    },
+    {
+        "name": "Maxim Tomato",
+        "type": "toggle",
+        "img": "images/items/maximtomato.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "maximtomato"
+    },
+    {
+        "name": "Ice Cream Island Arena Key",
+        "type": "toggle",
+        "img": "images/items/icecream_arenakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamislandarenakey"
+    },
+    {
+        "name": "Throw",
+        "type": "toggle",
+        "img": "images/items/throw.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "throw"
+    },
+    {
+        "name": "Orange Ocean Arena Key",
+        "type": "toggle",
+        "img": "images/items/orange_arenakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanarenakey"
+    },
+    {
+        "name": "Vegetable Valley Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/vegetablevalleybombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vegetablevalleybombrallykey"
+    },
+    {
+        "name": "Laser",
+        "type": "toggle",
+        "img": "images/items/laser.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "laser"
+    },
+    {
+        "name": "Vegetable Valley Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/vegetablevalleywarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vegetablevalleywarpstationkey"
+    },
+    {
+        "name": "1up",
+        "type": "toggle",
+        "img": "images/items/1up.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "1up"
+    },
+    {
+        "name": "Yogurt Yard Quickdraw Key",
+        "type": "toggle",
+        "img": "images/items/yogurtyardquickdrawkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardquickdrawkey"
+    },
+    {
+        "name": "Orange Ocean Museum Key",
+        "type": "toggle",
+        "img": "images/items/orangeoceanmuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanmuseumkey"
+    },
+    {
+        "name": "Butter Building Arena Key",
+        "type": "toggle",
+        "img": "images/items/butter_arenakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterbuildingarenakey"
+    },
+    {
+        "name": "Rainbow Resort Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/rainbowresortbombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rainbowresortbombrallykey"
+    },
+    {
+        "name": "Parasol",
+        "type": "toggle",
+        "img": "images/items/parasol.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "parasol"
+    },
+    {
+        "name": "Tornado",
+        "type": "toggle",
+        "img": "images/items/tornado.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tornado"
+    },
+    {
+        "name": "Grape Garden Museum Key",
+        "type": "toggle",
+        "img": "images/items/grapegardenmuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grapegardenmuseumkey"
+    },
+    {
+        "name": "Hi-Jump",
+        "type": "toggle",
+        "img": "images/items/hi-jump.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hi-jump"
+    },
+    {
+        "name": "Stone",
+        "type": "toggle",
+        "img": "images/items/stone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stone"
+    },
+    {
+        "name": "Vegetable Valley Museum Key",
+        "type": "toggle",
+        "img": "images/items/vegetablevalleymuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vegetablevalleymuseumkey"
+    },
+    {
+        "name": "Yogurt Yard Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/yogurtyardwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardwarpstationkey"
+    },
+    {
+        "name": "Orange Ocean Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/orangeoceanwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanwarpstationkey"
+    },
+    {
+        "name": "Yogurt Yard Air Grind Key",
+        "type": "toggle",
+        "img": "images/items/yogurtyardairgrindkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardairgrindkey"
+    },
+    {
+        "name": "Yogurt Yard Museum Key",
+        "type": "toggle",
+        "img": "images/items/yogurtyardmuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardmuseumkey"
+    },
+    {
+        "name": "Beam",
+        "type": "toggle",
+        "img": "images/items/beam.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beam"
+    },
+    {
+        "name": "Butter Building Quickdraw Key",
+        "type": "toggle",
+        "img": "images/items/butterbuildingquickdrawkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterbuildingquickdrawkey"
+    },
+    {
+        "name": "Ice Cream Island Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/icecreamislandbombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamislandbombrallykey"
+    },
+    {
+        "name": "Star Rod Pieces",
+        "type": "consumable",
+        "img": "images/items/starrodpiece.png",
+        "min_quantity": 0,
+        "max_quantity": 56,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "starrodpiece"
+    },
+    {
+        "name": "Grape Garden Arena Key",
+        "type": "toggle",
+        "img": "images/items/grape_arenakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grapegardenarenakey"
+    },
+    {
+        "name": "Sleep",
+        "type": "toggle",
+        "img": "images/items/sleep.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sleep"
+    },
+    {
+        "name": "Spark",
+        "type": "toggle",
+        "img": "images/items/spark.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spark"
+    },
+    {
+        "name": "Orange Ocean Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/orangeoceanbombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanbombrallykey"
+    },
+    {
+        "name": "Hammer",
+        "type": "toggle",
+        "img": "images/items/hammer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hammer"
+    },
+    {
+        "name": "Fire",
+        "type": "toggle",
+        "img": "images/items/fire.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fire"
+    },
+    {
+        "name": "Butter Building Air Grind Key",
+        "type": "toggle",
+        "img": "images/items/butterbuildingairgrindkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterbuildingairgrindkey"
+    },
+    {
+        "name": "Ice Cream Island Museum Key",
+        "type": "toggle",
+        "img": "images/items/icecreamislandmuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamislandmuseumkey"
+    },
+    {
+        "name": "Needle",
+        "type": "toggle",
+        "img": "images/items/needle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "needle"
+    },
+    {
+        "name": "Orange Ocean Airgrind Key",
+        "type": "toggle",
+        "img": "images/items/orangeoceanairgrindkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangeoceanairgrindkey"
+    },
+    {
+        "name": "Burning",
+        "type": "toggle",
+        "img": "images/items/burning.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "burning"
+    },
+    {
+        "name": "Sword",
+        "type": "toggle",
+        "img": "images/items/sword.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sword"
+    },
+    {
+        "name": "Ice Cream Island Airgrind Key",
+        "type": "toggle",
+        "img": "images/items/icecreamislandairgrindkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamislandairgrindkey"
+    },
+    {
+        "name": "Grape Garden Quickdraw Key",
+        "type": "toggle",
+        "img": "images/items/grapegardenquickdrawkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grapegardenquickdrawkey"
+    },
+    {
+        "name": "Grape Garden Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/grapegardenwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grapegardenwarpstationkey"
+    },
+    {
+        "name": "Yogurt Yard Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/yogurtyardbombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardbombrallykey"
+    },
+    {
+        "name": "Invincibility Candy",
+        "type": "toggle",
+        "img": "images/items/invincibilitycandy.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "invincibilitycandy"
+    },
+    {
+        "name": "Vitality",
+        "type": "consumable",
+        "img": "images/items/vitality.png",
+        "min_quantity": 1,
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 3,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "vitality"
+    },
+    {
+        "name": "Ice Cream Island Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/icecreamislandwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamislandwarpstationkey"
+    },
+    {
+        "name": "Crash",
+        "type": "toggle",
+        "img": "images/items/crash.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crash"
+    },
+    {
+        "name": "Wheel",
+        "type": "toggle",
+        "img": "images/items/wheel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wheel"
+    },
+    {
+        "name": "Cutter",
+        "type": "toggle",
+        "img": "images/items/cutter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cutter"
+    },
+    {
+        "name": "Ice",
+        "type": "toggle",
+        "img": "images/items/ice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ice"
+    },
+    {
+        "name": "Yogurt Yard Arena Key",
+        "type": "toggle",
+        "img": "images/items/yogurt_arenakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yogurtyardarenakey"
+    },
+    {
+        "name": "Rainbow Resort Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/rainbowresortwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rainbowresortwarpstationkey"
+    },
+    {
+        "name": "Butter Building Museum Key",
+        "type": "toggle",
+        "img": "images/items/butterbuildingmuseumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterbuildingmuseumkey"
+    },
+    {
+        "name": "Freeze",
+        "type": "toggle",
+        "img": "images/items/freeze.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "freeze"
+    },
+    {
+        "name": "UFO",
+        "type": "toggle",
+        "img": "images/items/ufo.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ufo"
+    },
+    {
+        "name": "Butter Building Warp Station Key",
+        "type": "toggle",
+        "img": "images/items/butterbuildingwarpstationkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterbuildingwarpstationkey"
+    },
+    {
+        "name": "Pep Drink",
+        "type": "toggle",
+        "img": "images/items/pepdrink.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pepdrink"
+    },
+    {
+        "name": "Ball",
+        "type": "toggle",
+        "img": "images/items/ball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ball"
+    },
+    {
+        "name": "Grape Garden Bomb Rally Key",
+        "type": "toggle",
+        "img": "images/items/grapegardenbombrallykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grapegardenbombrallykey"
+    },
+    {
+        "name": "Backdrop",
+        "type": "toggle",
+        "img": "images/items/backdrop.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "backdrop"
+    },
+    {
+        "name": "Light",
+        "type": "toggle",
+        "img": "images/items/light.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "light"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

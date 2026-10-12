@@ -1,0 +1,426 @@
+[
+    {
+        "name": "Rainbow Resort Abilities",
+        "children": [
+            {
+                "name": "Rainbow Resort 1 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 131,
+                        "y": 215,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2 Abilities",
+                "sections": [
+					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": ["backdrop","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": ["hammer","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": ["mike","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": ["throw","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 196,
+                        "y": 244,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 277,
+                        "y": 278,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 4 Abilities",
+                "sections": [
+                    {
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": ["tornado","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 357,
+                        "y": 225,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5 Abilities",
+                "sections": [
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 421,
+                        "y": 196,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 484,
+                        "y": 147,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$boss_w6"
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]

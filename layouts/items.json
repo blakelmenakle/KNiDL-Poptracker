@@ -1,0 +1,199 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "backdrop",
+                                "ball",
+                                "beam",
+                                "burning",
+                                "crash",
+                                "cutter"
+                                
+                            ],
+                            [
+                                "fire",
+                                "freeze",
+                                "hammer",
+                                "hi-jump",
+                                "ice",
+                                "laser"
+                            ],
+                            [
+                                "light",
+                                "mike",
+                                "needle",
+                                "parasol",
+                                "spark",
+                                "stone"
+                            ],
+                            [
+                                "sword",
+                                "throw",
+                                "tornado",
+                                "ufo",
+                                "wheel"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "backdrop",
+                                "ball",
+                                "beam",
+                                "burning",
+                                "crash",
+                                "cutter"
+                                
+                            ],
+                            [
+                                "fire",
+                                "freeze",
+                                "hammer",
+                                "hi-jump",
+                                "ice",
+                                "laser"
+                            ],
+                            [
+                                "light",
+                                "mike",
+                                "needle",
+                                "parasol",
+                                "spark",
+                                "stone"
+                            ],
+                            [
+                                "sword",
+                                "throw",
+                                "tornado",
+                                "ufo",
+                                "wheel"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 80,
+                        "item_width": 160,
+                        "rows": [
+                            [
+                                "logic_level"
+                            ],
+                            [
+                                "show_abilities"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "level_unlocks": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "star_rod_pieces_w1",
+                                "star_rod_pieces_w2",
+                                "star_rod_pieces_w3",
+                                "star_rod_pieces_w4",
+                                "star_rod_pieces_w5",
+                                "star_rod_pieces_w6",
+                                "star_rod_pieces_needed"
+                            ],
+                            [
+                                "",
+                                "icecreamislandarenakey",
+                                "butterbuildingarenakey",
+                                "grapegardenarenakey",
+                                "yogurtyardarenakey",
+                                "orangeoceanarenakey",
+                                "starrodpiece"
+                            ],
+                            [
+                                "vegetablevalleymuseumkey",
+                                "icecreamislandmuseumkey",
+                                "butterbuildingmuseumkey",
+                                "grapegardenmuseumkey",
+                                "yogurtyardmuseumkey",
+                                "orangeoceanmuseumkey",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,397 @@
+[
+    {
+        "name": "Yogurt Yard",
+        "children": [
+            {
+                "name": "Yogurt Yard 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Rocky Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Skydive Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Big Switch Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 64,
+                        "y": 116,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Before Bonkers)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "1up (Under the Mountain)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 160,
+                        "y": 68,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Stake Room Left)",
+                        "access_rules": [
+                            "$pound_stake"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Stake Room Right)",
+                        "access_rules": [
+                            "$pound_stake"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Spike Descent)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 177,
+                        "y": 149,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Spike Tunnel)",
+                        "access_rules": [
+                            "[burning]",
+                            "[advanced_logic],[tornado]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Before Big Switch 1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Before Big Switch 2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Underground River)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 320,
+                        "y": 181,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Forest Thicket)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [
+                            "burning",
+                            "$light_fuse,hi-jump",
+                            "fire,spark",
+                            "fire,sword",
+                            "fire,freeze",
+                            "fire,needle",
+                            "fire,hammer",
+                            "fire,throw",
+                            "[advanced_logic],fire,parasol"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 543,
+                        "y": 243,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Wheelie Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Big Switch Room Right)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Big Switch Room Left)",
+                        "access_rules": [
+                            "hammer"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [
+                            "hammer"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 640,
+                        "y": 261,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard Arena",
+                "sections": [
+                    {
+                        "name": "Arena Clear",
+                        "access_rules": [
+                            "yogurtyardarenakey"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 433,
+                        "y": 228,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "sections": [
+            {
+                "name": "Boss (Heavy Mole)",
+                "access_rules": [
+                    "$boss_w5"
+                ],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "/images/items/clear.png",
+                "chest_opened_img": "/images/items/clear_gray.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Yogurt Yard",
+                "x": 688,
+                "y": 134,
+                "size": 16,
+                "shape": "rect"
+            }
+        ],
+        "access_rules": [
+            "$boss_w4"
+        ],
+        "overlay_background": "#000000"
+    }
+]

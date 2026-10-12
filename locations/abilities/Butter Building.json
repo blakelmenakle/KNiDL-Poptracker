@@ -1,0 +1,517 @@
+[
+    {
+        "name": "Butter Building Abilities",
+        "children": [
+            {
+                "name": "Butter Building 1 Abilities",
+                "sections": [
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": ["mike","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 131,
+                        "y": 205,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2 Abilities",
+                "sections": [
+					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": ["backdrop","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": ["ice","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": ["needle","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 148,
+                        "y": 93,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 3 Abilities",
+                "sections": [
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": ["ice","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": ["needle","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 419,
+                        "y": 252,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 419,
+                        "y": 156,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5 Abilities",
+                "sections": [
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": ["hammer","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 404,
+                        "y": 28,
+                        "size": 12,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "Butter Building",
+                        "x": 656,
+                        "y": 258,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6 Abilities",
+                "sections": [
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": ["ice","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": ["light","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 656,
+                        "y": 178,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building Arena Abilities",
+                "sections": [
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel,butterbuildingarenakey}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 228,
+                        "y": 175,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building Museum Abilities",
+                "sections": [
+					{
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump,butterbuildingmuseumkey}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 305,
+                        "y": 206,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$boss_w2"
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]

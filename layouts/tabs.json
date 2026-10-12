@@ -1,0 +1,138 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Vegetable Valley",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Vegetable Valley"
+                    ]
+                }
+            },
+            {
+                "title": "Ice Cream Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ice Cream Island"
+                    ]
+                }
+            },
+            {
+                "title": "Butter Building",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Butter Building"
+                    ]
+                }
+            },
+            {
+                "title": "Grape Garden",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Grape Garden"
+                    ]
+                }
+            },
+            {
+                "title": "Yogurt Yard",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Yogurt Yard"
+                    ]
+                }
+            },
+            {
+                "title": "Orange Ocean",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Orange Ocean"
+                    ]
+                }
+            },
+            {
+                "title": "Rainbow Resort",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rainbow Resort"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Vegetable Valley",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Vegetable Valley"
+                    ]
+                }
+            },
+            {
+                "title": "Ice Cream Island",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ice Cream Island"
+                    ]
+                }
+            },
+            {
+                "title": "Butter Building",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Butter Building"
+                    ]
+                }
+            },
+            {
+                "title": "Grape Garden",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Grape Garden"
+                    ]
+                }
+            },
+            {
+                "title": "Yogurt Yard",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Yogurt Yard"
+                    ]
+                }
+            },
+            {
+                "title": "Orange Ocean",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Orange Ocean"
+                    ]
+                }
+            },
+            {
+                "title": "Rainbow Resort",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rainbow Resort"
+                    ]
+                }
+            }
+        ]
+    }
+}

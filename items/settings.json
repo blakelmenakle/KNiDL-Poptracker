@@ -1,0 +1,150 @@
+[
+  {
+      "name": "Total Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 7,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_total.png",
+      "codes": "star_rod_pieces_needed"
+  },
+  {
+      "name": "Whispy Woods Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 1,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_1_boss.png",
+      "codes": "star_rod_pieces_w1"
+  },
+  {
+      "name": "Paint Roller Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 2,
+      "decrement": 2,
+      "initial_quantity": 2,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_2_boss.png",
+      "codes": "star_rod_pieces_w2"
+  },
+  {
+      "name": "Mr. Bright & Mr. Shine Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 3,
+      "decrement": 3,
+      "initial_quantity": 3,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_3_boss.png",
+      "codes": "star_rod_pieces_w3"
+  },
+  {
+      "name": "Kracko Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 4,
+      "decrement": 4,
+      "initial_quantity": 4,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_4_boss.png",
+      "codes": "star_rod_pieces_w4"
+  },
+  {
+      "name": "Heavy Mole Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 5,
+      "decrement": 5,
+      "initial_quantity": 5,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_5_boss.png",
+      "codes": "star_rod_pieces_w5"
+  },
+  {
+      "name": "Meta Knight Star Rod Pieces Needed",
+      "type": "consumable",
+      "allow_disabled": false,
+      "max_quantity": 56,
+      "min_quantity": 0,
+      "increment": 6,
+      "decrement": 6,
+      "initial_quantity": 6,
+      "overlay_align": "right",
+      "overlay_font_size": 14,
+      "overlay_background": "#000000",
+      "img": "images/settings/star_rod_pieces_world_6_boss.png",
+      "codes": "star_rod_pieces_w6"
+  },
+  {
+    "name": "Logic Level",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/logic_basic.png",
+        "codes": "logic_level,basic_logic",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/logic_advanced.png",
+        "codes": "logic_level,advanced_logic",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Show Abilities On Levels",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/abilities_off.png",
+        "codes": "show_abilities,show_abilities_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/abilities_unlocked.png",
+        "codes": "show_abilities,show_abilities_unlocked",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/abilities_on.png",
+        "codes": "show_abilities,show_abilities_on",
+        "inherit_codes":true
+      }
+    ]
+  }
+]

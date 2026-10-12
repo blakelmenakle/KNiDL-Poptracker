@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Vegetable Valley Abilities",
+        "children": [
+            {
+                "name": "Vegetable Valley 1 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": ["ufo","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 132,
+                        "y": 260,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 2 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 259,
+                        "y": 292,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 3 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 340,
+                        "y": 196,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": ["needle","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 419,
+                        "y": 244,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley Museum Abilities",
+                "sections": [
+					{
+                        "name": "Sword",
+                        "access_rules": ["vegetablevalleymuseumkey,{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 239,
+                        "y": 150,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]

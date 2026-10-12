@@ -1,0 +1,453 @@
+[
+    {
+        "name": "Ice Cream Island",
+        "children": [
+            {
+                "name": "Ice Cream Island 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Cave)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 127,
+                        "y": 246,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Wheelie Road)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Before Goal)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Under Goal)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 272,
+                        "y": 166,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (UFO Room)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "[advanced_logic], throw, $boss_w3"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Cave Tunnel)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "wheel",
+                            "ufo"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Tide Pool)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 287,
+                        "y": 292,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Gip Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Block Cage)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Laser Room 1)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "fire",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "laser",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "ice,$boss_w2",
+                            "throw,$boss_w3",
+                            "[advanced_logic], cutter"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Laser Room 2)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "fire",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "laser",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "ice,$boss_w2",
+                            "throw,$boss_w3",
+                            "[advanced_logic], cutter"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Laser Room 3)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "fire",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "laser",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "ice,$boss_w2",
+                            "throw,$boss_w3",
+                            "[advanced_logic], cutter"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Laser Room 4)",
+                        "access_rules": [
+                            "beam",
+                            "spark",
+                            "fire",
+                            "burning",
+                            "sword",
+                            "freeze",
+                            "needle",
+                            "laser",
+                            "hi-jump",
+                            "parasol",
+                            "hammer,$boss_w2",
+                            "ice,$boss_w2",
+                            "throw,$boss_w3",
+                            "wheel"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Sand Detour)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 273,
+                        "y": 86,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Forest Far Right)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Gordo Pond)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Metal Blocks 1)",
+                        "access_rules": [
+                            "$destroy_metal",
+                            "throw,$boss_w3",
+                            "[advanced_logic]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "1up (Metal Blocks 2)",
+                        "access_rules": [
+                            "$destroy_metal",
+                            "throw,$boss_w3",
+                            "[advanced_logic]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "1up (Gordo Guarded)",
+                        "access_rules": [
+                            "[burning]",
+                            "[tornado]",
+                            "[advanced_logic], [wheel]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Checkerboard Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Poppy Bros. Jr.)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 497,
+                        "y": 227,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island Arena",
+                "sections": [
+                    {
+                        "name": "Arena Clear",
+                        "access_rules": [
+                            "icecreamislandarenakey"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 497,
+                        "y": 102,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "sections": [
+            {
+                "name": "Boss (Paint Roller)",
+                "access_rules": [
+                    "$boss_w2"
+                ],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "/images/items/clear.png",
+                "chest_opened_img": "/images/items/clear_gray.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Ice Cream Island",
+                "x": 702,
+                "y": 102,
+                "size": 16,
+                "shape": "rect"
+            }
+        ],
+        "access_rules": [
+            "$boss_w1"
+        ],
+        "overlay_background": "#000000"
+    }
+]

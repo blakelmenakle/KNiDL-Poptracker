@@ -1,0 +1,378 @@
+[
+    {
+        "name": "Grape Garden",
+        "children": [
+            {
+                "name": "Grape Garden 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 129,
+                        "y": 262,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Sqishy Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Spiky Hallway)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 175,
+                        "y": 182,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Engine Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Cannon Reward)",
+                        "access_rules": [
+                            "$light_fuse"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Exploding Kabu Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 337,
+                        "y": 103,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Wheel Race)",
+                        "access_rules": [
+                            "wheel"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 366,
+                        "y": 276,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Candy (First Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/candy.png",
+                        "chest_opened_img": "/images/items/candy_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Bomb Pillar)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Hidden Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Hidden Room Underside)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "1up (Burning Room Bottom)",
+                        "access_rules": [
+                            "[burning]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "1up (Burning Room Top)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Burning Room Middle)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 561,
+                        "y": 227,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Poolside)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Stake)",
+                        "access_rules": [
+                            "$pound_stake"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Near Goal)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [
+                            "[light]"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 607,
+                        "y": 84,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden Arena",
+                "sections": [
+                    {
+                        "name": "Arena Clear",
+                        "access_rules": [
+                            "grapegardenarenakey"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 465,
+                        "y": 245,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "sections": [
+            {
+                "name": "Boss (Kracko)",
+                "access_rules": [
+                    "$boss_w4"
+                ],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "/images/items/clear.png",
+                "chest_opened_img": "/images/items/clear_gray.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Grape Garden",
+                "x": 705,
+                "y": 68,
+                "size": 16,
+                "shape": "rect"
+            }
+        ],
+        "access_rules": [
+            "$boss_w3"
+        ],
+        "overlay_background": "#000000"
+    }
+]

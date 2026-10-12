@@ -1,0 +1,17 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": 5,
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "settings_grid"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,412 @@
+[
+    {
+        "name": "Ice Cream Island Abilities",
+        "children": [
+            {
+                "name": "Ice Cream Island 1 Abilities",
+                "sections": [
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": ["tornado","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 147,
+                        "y": 246,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2 Abilities",
+                "sections": [
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": ["needle","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 292,
+                        "y": 166,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3 Abilities",
+                "sections": [
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": ["ufo","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 307,
+                        "y": 292,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": ["mike","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 293,
+                        "y": 86,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 517,
+                        "y": 227,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island Arena Abilities",
+                "sections": [
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze,icecreamislandarenakey}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 517,
+                        "y": 102,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island Museum Abilities",
+                "sections": [
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire,icecreamislandmuseumkey}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser,icecreamislandmuseumkey}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 383,
+                        "y": 70,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$boss_w1"
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]

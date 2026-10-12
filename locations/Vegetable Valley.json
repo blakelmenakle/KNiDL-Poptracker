@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Vegetable Valley",
+        "children": [
+            {
+                "name": "Vegetable Valley 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Waterfall)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 112,
+                        "y": 260,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Cave)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Hidden Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 239,
+                        "y": 292,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Hotheads)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 320,
+                        "y": 196,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Platform)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Shotzos)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Candy (Stump)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/candy.png",
+                        "chest_opened_img": "/images/items/candy_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 399,
+                        "y": 244,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "sections": [
+            {
+                "name": "Boss (Whispy Woods)",
+                "access_rules": [
+                    "$boss_w1"
+                ],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "/images/items/clear.png",
+                "chest_opened_img": "/images/items/clear_gray.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Vegetable Valley",
+                "x": 449,
+                "y": 116,
+                "size": 16,
+                "shape": "rect"
+            }
+        ],
+        "access_rules": [
+            " "
+        ],
+        "overlay_background": "#000000"
+    }
+]

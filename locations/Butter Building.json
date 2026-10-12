@@ -1,0 +1,419 @@
+[
+    {
+        "name": "Butter Building",
+        "children": [
+            {
+                "name": "Butter Building 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Big Switch Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 111,
+                        "y": 205,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Poppy Bros. Jr.)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Fire Escape)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Before Bugsy Left)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Before Bugsy Right",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 128,
+                        "y": 93,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Parallel Rooms)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Spikes Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 399,
+                        "y": 252,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "1up (Updraft Room 1)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Updraft Room 2)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Updraft Room 3)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 399,
+                        "y": 156,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Candy (First Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/candy.png",
+                        "chest_opened_img": "/images/items/candy_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Exterior Wall)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Stake Room 1)",
+                        "access_rules": [
+                            "$pound_stake"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Stake Room 2)",
+                        "access_rules": [
+                            "$pound_stake"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 384,
+                        "y": 28,
+                        "size": 16,
+                        "shape": "rect"
+                    },
+                    {
+                        "map": "Butter Building",
+                        "x": 636,
+                        "y": 258,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Laser Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Ladder Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Defog Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Before Big Switch)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "1up (Dark Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Pep Drink (Hi Jump Room Mid Right)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/drink.png",
+                        "chest_opened_img": "/images/items/drink_gray.png"
+                    },
+                    {
+                        "name": "Tomato (Hi Jump Room End Left)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tomato.png",
+                        "chest_opened_img": "/images/items/tomato_gray.png"
+                    },
+                    {
+                        "name": "1up (Hi Jump Room End Right)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/1up.png",
+                        "chest_opened_img": "/images/items/1up_gray.png"
+                    },
+                    {
+                        "name": "Big Switch",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/switch.png",
+                        "chest_opened_img": "/images/items/switch_gray.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 636,
+                        "y": 178,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building Arena",
+                "sections": [
+                    {
+                        "name": "Arena Clear",
+                        "access_rules": [
+                            "butterbuildingarenakey"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/clear.png",
+                        "chest_opened_img": "/images/items/clear_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 208,
+                        "y": 175,
+                        "size": 16,
+                        "shape": "rect"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "sections": [
+            {
+                "name": "Boss (Mr. Shine and Mr. Bright)",
+                "access_rules": [
+                    "$boss_w3"
+                ],
+                "visibility_rules": [],
+                "item_count": 1,
+                "chest_unopened_img": "/images/items/clear.png",
+                "chest_opened_img": "/images/items/clear_gray.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Butter Building",
+                "x": 636,
+                "y": 96,
+                "size": 16,
+                "shape": "rect"
+            }
+        ],
+        "access_rules": [
+            "$boss_w2"
+        ],
+        "overlay_background": "#000000"
+    }
+]

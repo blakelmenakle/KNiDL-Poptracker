@@ -1,0 +1,486 @@
+[
+    {
+        "name": "Yogurt Yard Abilities",
+        "children": [
+            {
+                "name": "Yogurt Yard 1 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": ["ice","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": ["light","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": ["needle","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 84,
+                        "y": 116,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 2 Abilities",
+                "sections": [
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": ["hammer","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 180,
+                        "y": 68,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 3 Abilities",
+                "sections": [
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 197,
+                        "y": 149,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 4 Abilities",
+                "sections": [
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 340,
+                        "y": 181,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 5 Abilities",
+                "sections": [
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 563,
+                        "y": 243,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard 6 Abilities",
+                "sections": [
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 660,
+                        "y": 261,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard Arena Abilities",
+                "sections": [
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer,yogurtyardarenakey}"],
+                        "visibility_rules": ["hammer","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 453,
+                        "y": 228,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard Museum Abilities",
+                "sections": [
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone,yogurtyardmuseumkey}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado,yogurtyardmuseumkey}"],
+                        "visibility_rules": ["tornado","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 351,
+                        "y": 69,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$boss_w4"
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]

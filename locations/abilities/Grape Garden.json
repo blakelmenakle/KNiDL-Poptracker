@@ -1,0 +1,494 @@
+[
+    {
+        "name": "Grape Garden Abilities",
+        "children": [
+            {
+                "name": "Grape Garden 1 Abilities",
+                "sections": [
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": ["tornado","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+					{
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": ["ufo","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 149,
+                        "y": 262,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 2 Abilities",
+                "sections": [
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 195,
+                        "y": 182,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3 Abilities",
+                "sections": [
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": ["crash","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": ["laser","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 357,
+                        "y": 103,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 4 Abilities",
+                "sections": [
+                    {
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": ["throw","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 386,
+                        "y": 276,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5 Abilities",
+                "sections": [
+					{
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": ["burning","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": ["spark","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+					{
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 581,
+                        "y": 227,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6 Abilities",
+                "sections": [
+					{
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": ["beam","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": ["fire","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi-jump}"],
+                        "visibility_rules": ["hi-jump","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": ["light","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": ["mike","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": ["stone","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": ["sword","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 627,
+                        "y": 84,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden Arena Abilities",
+                "sections": [
+					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop,grapegardenarenakey}"],
+                        "visibility_rules": ["backdrop","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 485,
+                        "y": 245,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden Museum Abilities",
+                "sections": [
+                    {
+                        "name": "Ball",
+                        "access_rules": ["{ball,grapegardenmuseumkey}"],
+                        "visibility_rules": ["ball","show_abilities_on"],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 291,
+                        "y": 229,
+                        "size": 12,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    " "
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$boss_w3"
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]
