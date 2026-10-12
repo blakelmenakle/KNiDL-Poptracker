@@ -27,5 +27,5 @@ No AI was knowingly used to create this pack outside of VS Code's auto-complete 
 
 ## Special Thanks
 
-VizCount for creating the [Kirby Nightmare in Dream Land AP World](https://github.com/VizCount467/Kirby-NIDL-AP/releases).
+VizCount for creating the [Kirby Nightmare in Dream Land AP World](https://github.com/VizCount467/Kirby-NIDL-AP/releases).  
 Stripes007 for creating the [PopTracker Pack Builder](https://github.com/StripesOO7/poptracker-pack-builder).
