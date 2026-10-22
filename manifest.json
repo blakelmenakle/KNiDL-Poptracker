@@ -18,5 +18,6 @@
             ]
         }
     },
-    "min_poptracker_version": "0.35.4"
+    "min_poptracker_version": "0.35.4",
+    "versions_url": "https://raw.githubusercontent.com/blakelmenakle/KNiDL-Poptracker/refs/heads/main/versions.json"
 }
