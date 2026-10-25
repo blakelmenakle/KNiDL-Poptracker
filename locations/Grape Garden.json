@@ -27,12 +27,8 @@
                         "map": "Grape Garden",
                         "x": 129,
                         "y": 262,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -69,12 +65,8 @@
                         "map": "Grape Garden",
                         "x": 175,
                         "y": 182,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -100,7 +92,8 @@
                     {
                         "name": "1up (Cannon Reward)",
                         "access_rules": [
-                            "$light_fuse"
+                            "$light_fuse",
+                            "[$light_fuse],$ability_crash"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -129,12 +122,8 @@
                         "map": "Grape Garden",
                         "x": 337,
                         "y": 103,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -152,7 +141,7 @@
                     {
                         "name": "1up (Wheel Race)",
                         "access_rules": [
-                            "wheel"
+                            "[$ability_wheel]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -165,12 +154,8 @@
                         "map": "Grape Garden",
                         "x": 366,
                         "y": 276,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -220,7 +205,7 @@
                     {
                         "name": "1up (Burning Room Bottom)",
                         "access_rules": [
-                            "[burning]"
+                            "[$ability_burning]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -249,12 +234,8 @@
                         "map": "Grape Garden",
                         "x": 561,
                         "y": 227,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -298,7 +279,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "[light]"
+                            "[$ability_light]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -311,12 +292,8 @@
                         "map": "Grape Garden",
                         "x": 607,
                         "y": 84,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -339,12 +316,32 @@
                         "map": "Grape Garden",
                         "x": 465,
                         "y": 245,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{grapegardenwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Grape Garden",
+                        "x": 705,
+                        "y": 133,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -371,7 +368,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w3"
+            "$access_w4"
         ],
         "overlay_background": "#000000"
     }

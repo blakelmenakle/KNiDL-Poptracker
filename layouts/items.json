@@ -137,6 +137,9 @@
                             ],
                             [
                                 "show_abilities"
+                            ],
+                            [
+                                "warp_station_skips"
                             ]
                         ]
                     }
@@ -189,6 +192,15 @@
                                 "yogurtyardmuseumkey",
                                 "orangeoceanmuseumkey",
                                 ""
+                            ],
+                            [
+                                "vegetablevalleywarpstationkey",
+                                "icecreamislandwarpstationkey",
+                                "butterbuildingwarpstationkey",
+                                "grapegardenwarpstationkey",
+                                "yogurtyardwarpstationkey",
+                                "orangeoceanwarpstationkey",
+                                "rainbowresortwarpstationkey"
                             ]
                         ]
                     }

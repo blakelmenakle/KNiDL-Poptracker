@@ -27,12 +27,8 @@
                         "map": "Ice Cream Island",
                         "x": 127,
                         "y": 246,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -77,12 +73,8 @@
                         "map": "Ice Cream Island",
                         "x": 272,
                         "y": 166,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -100,16 +92,16 @@
                     {
                         "name": "Tomato (UFO Room)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "[advanced_logic], throw, $boss_w3"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "vneedle",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "[advanced_logic], $ability_throw"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -119,17 +111,17 @@
                     {
                         "name": "1up (Cave Tunnel)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "wheel",
-                            "ufo"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_wheel",
+                            "$ability_ufo"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -150,12 +142,8 @@
                         "map": "Ice Cream Island",
                         "x": 287,
                         "y": 292,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -189,20 +177,20 @@
                     {
                         "name": "Pep Drink (Laser Room 1)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "fire",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "laser",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "ice,$boss_w2",
-                            "throw,$boss_w3",
-                            "[advanced_logic], cutter"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_fire",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_laser",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_ice",
+                            "$ability_throw",
+                            "[advanced_logic], $ability_cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -212,20 +200,20 @@
                     {
                         "name": "Pep Drink (Laser Room 2)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "fire",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "laser",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "ice,$boss_w2",
-                            "throw,$boss_w3",
-                            "[advanced_logic], cutter"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_fire",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_laser",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_ice",
+                            "$ability_throw",
+                            "[advanced_logic], $ability_cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -235,20 +223,20 @@
                     {
                         "name": "Pep Drink (Laser Room 3)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "fire",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "laser",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "ice,$boss_w2",
-                            "throw,$boss_w3",
-                            "[advanced_logic], cutter"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_fire",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_laser",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_ice",
+                            "$ability_throw",
+                            "[advanced_logic], $ability_cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -258,20 +246,20 @@
                     {
                         "name": "1up (Laser Room 4)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "fire",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "laser",
-                            "hi-jump",
-                            "parasol",
-                            "hammer,$boss_w2",
-                            "ice,$boss_w2",
-                            "throw,$boss_w3",
-                            "wheel"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_fire",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_laser",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_ice",
+                            "$ability_throw",
+                            "$ability_wheel"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -292,12 +280,8 @@
                         "map": "Ice Cream Island",
                         "x": 273,
                         "y": 86,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -332,7 +316,7 @@
                         "name": "1up (Metal Blocks 1)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw,$boss_w3",
+                            "$ability_throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -344,7 +328,7 @@
                         "name": "1up (Metal Blocks 2)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw,$boss_w3",
+                            "$ability_throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -355,9 +339,9 @@
                     {
                         "name": "1up (Gordo Guarded)",
                         "access_rules": [
-                            "[burning]",
-                            "[tornado]",
-                            "[advanced_logic], [wheel]"
+                            "[$ability_burning]",
+                            "[$ability_tornado]",
+                            "[advanced_logic], [$ability_wheel]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -386,12 +370,8 @@
                         "map": "Ice Cream Island",
                         "x": 497,
                         "y": 227,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -414,12 +394,32 @@
                         "map": "Ice Cream Island",
                         "x": 497,
                         "y": 102,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{icecreamislandwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Ice Cream Island",
+                        "x": 655,
+                        "y": 216,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -446,7 +446,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w1"
+            "$access_w2"
         ],
         "overlay_background": "#000000"
     }

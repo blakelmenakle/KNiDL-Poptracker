@@ -95,9 +95,6 @@
                         "shape": "diamond"
                     }
                 ],
-                "access_rules": [
-                    " "
-                ],
                 "overlay_background": "#000000"
             },
             {
@@ -152,9 +149,6 @@
                         "size": 12,
                         "shape": "diamond"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -235,9 +229,6 @@
                         "shape": "diamond"
                     }
                 ],
-                "access_rules": [
-                    " "
-                ],
                 "overlay_background": "#000000"
             },
             {
@@ -292,9 +283,6 @@
                         "size": 12,
                         "shape": "diamond"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -367,9 +355,6 @@
                         "shape": "diamond"
                     }
                 ],
-                "access_rules": [
-                    " "
-                ],
                 "overlay_background": "#000000"
             },
             {
@@ -409,9 +394,6 @@
                         "shape": "diamond"
                     }
                 ],
-                "access_rules": [
-                    " "
-                ],
                 "overlay_background": "#000000"
             },
             {
@@ -434,9 +416,6 @@
                         "size": 12,
                         "shape": "diamond"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -469,14 +448,11 @@
                         "shape": "diamond"
                     }
                 ],
-                "access_rules": [
-                    " "
-                ],
                 "overlay_background": "#000000"
             }
         ],
         "access_rules": [
-            "$boss_w4"
+            "$access_w5"
         ],
         "visibility_rules": [
             "show_abilities_unlocked"

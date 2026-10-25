@@ -51,12 +51,8 @@
                         "map": "Yogurt Yard",
                         "x": 64,
                         "y": 116,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -93,12 +89,8 @@
                         "map": "Yogurt Yard",
                         "x": 160,
                         "y": 68,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -147,12 +139,8 @@
                         "map": "Yogurt Yard",
                         "x": 177,
                         "y": 149,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -170,8 +158,8 @@
                     {
                         "name": "1up (Spike Tunnel)",
                         "access_rules": [
-                            "[burning]",
-                            "[advanced_logic],[tornado]"
+                            "[$ability_burning]",
+                            "[advanced_logic],[$ability_tornado]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -216,12 +204,8 @@
                         "map": "Yogurt Yard",
                         "x": 320,
                         "y": 181,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -247,15 +231,15 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "burning",
-                            "$light_fuse,hi-jump",
-                            "fire,spark",
-                            "fire,sword",
-                            "fire,freeze",
-                            "fire,needle",
-                            "fire,hammer",
-                            "fire,throw",
-                            "[advanced_logic],fire,parasol"
+                            "$ability_burning",
+                            "$light_fuse,$ability_hi_jump",
+                            "$ability_fire,$ability_spark",
+                            "$ability_fire,$ability_sword",
+                            "$ability_fire,$ability_freeze",
+                            "$ability_fire,$ability_needle",
+                            "$ability_fire,$ability_hammer",
+                            "$ability_fire,$ability_throw",
+                            "[advanced_logic],$ability_fire,$ability_parasol"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -268,12 +252,8 @@
                         "map": "Yogurt Yard",
                         "x": 543,
                         "y": 243,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -307,7 +287,7 @@
                     {
                         "name": "1up (Big Switch Room Left)",
                         "access_rules": [
-                            "hammer"
+                            "$ability_hammer"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -317,7 +297,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "hammer"
+                            "$ability_hammer"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -330,12 +310,8 @@
                         "map": "Yogurt Yard",
                         "x": 640,
                         "y": 261,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -358,12 +334,32 @@
                         "map": "Yogurt Yard",
                         "x": 433,
                         "y": 228,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Yogurt Yard Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{yogurtyardwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Yogurt Yard",
+                        "x": 704,
+                        "y": 213,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -390,7 +386,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w4"
+            "$access_w5"
         ],
         "overlay_background": "#000000"
     }

@@ -27,12 +27,8 @@
                         "map": "Vegetable Valley",
                         "x": 112,
                         "y": 260,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -69,12 +65,8 @@
                         "map": "Vegetable Valley",
                         "x": 239,
                         "y": 292,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -103,12 +95,8 @@
                         "map": "Vegetable Valley",
                         "x": 320,
                         "y": 196,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -153,12 +141,32 @@
                         "map": "Vegetable Valley",
                         "x": 399,
                         "y": 244,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{vegetablevalleywarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Vegetable Valley",
+                        "x": 449,
+                        "y": 54,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -185,7 +193,7 @@
             }
         ],
         "access_rules": [
-            " "
+            "$access_w1"
         ],
         "overlay_background": "#000000"
     }

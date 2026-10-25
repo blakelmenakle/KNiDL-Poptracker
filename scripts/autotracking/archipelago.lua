@@ -9,7 +9,6 @@ SLOT_DATA = {}
 
 MANUAL_CHECKED = true
 ROOM_SEED = "default"
-TROLL_PLAYER = false
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -28,11 +27,6 @@ if Highlight then
         [107] = Highlight.Priority, -- Prog + Useful + Trap
     }
 end
-
-Troll_Lookup = {
-    ["solarcell"] = true,
-    ["earthor"] = true,
-}
 
 ---function to build a pretty-printable representation of a provided table
 ---@param o table
@@ -165,20 +159,6 @@ local function PreOnClear()
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
     if PLAYER_ID > -1 then
-        for key, _ in pairs(Troll_Lookup) do
-            if string.find(string.lower(Archipelago:GetPlayerAlias(PLAYER_ID)), key, 1, true) ~= nil then
-                TROLL_PLAYER = true
-                break
-            end
-        end
-
-        --- example for how to build a date object and how to check current user's date against it
-        --local start_day_range = BuildTimeObj(nil, 3 , 31)
-        --local end_day_range = BuildTimeObj(nil, 4 , 5)
-        --DATE_CHECK_PASSED = CheckDateRange(start_day_range, end_day_range, os.time())
-        --if TROLL_PLAYER == false and DATE_CHECK_PASSED then
-        --    TROLL_PLAYER = true
-        --end
 
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
@@ -303,31 +283,6 @@ function OnClear(slot_data)
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
 
-    -- if SLOT_DATA ~= nil then
-    --     local REQ_PIECES = Tracker:FindObjectForCode("star_rod_pieces_needed")
-    --     local REQ_PIECES_W1 = Tracker:FindObjectForCode("star_rod_pieces_w1")
-    --     local REQ_PIECES_W2 = Tracker:FindObjectForCode("star_rod_pieces_w2")
-    --     local REQ_PIECES_W3 = Tracker:FindObjectForCode("star_rod_pieces_w3")
-    --     local REQ_PIECES_W4 = Tracker:FindObjectForCode("star_rod_pieces_w4")
-    --     local REQ_PIECES_W5 = Tracker:FindObjectForCode("star_rod_pieces_w5")
-    --     local REQ_PIECES_W6 = Tracker:FindObjectForCode("star_rod_pieces_w6")
-    --     for k, v in pairs(SLOT_DATA) do
-    --     -- if SLOT_DATA["req_pieces_prc"] == 0 then
-    --         if k == "req_pieces_num" then
-    --             --REQ_PIECES.AcquiredCount = SLOT_DATA["req_pieces_num"]
-    --             REQ_PIECES.AcquiredCount = v
-    --         end
-    --     -- else
-    --     --     REQ_PIECES.AcquiredCount = math.floor(SLOT_DATA["req_pieces_prc"]/100 * SLOT_DATA["pieces_in_pool"])
-    --     end
-    --     -- REQ_PIECES_W1.AcquiredCount = math.floor(REQ_PIECES/7)
-    --     -- REQ_PIECES_W2.AcquiredCount = REQ_PIECES_W1 * 2
-    --     -- REQ_PIECES_W3.AcquiredCount = REQ_PIECES_W1 * 3
-    --     -- REQ_PIECES_W4.AcquiredCount = REQ_PIECES_W1 * 4
-    --     -- REQ_PIECES_W5.AcquiredCount = REQ_PIECES_W1 * 5
-    --     -- REQ_PIECES_W6.AcquiredCount = REQ_PIECES_W1 * 6
-    -- end
-
     if SLOT_DATA ~= nil then
         for k, v in pairs(SLOT_DATA) do
             if k == "pieces_in_pool" then
@@ -341,6 +296,10 @@ function OnClear(slot_data)
             end
             if k == "advanced_logic" then
                 local item = Tracker:FindObjectForCode("logic_level")
+                item.CurrentStage = v
+            end
+            if k == "warp_station_skips" then
+                local item = Tracker:FindObjectForCode("warp_station_skips")
                 item.CurrentStage = v
             end
         end
@@ -433,36 +392,6 @@ function OnLocation(location_id, location_name)
     MANUAL_CHECKED = true
 end
 
--- this Autofill function is meant as an example on how to do the reading from slot_data
--- and mapping the values to your own settings
--- ---@param slot_data table
--- function AutoFill(slot_data)
---     -- print(DumpTable(slot_data))
-
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
-
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name, settings_value in pairs(slot_data) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
-
 ---@class APHintMessage
 ---@field receiving_player integer
 ---@field finding_player integer
@@ -494,11 +423,7 @@ local function UpdateHints(locationID, status) -->
                 local obj = Tracker:FindObjectForCode(location)
 
                 if obj then
-                    if TROLL_PLAYER and HIGHLIGHT_LEVEL[status] == Highlight.Avoid then
-                        obj.Highlight = HIGHLIGHT_LEVEL[30]
-                    else
                         obj.Highlight = HIGHLIGHT_LEVEL[status]
-                    end
                 else
                     print(string.format("No object found for code: %s", location))
                 end
@@ -598,58 +523,4 @@ function BuildTimeObj(year, month, day, hour, minute, second)
             sec = second or 0
         }
     )
-end
-
-function boss_w1()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w1")
-end
-function boss_w2()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w2")
-end
-function boss_w3()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w3")
-end
-function boss_w4()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w4")
-end
-function boss_w5()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w5")
-end
-function boss_w6()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_w6")
-end
-function boss_w7()
-  return Tracker:ProviderCountForCode("starrodpiece") >= Tracker:ProviderCountForCode("star_rod_pieces_needed")
-end
-
-function pound_stake()
-    local stone = Tracker:FindObjectForCode("stone")
-    local hammer = Tracker:FindObjectForCode("hammer")
-    if (stone.Active and boss_w1()) or (hammer.Active and boss_w2()) then
-        return true
-    else
-        return false
-    end
-end
-
-function light_fuse()
-    local fire = Tracker:FindObjectForCode("fire")
-    local burning = Tracker:FindObjectForCode("burning")
-    local laser = Tracker:FindObjectForCode("laser")
-    if fire.Active or burning.Active or (laser.Active and boss_w1()) then
-        return true
-    else
-        return false
-    end
-end
-
-function destroy_metal()
-    local wheel = Tracker:FindObjectForCode("wheel")
-    local burning = Tracker:FindObjectForCode("burning")
-    local hammer = Tracker:FindObjectForCode("hammer")
-    if (wheel.Active and boss_w1()) or burning.Active or (hammer.Active and boss_w2()) then
-        return true
-    else
-        return false
-    end
 end

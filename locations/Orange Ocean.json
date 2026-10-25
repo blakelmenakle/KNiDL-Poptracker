@@ -17,7 +17,7 @@
                         "name": "1up (Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw"
+                            "$ability_throw"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -43,9 +43,9 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "wheel",
-                            "hammer",
-                            "stone"
+                            "$$ability_wheel",
+                            "$ability_hammer",
+                            "$ability_stone"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -58,12 +58,8 @@
                         "map": "Orange Ocean",
                         "x": 127,
                         "y": 308,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -118,12 +114,8 @@
                         "map": "Orange Ocean",
                         "x": 193,
                         "y": 211,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -150,7 +142,7 @@
                         "name": "Pep Drink (Bonkers Room)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw",
+                            "$ability_throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -162,7 +154,7 @@
                         "name": "1up (Man Overboard!)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw",
+                            "$ability_throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -174,7 +166,7 @@
                         "name": "Tomato (Laser Ball Room)",
                         "access_rules": [
                             "$destroy_metal",
-                            "throw",
+                            "$ability_throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -209,9 +201,9 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "laser,$destroy_metal",
-                            "laser,throw",
-                            "[advanced_logic],laser"
+                            "$ability_laser,$destroy_metal",
+                            "$ability_laser,$ability_throw",
+                            "[advanced_logic],$ability_laser"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -224,12 +216,8 @@
                         "map": "Orange Ocean",
                         "x": 320,
                         "y": 259,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -255,7 +243,7 @@
                     {
                         "name": "1up (Beam Bomb Block 1)",
                         "access_rules": [
-                            "beam"
+                            "$ability_beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -265,7 +253,7 @@
                     {
                         "name": "1up (Beam Bomb Block 2)",
                         "access_rules": [
-                            "beam"
+                            "$ability_beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -275,7 +263,7 @@
                     {
                         "name": "1up (Beam Bomb Block 3)",
                         "access_rules": [
-                            "beam"
+                            "$ability_beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -312,12 +300,8 @@
                         "map": "Orange Ocean",
                         "x": 433,
                         "y": 228,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -351,7 +335,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$light_fuse"
+                            "$light_fuse",
+                            "[$light_fuse],$ability_crash"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -364,12 +349,8 @@
                         "map": "Orange Ocean",
                         "x": 527,
                         "y": 195,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -404,7 +385,7 @@
                         "name": "1up (Upper Path Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "ufo",
+                            "$ability_ufo",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -415,8 +396,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "burning",
-                            "ufo",
+                            "$ability_burning",
+                            "$ability_ufo",
                             "[advanced_logic], $destroy_metal"
                         ],
                         "visibility_rules": [],
@@ -430,12 +411,8 @@
                         "map": "Orange Ocean",
                         "x": 656,
                         "y": 164,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -458,12 +435,32 @@
                         "map": "Orange Ocean",
                         "x": 225,
                         "y": 52,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{orangeoceanwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Orange Ocean",
+                        "x": 624,
+                        "y": 56,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -490,7 +487,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w5"
+            "$access_w6"
         ],
         "overlay_background": "#000000"
     }

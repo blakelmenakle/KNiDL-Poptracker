@@ -66,7 +66,7 @@
     {
         "name": "Vegetable Valley Warp Station Key",
         "type": "toggle",
-        "img": "images/items/vegetablevalleywarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "vegetablevalleywarpstationkey"
@@ -162,7 +162,7 @@
     {
         "name": "Yogurt Yard Warp Station Key",
         "type": "toggle",
-        "img": "images/items/yogurtyardwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "yogurtyardwarpstationkey"
@@ -170,7 +170,7 @@
     {
         "name": "Orange Ocean Warp Station Key",
         "type": "toggle",
-        "img": "images/items/orangeoceanwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "orangeoceanwarpstationkey"
@@ -344,7 +344,7 @@
     {
         "name": "Grape Garden Warp Station Key",
         "type": "toggle",
-        "img": "images/items/grapegardenwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "grapegardenwarpstationkey"
@@ -382,7 +382,7 @@
     {
         "name": "Ice Cream Island Warp Station Key",
         "type": "toggle",
-        "img": "images/items/icecreamislandwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "icecreamislandwarpstationkey"
@@ -430,7 +430,7 @@
     {
         "name": "Rainbow Resort Warp Station Key",
         "type": "toggle",
-        "img": "images/items/rainbowresortwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowresortwarpstationkey"
@@ -462,7 +462,7 @@
     {
         "name": "Butter Building Warp Station Key",
         "type": "toggle",
-        "img": "images/items/butterbuildingwarpstationkey.png",
+        "img": "images/items/warpstationkey.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "butterbuildingwarpstationkey"

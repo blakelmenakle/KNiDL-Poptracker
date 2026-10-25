@@ -35,12 +35,8 @@
                         "map": "Butter Building",
                         "x": 111,
                         "y": 205,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -93,12 +89,8 @@
                         "map": "Butter Building",
                         "x": 128,
                         "y": 93,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -135,12 +127,8 @@
                         "map": "Butter Building",
                         "x": 399,
                         "y": 252,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -185,12 +173,8 @@
                         "map": "Butter Building",
                         "x": 399,
                         "y": 156,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -247,19 +231,14 @@
                         "map": "Butter Building",
                         "x": 384,
                         "y": 28,
-                        "size": 16,
                         "shape": "rect"
                     },
                     {
                         "map": "Butter Building",
                         "x": 636,
                         "y": 258,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -352,12 +331,8 @@
                         "map": "Butter Building",
                         "x": 636,
                         "y": 178,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -380,12 +355,32 @@
                         "map": "Butter Building",
                         "x": 208,
                         "y": 175,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{butterbuildingwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Butter Building",
+                        "x": 716,
+                        "y": 148,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -412,7 +407,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w2"
+            "$access_w3"
         ],
         "overlay_background": "#000000"
     }

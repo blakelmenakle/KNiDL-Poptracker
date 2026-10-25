@@ -16,19 +16,19 @@
                     {
                         "name": "1up (Laser Room)",
                         "access_rules": [
-                            "beam",
-                            "spark",
-                            "burning",
-                            "sword",
-                            "freeze",
-                            "needle",
-                            "laser",
-                            "hi-jump",
-                            "parasol",
-                            "hammer",
-                            "throw",
-                            "[advanced_logic], cutter",
-                            "[advanced_logic], wheel"
+                            "$ability_beam",
+                            "$ability_spark",
+                            "$ability_burning",
+                            "$ability_sword",
+                            "$ability_freeze",
+                            "$ability_needle",
+                            "$ability_laser",
+                            "$ability_hi_jump",
+                            "$ability_parasol",
+                            "$ability_hammer",
+                            "$ability_throw",
+                            "[advanced_logic], $ability_cutter",
+                            "[advanced_logic], $ability_wheel"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -46,8 +46,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "hammer",
-                            "burning"
+                            "$ability_hammer",
+                            "$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -60,12 +60,8 @@
                         "map": "Rainbow Resort",
                         "x": 111,
                         "y": 215,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -134,12 +130,8 @@
                         "map": "Rainbow Resort",
                         "x": 176,
                         "y": 244,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -216,12 +208,8 @@
                         "map": "Rainbow Resort",
                         "x": 257,
                         "y": 278,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -250,12 +238,8 @@
                         "map": "Rainbow Resort",
                         "x": 337,
                         "y": 225,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -281,7 +265,9 @@
                     {
                         "name": "1up (Cannon Reward 1)",
                         "access_rules": [
-                            "fire"
+                            "$ability_fire",
+                            "[advanced_logic],$ability_crash",
+                            "[advanced_logic],$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -291,7 +277,9 @@
                     {
                         "name": "1up (Cannon Reward 2)",
                         "access_rules": [
-                            "fire"
+                            "$ability_fire",
+                            "[advanced_logic],$ability_crash",
+                            "[advanced_logic],$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -301,7 +289,9 @@
                     {
                         "name": "1up (Cannon Reward 3)",
                         "access_rules": [
-                            "fire"
+                            "$ability_fire",
+                            "[advanced_logic],$ability_crash",
+                            "[advanced_logic],$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -311,7 +301,9 @@
                     {
                         "name": "1up (Cannon Reward 4)",
                         "access_rules": [
-                            "fire"
+                            "$ability_fire",
+                            "[advanced_logic],$ability_crash",
+                            "[advanced_logic],$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -321,7 +313,9 @@
                     {
                         "name": "1up (Cannon Reward 5)",
                         "access_rules": [
-                            "fire"
+                            "$ability_fire",
+                            "[advanced_logic],$ability_crash",
+                            "[advanced_logic],$ability_burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -334,12 +328,8 @@
                         "map": "Rainbow Resort",
                         "x": 401,
                         "y": 196,
-                        "size": 16,
                         "shape": "rect"
                     }
-                ],
-                "access_rules": [
-                    " "
                 ],
                 "overlay_background": "#000000"
             },
@@ -416,12 +406,32 @@
                         "map": "Rainbow Resort",
                         "x": 464,
                         "y": 147,
-                        "size": 16,
                         "shape": "rect"
                     }
                 ],
-                "access_rules": [
-                    " "
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort Warp Station",
+                "sections": [
+                    {
+                        "name": "Warp Station Unlocked",
+                        "access_rules": [
+                            "{rainbowresortwarpstationkey}"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/warpstationkey.png",
+                        "chest_opened_img": "/images/items/warpstationkey_gray.png"
+                    }
+                    ],
+                "map_locations": [
+                    {
+                        "map": "Rainbow Resort",
+                        "x": 448,
+                        "y": 54,
+                        "shape": "trapezoid"
+                    }
                 ],
                 "overlay_background": "#000000"
             }
@@ -448,7 +458,7 @@
             }
         ],
         "access_rules": [
-            "$boss_w6"
+            "$access_w7"
         ],
         "overlay_background": "#000000"
     }

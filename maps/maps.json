@@ -1,44 +1,44 @@
 [
     {
         "name": "Butter Building",
-        "location_size": 144,
-        "location_border_thickness": 2,
+        "location_size": 16,
+        "location_border_thickness": 1,
         "img": "images/maps/Butter Building.png"
     },
     {
         "name": "Grape Garden",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Grape Garden.png"
     },
     {
         "name": "Ice Cream Island",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Ice Cream Island.png"
     },
     {
         "name": "Orange Ocean",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Orange Ocean.png"
     },
     {
         "name": "Rainbow Resort",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Rainbow Resort.png"
     },
     {
         "name": "Vegetable Valley",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Vegetable Valley.png"
     },
     {
         "name": "Yogurt Yard",
         "location_size": 16,
-        "location_border_thickness": 2,
+        "location_border_thickness": 1,
         "img": "images/maps/Yogurt Yard.png"
     }
 ]

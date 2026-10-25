@@ -146,5 +146,24 @@
         "inherit_codes":true
       }
     ]
+  },
+  {
+    "name": "Warp Station Skips",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/warp_station_skips_off.png",
+        "codes": "warp_station_skips,warp_station_skips_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/warp_station_skips_on.png",
+        "codes": "warp_station_skips,warp_station_skips_on",
+        "inherit_codes":false
+      }
+    ]
   }
 ]
