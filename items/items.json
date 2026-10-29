@@ -26,7 +26,7 @@
     {
         "name": "Ice Cream Island Arena Key",
         "type": "toggle",
-        "img": "images/items/icecream_arenakey.png",
+        "img": "images/enemies/mr_frosty.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "icecreamislandarenakey"
@@ -42,7 +42,7 @@
     {
         "name": "Orange Ocean Arena Key",
         "type": "toggle",
-        "img": "images/items/orange_arenakey.png",
+        "img": "images/enemies/fire_lion.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "orangeoceanarenakey"
@@ -90,7 +90,7 @@
     {
         "name": "Orange Ocean Museum Key",
         "type": "toggle",
-        "img": "images/items/orangeoceanmuseumkey.png",
+        "img": "images/enemies/wheelie.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "orangeoceanmuseumkey"
@@ -98,7 +98,7 @@
     {
         "name": "Butter Building Arena Key",
         "type": "toggle",
-        "img": "images/items/butter_arenakey.png",
+        "img": "images/enemies/grand_wheelie.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "butterbuildingarenakey"
@@ -130,7 +130,7 @@
     {
         "name": "Grape Garden Museum Key",
         "type": "toggle",
-        "img": "images/items/grapegardenmuseumkey.png",
+        "img": "images/enemies/bubbles.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "grapegardenmuseumkey"
@@ -141,7 +141,7 @@
         "img": "images/items/hi-jump.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hi-jump"
+        "codes": "hi_jump"
     },
     {
         "name": "Stone",
@@ -154,7 +154,7 @@
     {
         "name": "Vegetable Valley Museum Key",
         "type": "toggle",
-        "img": "images/items/vegetablevalleymuseumkey.png",
+        "img": "images/enemies/blade_knight.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "vegetablevalleymuseumkey"
@@ -186,7 +186,7 @@
     {
         "name": "Yogurt Yard Museum Key",
         "type": "toggle",
-        "img": "images/items/yogurtyardmuseumkey.png",
+        "img": "images/enemies/rocky.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "yogurtyardmuseumkey"
@@ -232,7 +232,7 @@
     {
         "name": "Grape Garden Arena Key",
         "type": "toggle",
-        "img": "images/items/grape_arenakey.png",
+        "img": "images/enemies/bugzzy.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "grapegardenarenakey"
@@ -288,7 +288,7 @@
     {
         "name": "Ice Cream Island Museum Key",
         "type": "toggle",
-        "img": "images/items/icecreamislandmuseumkey.png",
+        "img": "images/enemies/laser_ball.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "icecreamislandmuseumkey"
@@ -422,7 +422,7 @@
     {
         "name": "Yogurt Yard Arena Key",
         "type": "toggle",
-        "img": "images/items/yogurt_arenakey.png",
+        "img": "images/enemies/bonkers.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "yogurtyardarenakey"
@@ -438,7 +438,7 @@
     {
         "name": "Butter Building Museum Key",
         "type": "toggle",
-        "img": "images/items/butterbuildingmuseumkey.png",
+        "img": "images/enemies/starman.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "butterbuildingmuseumkey"

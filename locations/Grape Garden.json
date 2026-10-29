@@ -93,7 +93,7 @@
                         "name": "1up (Cannon Reward)",
                         "access_rules": [
                             "$light_fuse",
-                            "[$light_fuse],$ability_crash"
+                            "[$light_fuse],$has_ability|crash"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -141,7 +141,7 @@
                     {
                         "name": "1up (Wheel Race)",
                         "access_rules": [
-                            "[$ability_wheel]"
+                            "[$has_ability|wheel]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -205,7 +205,7 @@
                     {
                         "name": "1up (Burning Room Bottom)",
                         "access_rules": [
-                            "[$ability_burning]"
+                            "[$has_ability|burning]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -279,7 +279,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "[$ability_light]"
+                            "[$has_ability|light]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -350,7 +350,7 @@
             {
                 "name": "Boss (Kracko)",
                 "access_rules": [
-                    "$boss_w4"
+                    "$boss_access|l4"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -368,7 +368,7 @@
             }
         ],
         "access_rules": [
-            "$access_w4"
+            "$level_access|l4"
         ],
         "overlay_background": "#000000"
     }

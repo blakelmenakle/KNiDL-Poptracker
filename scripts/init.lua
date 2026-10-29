@@ -6,7 +6,10 @@ require("scripts.items_import")
 -- Logic
 require("scripts.logic.logic_helper")
 require("scripts.logic.base_logic")
+require("scripts.logic.ability_logic")
+require("scripts.logic.enemy_logic")
 require("scripts.logic.graph_logic.logic_main")
+require("scripts.logic.misc_lists")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")

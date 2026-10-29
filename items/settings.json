@@ -12,7 +12,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_total.png",
-      "codes": "star_rod_pieces_needed"
+      "codes": "star_rod_pieces_l7"
   },
   {
       "name": "Whispy Woods Star Rod Pieces Needed",
@@ -27,7 +27,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_1_boss.png",
-      "codes": "star_rod_pieces_w1"
+      "codes": "star_rod_pieces_l1"
   },
   {
       "name": "Paint Roller Star Rod Pieces Needed",
@@ -42,7 +42,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_2_boss.png",
-      "codes": "star_rod_pieces_w2"
+      "codes": "star_rod_pieces_l2"
   },
   {
       "name": "Mr. Bright & Mr. Shine Star Rod Pieces Needed",
@@ -57,7 +57,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_3_boss.png",
-      "codes": "star_rod_pieces_w3"
+      "codes": "star_rod_pieces_l3"
   },
   {
       "name": "Kracko Star Rod Pieces Needed",
@@ -72,7 +72,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_4_boss.png",
-      "codes": "star_rod_pieces_w4"
+      "codes": "star_rod_pieces_l4"
   },
   {
       "name": "Heavy Mole Star Rod Pieces Needed",
@@ -87,7 +87,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_5_boss.png",
-      "codes": "star_rod_pieces_w5"
+      "codes": "star_rod_pieces_l5"
   },
   {
       "name": "Meta Knight Star Rod Pieces Needed",
@@ -102,7 +102,7 @@
       "overlay_font_size": 14,
       "overlay_background": "#000000",
       "img": "images/settings/star_rod_pieces_world_6_boss.png",
-      "codes": "star_rod_pieces_w6"
+      "codes": "star_rod_pieces_l6"
   },
   {
     "name": "Logic Level",

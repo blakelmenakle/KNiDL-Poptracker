@@ -1,0 +1,6492 @@
+[
+  {
+    "name": "Apple Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "apple",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Axe Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "axe_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Blade Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 20,
+    "codes": "blade_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Blipper Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "blipper",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bomb Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "bomb",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bomber Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 5,
+    "codes": "bomber",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bonkers Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 9,
+    "codes": "bonkers",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bonkers Coconut Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "bonkers_coconut",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bronto Burt Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "bronto_burt",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Broom Hatter Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "broom_hatter",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bubbles Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 2,
+    "codes": "bubbles",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bugzzy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 1,
+    "codes": "bugzzy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Bugzzy Jr. Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "bugzzy_jr",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Cappy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "cappy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Chilly Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 8,
+    "codes": "chilly",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Coconut Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "coconut",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Coner Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "coner",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Cool Spook Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 13,
+    "codes": "cool_spook",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Drop Star Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "drop_star",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Fire Lion Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 4,
+    "codes": "fire_lion",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Flamer Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 4,
+    "codes": "flamer",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Gip Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "gip",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Glunk Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "glunk",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Grand Wheelie Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 24,
+    "codes": "grand_wheelie",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Grand Wheelie Wheelie Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "grand_wheelie_wheelie",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Hot Head Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 7,
+    "codes": "hot_head",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Ice Block Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "ice_block",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Javelin Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "javelin_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Kabu Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "kabu",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Laser Ball Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 12,
+    "codes": "laser_ball",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Mace Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "mace_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Mr. Frosty Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 8,
+    "codes": "mr_frosty",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Mr. Tick-Tock Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 14,
+    "codes": "mr_tick_tock",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Needlous Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 15,
+    "codes": "needlous",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Noddy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 17,
+    "codes": "noddy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Note Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "note",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Parasol Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 16,
+    "codes": "parasol_enemy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Parasol Waddle Dee Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 16,
+    "codes": "parasol_waddle_dee",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Parasol Waddle Doo Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 16,
+    "codes": "parasol_waddle_doo",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Pengy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 11,
+    "codes": "pengy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Phan Phan Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 21,
+    "codes": "phan_phan",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Phan Phan Apple Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "phan_phan_apple",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Poppy Bros Jr. Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "poppy_bros_jr",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Poppy Bros Sr. Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 5,
+    "codes": "poppy_bros_sr",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Rocky Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 19,
+    "codes": "rocky",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Shotzo Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "shotzo",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Sir Kibble Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 6,
+    "codes": "sir_kibble",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Slippy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "slippy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Sparky Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 18,
+    "codes": "sparky",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Squishy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "squishy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Starman Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 10,
+    "codes": "starman",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Sword Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 20,
+    "codes": "sword_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Trident Knight Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "trident_knight",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Twister Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 22,
+    "codes": "twister",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Twizzy Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "twizzy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "UFO Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 23,
+    "codes": "ufo_enemy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Waddle Dee Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "waddle_dee",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Waddle Doo Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 3,
+    "codes": "waddle_doo",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Wheelie Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 24,
+    "codes": "wheelie",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  }
+]

@@ -17,7 +17,7 @@
                         "name": "1up (Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw"
+                            "$has_ability|throw"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -43,9 +43,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$$ability_wheel",
-                            "$ability_hammer",
-                            "$ability_stone"
+                            "$has_ability|wheel|hammer|stone"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -142,7 +140,7 @@
                         "name": "Pep Drink (Bonkers Room)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw",
+                            "$has_ability|throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -154,7 +152,7 @@
                         "name": "1up (Man Overboard!)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw",
+                            "$has_ability|throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -166,7 +164,7 @@
                         "name": "Tomato (Laser Ball Room)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw",
+                            "$has_ability|throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -201,9 +199,9 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$ability_laser,$destroy_metal",
-                            "$ability_laser,$ability_throw",
-                            "[advanced_logic],$ability_laser"
+                            "$has_ability|laser,$destroy_metal",
+                            "$has_ability|laser,$has_ability|throw",
+                            "[advanced_logic],$has_ability|laser"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -243,7 +241,7 @@
                     {
                         "name": "1up (Beam Bomb Block 1)",
                         "access_rules": [
-                            "$ability_beam"
+                            "$has_ability|beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -253,7 +251,7 @@
                     {
                         "name": "1up (Beam Bomb Block 2)",
                         "access_rules": [
-                            "$ability_beam"
+                            "$has_ability|beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -263,7 +261,7 @@
                     {
                         "name": "1up (Beam Bomb Block 3)",
                         "access_rules": [
-                            "$ability_beam"
+                            "$has_ability|beam"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -336,7 +334,7 @@
                         "name": "Big Switch",
                         "access_rules": [
                             "$light_fuse",
-                            "[$light_fuse],$ability_crash"
+                            "[$light_fuse],$has_ability|crash"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -385,7 +383,7 @@
                         "name": "1up (Upper Path Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_ufo",
+                            "$has_ability|ufo",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -396,8 +394,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$ability_burning",
-                            "$ability_ufo",
+                            "$has_ability|burning|ufo",
                             "[advanced_logic], $destroy_metal"
                         ],
                         "visibility_rules": [],
@@ -469,7 +466,7 @@
             {
                 "name": "Boss (Meta Knight)",
                 "access_rules": [
-                    "$boss_w6"
+                    "$boss_access|l6"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -487,7 +484,7 @@
             }
         ],
         "access_rules": [
-            "$access_w6"
+            "$level_access|l6"
         ],
         "overlay_background": "#000000"
     }

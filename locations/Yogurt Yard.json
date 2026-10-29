@@ -158,8 +158,8 @@
                     {
                         "name": "1up (Spike Tunnel)",
                         "access_rules": [
-                            "[$ability_burning]",
-                            "[advanced_logic],[$ability_tornado]"
+                            "[$has_ability|burning]",
+                            "[advanced_logic],[$has_ability|tornado]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -231,15 +231,10 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$ability_burning",
-                            "$light_fuse,$ability_hi_jump",
-                            "$ability_fire,$ability_spark",
-                            "$ability_fire,$ability_sword",
-                            "$ability_fire,$ability_freeze",
-                            "$ability_fire,$ability_needle",
-                            "$ability_fire,$ability_hammer",
-                            "$ability_fire,$ability_throw",
-                            "[advanced_logic],$ability_fire,$ability_parasol"
+                            "$has_ability|burning",
+                            "$light_fuse,$has_ability|hi_jump",
+                            "$has_ability|fire,$has_ability|spark|sword|freeze|needle|hammer|throw",
+                            "[advanced_logic],$has_ability|fire,$has_ability|parasol"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -287,7 +282,7 @@
                     {
                         "name": "1up (Big Switch Room Left)",
                         "access_rules": [
-                            "$ability_hammer"
+                            "$has_ability|hammer"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -297,7 +292,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$ability_hammer"
+                            "$has_ability|hammer"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -368,7 +363,7 @@
             {
                 "name": "Boss (Heavy Mole)",
                 "access_rules": [
-                    "$boss_w5"
+                    "$boss_access|l5"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -386,7 +381,7 @@
             }
         ],
         "access_rules": [
-            "$access_w5"
+            "$level_access|l5"
         ],
         "overlay_background": "#000000"
     }

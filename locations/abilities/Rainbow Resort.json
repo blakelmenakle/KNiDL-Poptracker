@@ -6,25 +6,67 @@
                 "name": "Rainbow Resort 1 Abilities",
                 "sections": [
 					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_1",
+                            "show_abilities_on, $stage_ability|backdrop|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_1",
+                            "show_abilities_on, $stage_ability|ball|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+                    {
                         "name": "Beam",
                         "access_rules": ["{beam}"],
-                        "visibility_rules": ["beam","show_abilities_on"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_1",
+                            "show_abilities_on, $stage_ability|beam|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/beam.png",
                         "chest_opened_img": "/images/items/beam.png"
                     },
-					{
+                    {
                         "name": "Burning",
                         "access_rules": ["{burning}"],
-                        "visibility_rules": ["burning","show_abilities_on"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_1",
+                            "show_abilities_on, $stage_ability|burning|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/burning.png",
                         "chest_opened_img": "/images/items/burning.png"
                     },
                     {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_1",
+                            "show_abilities_on, $stage_ability|crash|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
                         "name": "Cutter",
                         "access_rules": ["{cutter}"],
-                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_1",
+                            "show_abilities_on, $stage_ability|cutter|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/cutter.png",
                         "chest_opened_img": "/images/items/cutter.png"
@@ -32,7 +74,10 @@
                     {
                         "name": "Fire",
                         "access_rules": ["{fire}"],
-                        "visibility_rules": ["fire","show_abilities_on"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_1",
+                            "show_abilities_on, $stage_ability|fire|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/fire.png",
                         "chest_opened_img": "/images/items/fire.png"
@@ -40,23 +85,120 @@
                     {
                         "name": "Freeze",
                         "access_rules": ["{freeze}"],
-                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_1",
+                            "show_abilities_on, $stage_ability|freeze|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/freeze.png",
                         "chest_opened_img": "/images/items/freeze.png"
                     },
                     {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_1",
+                            "show_abilities_on, $stage_ability|hammer|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_1",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_1",
+                            "show_abilities_on, $stage_ability|ice|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
                         "name": "Laser",
                         "access_rules": ["{laser}"],
-                        "visibility_rules": ["laser","show_abilities_on"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_1",
+                            "show_abilities_on, $stage_ability|laser|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/laser.png",
                         "chest_opened_img": "/images/items/laser.png"
                     },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_1",
+                            "show_abilities_on, $stage_ability|light|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_1",
+                            "show_abilities_on, $stage_ability|mike|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_1",
+                            "show_abilities_on, $stage_ability|needle|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_1",
+                            "show_abilities_on, $stage_ability|parasol|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_1",
+                            "show_abilities_on, $stage_ability|sleep|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
                     {
                         "name": "Spark",
                         "access_rules": ["{spark}"],
-                        "visibility_rules": ["spark","show_abilities_on"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_1",
+                            "show_abilities_on, $stage_ability|spark|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/spark.png",
                         "chest_opened_img": "/images/items/spark.png"
@@ -64,18 +206,68 @@
                     {
                         "name": "Stone",
                         "access_rules": ["{stone}"],
-                        "visibility_rules": ["stone","show_abilities_on"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_1",
+                            "show_abilities_on, $stage_ability|stone|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/stone.png",
                         "chest_opened_img": "/images/items/stone.png"
                     },
-					{
+                    {
                         "name": "Sword",
                         "access_rules": ["{sword}"],
-                        "visibility_rules": ["sword","show_abilities_on"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_1",
+                            "show_abilities_on, $stage_ability|sword|S7_1"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/sword.png",
                         "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_1",
+                            "show_abilities_on, $stage_ability|throw|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_1",
+                            "show_abilities_on, $stage_ability|tornado|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_1",
+                            "show_abilities_on, $stage_ability|ufo|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_1",
+                            "show_abilities_on, $stage_ability|wheel|S7_1"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
                     }
                 ],
                 "map_locations": [
@@ -95,15 +287,43 @@
 					{
                         "name": "Backdrop",
                         "access_rules": ["{backdrop}"],
-                        "visibility_rules": ["backdrop","show_abilities_on"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_2",
+                            "show_abilities_on, $stage_ability|backdrop|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/backdrop.png",
                         "chest_opened_img": "/images/items/backdrop.png"
                     },
 					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_2",
+                            "show_abilities_on, $stage_ability|ball|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_2",
+                            "show_abilities_on, $stage_ability|beam|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
                         "name": "Burning",
                         "access_rules": ["{burning}"],
-                        "visibility_rules": ["burning","show_abilities_on"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_2",
+                            "show_abilities_on, $stage_ability|burning|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/burning.png",
                         "chest_opened_img": "/images/items/burning.png"
@@ -111,15 +331,43 @@
                     {
                         "name": "Crash",
                         "access_rules": ["{crash}"],
-                        "visibility_rules": ["crash","show_abilities_on"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_2",
+                            "show_abilities_on, $stage_ability|crash|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/crash.png",
                         "chest_opened_img": "/images/items/crash.png"
                     },
                     {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_2",
+                            "show_abilities_on, $stage_ability|cutter|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_2",
+                            "show_abilities_on, $stage_ability|fire|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
                         "name": "Freeze",
                         "access_rules": ["{freeze}"],
-                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_2",
+                            "show_abilities_on, $stage_ability|freeze|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/freeze.png",
                         "chest_opened_img": "/images/items/freeze.png"
@@ -127,23 +375,131 @@
                     {
                         "name": "Hammer",
                         "access_rules": ["{hammer}"],
-                        "visibility_rules": ["hammer","show_abilities_on"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_2",
+                            "show_abilities_on, $stage_ability|hammer|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/hammer.png",
                         "chest_opened_img": "/images/items/hammer.png"
                     },
                     {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_2",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_2",
+                            "show_abilities_on, $stage_ability|ice|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_2",
+                            "show_abilities_on, $stage_ability|laser|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_2",
+                            "show_abilities_on, $stage_ability|light|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
                         "name": "Mike",
                         "access_rules": ["{mike}"],
-                        "visibility_rules": ["mike","show_abilities_on"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_2",
+                            "show_abilities_on, $stage_ability|mike|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/mike.png",
                         "chest_opened_img": "/images/items/mike.png"
                     },
-					{
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_2",
+                            "show_abilities_on, $stage_ability|needle|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_2",
+                            "show_abilities_on, $stage_ability|parasol|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_2",
+                            "show_abilities_on, $stage_ability|sleep|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_2",
+                            "show_abilities_on, $stage_ability|spark|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_2",
+                            "show_abilities_on, $stage_ability|stone|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
                         "name": "Sword",
                         "access_rules": ["{sword}"],
-                        "visibility_rules": ["sword","show_abilities_on"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_2",
+                            "show_abilities_on, $stage_ability|sword|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/sword.png",
                         "chest_opened_img": "/images/items/sword.png"
@@ -151,10 +507,46 @@
                     {
                         "name": "Throw",
                         "access_rules": ["{throw}"],
-                        "visibility_rules": ["throw","show_abilities_on"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_2",
+                            "show_abilities_on, $stage_ability|throw|S7_2"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/throw.png",
                         "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_2",
+                            "show_abilities_on, $stage_ability|tornado|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_2",
+                            "show_abilities_on, $stage_ability|ufo|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_2",
+                            "show_abilities_on, $stage_ability|wheel|S7_2"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
                     }
                 ],
                 "map_locations": [
@@ -172,36 +564,268 @@
                 "name": "Rainbow Resort 3 Abilities",
                 "sections": [
 					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_3",
+                            "show_abilities_on, $stage_ability|backdrop|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_3",
+                            "show_abilities_on, $stage_ability|ball|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+                    {
                         "name": "Beam",
                         "access_rules": ["{beam}"],
-                        "visibility_rules": ["beam","show_abilities_on"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_3",
+                            "show_abilities_on, $stage_ability|beam|S7_3"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/beam.png",
                         "chest_opened_img": "/images/items/beam.png"
                     },
                     {
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_3",
+                            "show_abilities_on, $stage_ability|burning|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_3",
+                            "show_abilities_on, $stage_ability|crash|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
                         "name": "Cutter",
                         "access_rules": ["{cutter}"],
-                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_3",
+                            "show_abilities_on, $stage_ability|cutter|S7_3"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/cutter.png",
                         "chest_opened_img": "/images/items/cutter.png"
                     },
                     {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_3",
+                            "show_abilities_on, $stage_ability|fire|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
                         "name": "Freeze",
                         "access_rules": ["{freeze}"],
-                        "visibility_rules": ["freeze","show_abilities_on"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_3",
+                            "show_abilities_on, $stage_ability|freeze|S7_3"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/freeze.png",
                         "chest_opened_img": "/images/items/freeze.png"
                     },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_3",
+                            "show_abilities_on, $stage_ability|hammer|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_3",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
 					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_3",
+                            "show_abilities_on, $stage_ability|ice|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_3",
+                            "show_abilities_on, $stage_ability|laser|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_3",
+                            "show_abilities_on, $stage_ability|light|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_3",
+                            "show_abilities_on, $stage_ability|mike|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_3",
+                            "show_abilities_on, $stage_ability|needle|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_3",
+                            "show_abilities_on, $stage_ability|parasol|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_3",
+                            "show_abilities_on, $stage_ability|sleep|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_3",
+                            "show_abilities_on, $stage_ability|spark|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_3",
+                            "show_abilities_on, $stage_ability|stone|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
                         "name": "Sword",
                         "access_rules": ["{sword}"],
-                        "visibility_rules": ["sword","show_abilities_on"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_3",
+                            "show_abilities_on, $stage_ability|sword|S7_3"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/sword.png",
                         "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_3",
+                            "show_abilities_on, $stage_ability|throw|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_3",
+                            "show_abilities_on, $stage_ability|tornado|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_3",
+                            "show_abilities_on, $stage_ability|ufo|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_3",
+                            "show_abilities_on, $stage_ability|wheel|S7_3"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
                     }
                 ],
                 "map_locations": [
@@ -218,18 +842,46 @@
             {
                 "name": "Rainbow Resort 4 Abilities",
                 "sections": [
-                    {
+					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_4",
+                            "show_abilities_on, $stage_ability|backdrop|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
                         "name": "Ball",
                         "access_rules": ["{ball}"],
-                        "visibility_rules": ["ball","show_abilities_on"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_4",
+                            "show_abilities_on, $stage_ability|ball|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/ball.png",
                         "chest_opened_img": "/images/items/ball.png"
                     },
-					{
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_4",
+                            "show_abilities_on, $stage_ability|beam|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
                         "name": "Burning",
                         "access_rules": ["{burning}"],
-                        "visibility_rules": ["burning","show_abilities_on"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_4",
+                            "show_abilities_on, $stage_ability|burning|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/burning.png",
                         "chest_opened_img": "/images/items/burning.png"
@@ -237,7 +889,10 @@
                     {
                         "name": "Crash",
                         "access_rules": ["{crash}"],
-                        "visibility_rules": ["crash","show_abilities_on"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_4",
+                            "show_abilities_on, $stage_ability|crash|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/crash.png",
                         "chest_opened_img": "/images/items/crash.png"
@@ -245,7 +900,10 @@
                     {
                         "name": "Cutter",
                         "access_rules": ["{cutter}"],
-                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_4",
+                            "show_abilities_on, $stage_ability|cutter|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/cutter.png",
                         "chest_opened_img": "/images/items/cutter.png"
@@ -253,34 +911,200 @@
                     {
                         "name": "Fire",
                         "access_rules": ["{fire}"],
-                        "visibility_rules": ["fire","show_abilities_on"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_4",
+                            "show_abilities_on, $stage_ability|fire|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/fire.png",
                         "chest_opened_img": "/images/items/fire.png"
                     },
                     {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_4",
+                            "show_abilities_on, $stage_ability|freeze|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_4",
+                            "show_abilities_on, $stage_ability|hammer|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_4",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_4",
+                            "show_abilities_on, $stage_ability|ice|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
                         "name": "Laser",
                         "access_rules": ["{laser}"],
-                        "visibility_rules": ["laser","show_abilities_on"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_4",
+                            "show_abilities_on, $stage_ability|laser|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/laser.png",
                         "chest_opened_img": "/images/items/laser.png"
                     },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_4",
+                            "show_abilities_on, $stage_ability|light|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_4",
+                            "show_abilities_on, $stage_ability|mike|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_4",
+                            "show_abilities_on, $stage_ability|needle|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_4",
+                            "show_abilities_on, $stage_ability|parasol|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_4",
+                            "show_abilities_on, $stage_ability|sleep|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
                     {
                         "name": "Spark",
                         "access_rules": ["{spark}"],
-                        "visibility_rules": ["spark","show_abilities_on"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_4",
+                            "show_abilities_on, $stage_ability|spark|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/spark.png",
                         "chest_opened_img": "/images/items/spark.png"
                     },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_4",
+                            "show_abilities_on, $stage_ability|stone|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_4",
+                            "show_abilities_on, $stage_ability|sword|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_4",
+                            "show_abilities_on, $stage_ability|throw|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
 					{
                         "name": "Tornado",
                         "access_rules": ["{tornado}"],
-                        "visibility_rules": ["tornado","show_abilities_on"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_4",
+                            "show_abilities_on, $stage_ability|tornado|S7_4"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/tornado.png",
                         "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_4",
+                            "show_abilities_on, $stage_ability|ufo|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_4",
+                            "show_abilities_on, $stage_ability|wheel|S7_4"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
                     }
                 ],
                 "map_locations": [
@@ -298,9 +1122,45 @@
                 "name": "Rainbow Resort 5 Abilities",
                 "sections": [
 					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_5",
+                            "show_abilities_on, $stage_ability|backdrop|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_5",
+                            "show_abilities_on, $stage_ability|ball|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
+                    {
+                        "name": "Beam",
+                        "access_rules": ["{beam}"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_5",
+                            "show_abilities_on, $stage_ability|beam|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/beam.png",
+                        "chest_opened_img": "/images/items/beam.png"
+                    },
+                    {
                         "name": "Burning",
                         "access_rules": ["{burning}"],
-                        "visibility_rules": ["burning","show_abilities_on"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_5",
+                            "show_abilities_on, $stage_ability|burning|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/burning.png",
                         "chest_opened_img": "/images/items/burning.png"
@@ -308,39 +1168,219 @@
                     {
                         "name": "Crash",
                         "access_rules": ["{crash}"],
-                        "visibility_rules": ["crash","show_abilities_on"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_5",
+                            "show_abilities_on, $stage_ability|crash|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/crash.png",
                         "chest_opened_img": "/images/items/crash.png"
                     },
                     {
+                        "name": "Cutter",
+                        "access_rules": ["{cutter}"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_5",
+                            "show_abilities_on, $stage_ability|cutter|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/cutter.png",
+                        "chest_opened_img": "/images/items/cutter.png"
+                    },
+                    {
                         "name": "Fire",
                         "access_rules": ["{fire}"],
-                        "visibility_rules": ["fire","show_abilities_on"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_5",
+                            "show_abilities_on, $stage_ability|fire|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/fire.png",
                         "chest_opened_img": "/images/items/fire.png"
                     },
                     {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_5",
+                            "show_abilities_on, $stage_ability|freeze|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_5",
+                            "show_abilities_on, $stage_ability|hammer|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_5",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_5",
+                            "show_abilities_on, $stage_ability|ice|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
                         "name": "Laser",
                         "access_rules": ["{laser}"],
-                        "visibility_rules": ["laser","show_abilities_on"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_5",
+                            "show_abilities_on, $stage_ability|laser|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/laser.png",
                         "chest_opened_img": "/images/items/laser.png"
                     },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_5",
+                            "show_abilities_on, $stage_ability|light|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_5",
+                            "show_abilities_on, $stage_ability|mike|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_5",
+                            "show_abilities_on, $stage_ability|needle|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
+                        "name": "Parasol",
+                        "access_rules": ["{parasol}"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_5",
+                            "show_abilities_on, $stage_ability|parasol|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/parasol.png",
+                        "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_5",
+                            "show_abilities_on, $stage_ability|sleep|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
                     {
                         "name": "Spark",
                         "access_rules": ["{spark}"],
-                        "visibility_rules": ["spark","show_abilities_on"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_5",
+                            "show_abilities_on, $stage_ability|spark|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/spark.png",
                         "chest_opened_img": "/images/items/spark.png"
                     },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_5",
+                            "show_abilities_on, $stage_ability|stone|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_5",
+                            "show_abilities_on, $stage_ability|sword|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_5",
+                            "show_abilities_on, $stage_ability|throw|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_5",
+                            "show_abilities_on, $stage_ability|tornado|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_5",
+                            "show_abilities_on, $stage_ability|ufo|S7_5"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
 					{
                         "name": "Wheel",
                         "access_rules": ["{wheel}"],
-                        "visibility_rules": ["wheel","show_abilities_on"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_5",
+                            "show_abilities_on, $stage_ability|wheel|S7_5"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/wheel.png",
                         "chest_opened_img": "/images/items/wheel.png"
@@ -360,29 +1400,269 @@
             {
                 "name": "Rainbow Resort 6 Abilities",
                 "sections": [
+					{
+                        "name": "Backdrop",
+                        "access_rules": ["{backdrop}"],
+                        "visibility_rules": [
+                            "backdrop, $stage_ability|backdrop|S7_6",
+                            "show_abilities_on, $stage_ability|backdrop|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/backdrop.png",
+                        "chest_opened_img": "/images/items/backdrop.png"
+                    },
+					{
+                        "name": "Ball",
+                        "access_rules": ["{ball}"],
+                        "visibility_rules": [
+                            "ball, $stage_ability|ball|S7_6",
+                            "show_abilities_on, $stage_ability|ball|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ball.png",
+                        "chest_opened_img": "/images/items/ball.png"
+                    },
                     {
                         "name": "Beam",
                         "access_rules": ["{beam}"],
-                        "visibility_rules": ["beam","show_abilities_on"],
+                        "visibility_rules": [
+                            "beam, $stage_ability|beam|S7_6",
+                            "show_abilities_on, $stage_ability|beam|S7_6"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/beam.png",
                         "chest_opened_img": "/images/items/beam.png"
                     },
                     {
+                        "name": "Burning",
+                        "access_rules": ["{burning}"],
+                        "visibility_rules": [
+                            "burning, $stage_ability|burning|S7_6",
+                            "show_abilities_on, $stage_ability|burning|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/burning.png",
+                        "chest_opened_img": "/images/items/burning.png"
+                    },
+                    {
+                        "name": "Crash",
+                        "access_rules": ["{crash}"],
+                        "visibility_rules": [
+                            "crash, $stage_ability|crash|S7_6",
+                            "show_abilities_on, $stage_ability|crash|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/crash.png",
+                        "chest_opened_img": "/images/items/crash.png"
+                    },
+                    {
                         "name": "Cutter",
                         "access_rules": ["{cutter}"],
-                        "visibility_rules": ["cutter","show_abilities_on"],
+                        "visibility_rules": [
+                            "cutter, $stage_ability|cutter|S7_6",
+                            "show_abilities_on, $stage_ability|cutter|S7_6"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/cutter.png",
                         "chest_opened_img": "/images/items/cutter.png"
                     },
                     {
+                        "name": "Fire",
+                        "access_rules": ["{fire}"],
+                        "visibility_rules": [
+                            "fire, $stage_ability|fire|S7_6",
+                            "show_abilities_on, $stage_ability|fire|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/fire.png",
+                        "chest_opened_img": "/images/items/fire.png"
+                    },
+                    {
+                        "name": "Freeze",
+                        "access_rules": ["{freeze}"],
+                        "visibility_rules": [
+                            "freeze, $stage_ability|freeze|S7_6",
+                            "show_abilities_on, $stage_ability|freeze|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/freeze.png",
+                        "chest_opened_img": "/images/items/freeze.png"
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": ["{hammer}"],
+                        "visibility_rules": [
+                            "hammer, $stage_ability|hammer|S7_6",
+                            "show_abilities_on, $stage_ability|hammer|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hammer.png",
+                        "chest_opened_img": "/images/items/hammer.png"
+                    },
+                    {
+                        "name": "Hi-Jump",
+                        "access_rules": ["{hi_jump}"],
+                        "visibility_rules": [
+                            "hi_jump, $stage_ability|hi_jump|S7_6",
+                            "show_abilities_on, $stage_ability|hi_jump|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/hi-jump.png",
+                        "chest_opened_img": "/images/items/hi-jump.png"
+                    },
+					{
+                        "name": "Ice",
+                        "access_rules": ["{ice}"],
+                        "visibility_rules": [
+                            "ice, $stage_ability|ice|S7_6",
+                            "show_abilities_on, $stage_ability|ice|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ice.png",
+                        "chest_opened_img": "/images/items/ice.png"
+                    },
+                    {
+                        "name": "Laser",
+                        "access_rules": ["{laser}"],
+                        "visibility_rules": [
+                            "laser, $stage_ability|laser|S7_6",
+                            "show_abilities_on, $stage_ability|laser|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/laser.png",
+                        "chest_opened_img": "/images/items/laser.png"
+                    },
+					{
+                        "name": "Light",
+                        "access_rules": ["{light}"],
+                        "visibility_rules": [
+                            "light, $stage_ability|light|S7_6",
+                            "show_abilities_on, $stage_ability|light|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/light.png",
+                        "chest_opened_img": "/images/items/light.png"
+                    },
+                    {
+                        "name": "Mike",
+                        "access_rules": ["{mike}"],
+                        "visibility_rules": [
+                            "mike, $stage_ability|mike|S7_6",
+                            "show_abilities_on, $stage_ability|mike|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/mike.png",
+                        "chest_opened_img": "/images/items/mike.png"
+                    },
+                    {
+                        "name": "Needle",
+                        "access_rules": ["{needle}"],
+                        "visibility_rules": [
+                            "needle, $stage_ability|needle|S7_6",
+                            "show_abilities_on, $stage_ability|needle|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/needle.png",
+                        "chest_opened_img": "/images/items/needle.png"
+                    },
+                    {
                         "name": "Parasol",
                         "access_rules": ["{parasol}"],
-                        "visibility_rules": ["parasol","show_abilities_on"],
+                        "visibility_rules": [
+                            "parasol, $stage_ability|parasol|S7_6",
+                            "show_abilities_on, $stage_ability|parasol|S7_6"
+                        ],
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/parasol.png",
                         "chest_opened_img": "/images/items/parasol.png"
+                    },
+                    {
+                        "name": "Sleep",
+                        "access_rules": ["{sleep}"],
+                        "visibility_rules": [
+                            "sleep, $stage_ability|sleep|S7_6",
+                            "show_abilities_on, $stage_ability|sleep|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sleep.png",
+                        "chest_opened_img": "/images/items/sleep.png"
+                    },
+                    {
+                        "name": "Spark",
+                        "access_rules": ["{spark}"],
+                        "visibility_rules": [
+                            "spark, $stage_ability|spark|S7_6",
+                            "show_abilities_on, $stage_ability|spark|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/spark.png",
+                        "chest_opened_img": "/images/items/spark.png"
+                    },
+                    {
+                        "name": "Stone",
+                        "access_rules": ["{stone}"],
+                        "visibility_rules": [
+                            "stone, $stage_ability|stone|S7_6",
+                            "show_abilities_on, $stage_ability|stone|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/stone.png",
+                        "chest_opened_img": "/images/items/stone.png"
+                    },
+                    {
+                        "name": "Sword",
+                        "access_rules": ["{sword}"],
+                        "visibility_rules": [
+                            "sword, $stage_ability|sword|S7_6",
+                            "show_abilities_on, $stage_ability|sword|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/sword.png",
+                        "chest_opened_img": "/images/items/sword.png"
+                    },
+                    {
+                        "name": "Throw",
+                        "access_rules": ["{throw}"],
+                        "visibility_rules": [
+                            "throw, $stage_ability|throw|S7_6",
+                            "show_abilities_on, $stage_ability|throw|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/throw.png",
+                        "chest_opened_img": "/images/items/throw.png"
+                    },
+					{
+                        "name": "Tornado",
+                        "access_rules": ["{tornado}"],
+                        "visibility_rules": [
+                            "tornado, $stage_ability|tornado|S7_6",
+                            "show_abilities_on, $stage_ability|tornado|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/tornado.png",
+                        "chest_opened_img": "/images/items/tornado.png"
+                    },
+                    {
+                        "name": "UFO",
+                        "access_rules": ["{ufo}"],
+                        "visibility_rules": [
+                            "ufo, $stage_ability|ufo|S7_6",
+                            "show_abilities_on, $stage_ability|ufo|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/ufo.png",
+                        "chest_opened_img": "/images/items/ufo.png"
+                    },
+					{
+                        "name": "Wheel",
+                        "access_rules": ["{wheel}"],
+                        "visibility_rules": [
+                            "wheel, $stage_ability|wheel|S7_6",
+                            "show_abilities_on, $stage_ability|wheel|S7_6"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/wheel.png",
+                        "chest_opened_img": "/images/items/wheel.png"
                     }
                 ],
                 "map_locations": [
@@ -398,7 +1678,7 @@
             }
         ],
         "access_rules": [
-            "$access_w7"
+            "$level_access|l7"
         ],
         "visibility_rules": [
             "show_abilities_unlocked"

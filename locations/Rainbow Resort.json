@@ -16,19 +16,8 @@
                     {
                         "name": "1up (Laser Room)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_laser",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_throw",
-                            "[advanced_logic], $ability_cutter",
-                            "[advanced_logic], $ability_wheel"
+                            "$has_ability|beam|spark|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|throw",
+                            "[advanced_logic], $has_ability|cutter|wheel"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -46,8 +35,7 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$ability_hammer",
-                            "$ability_burning"
+                            "$has_ability|hammer|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -265,9 +253,8 @@
                     {
                         "name": "1up (Cannon Reward 1)",
                         "access_rules": [
-                            "$ability_fire",
-                            "[advanced_logic],$ability_crash",
-                            "[advanced_logic],$ability_burning"
+                            "$has_ability|fire",
+                            "[advanced_logic],$has_ability|crash|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -277,9 +264,8 @@
                     {
                         "name": "1up (Cannon Reward 2)",
                         "access_rules": [
-                            "$ability_fire",
-                            "[advanced_logic],$ability_crash",
-                            "[advanced_logic],$ability_burning"
+                            "$has_ability|fire",
+                            "[advanced_logic],$has_ability|crash|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -289,9 +275,8 @@
                     {
                         "name": "1up (Cannon Reward 3)",
                         "access_rules": [
-                            "$ability_fire",
-                            "[advanced_logic],$ability_crash",
-                            "[advanced_logic],$ability_burning"
+                            "$has_ability|fire",
+                            "[advanced_logic],$has_ability|crash|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -301,9 +286,8 @@
                     {
                         "name": "1up (Cannon Reward 4)",
                         "access_rules": [
-                            "$ability_fire",
-                            "[advanced_logic],$ability_crash",
-                            "[advanced_logic],$ability_burning"
+                            "$has_ability|fire",
+                            "[advanced_logic],$has_ability|crash|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -313,9 +297,8 @@
                     {
                         "name": "1up (Cannon Reward 5)",
                         "access_rules": [
-                            "$ability_fire",
-                            "[advanced_logic],$ability_crash",
-                            "[advanced_logic],$ability_burning"
+                            "$has_ability|fire",
+                            "[advanced_logic],$has_ability|crash|burning"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -440,7 +423,7 @@
             {
                 "name": "The Fountain of Dreams - Nightmare",
                 "access_rules": [
-                    "$boss_w7"
+                    "$boss_access|l7"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -458,7 +441,7 @@
             }
         ],
         "access_rules": [
-            "$access_w7"
+            "$level_access|l7"
         ],
         "overlay_background": "#000000"
     }

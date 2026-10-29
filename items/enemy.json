@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Apple",
+    "type": "toggle",
+    "img": "images/enemies/apple.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "apple_static"
+  },
+  {
+    "name": "Axe Knight",
+    "type": "toggle",
+    "img": "images/enemies/axe_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "axe_knight_static"
+  },
+  {
+    "name": "Blade Knight",
+    "type": "toggle",
+    "img": "images/enemies/blade_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "blade_knight_static"
+  },
+  {
+    "name": "Blipper",
+    "type": "toggle",
+    "img": "images/enemies/blipper.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "blipper_static"
+  },
+  {
+    "name": "Bomb",
+    "type": "toggle",
+    "img": "images/enemies/bomb.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bomb_static"
+  },
+  {
+    "name": "Bomber",
+    "type": "toggle",
+    "img": "images/enemies/bomber.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bomber_static"
+  },
+  {
+    "name": "Bonkers",
+    "type": "toggle",
+    "img": "images/enemies/bonkers.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bonkers_static"
+  },
+  {
+    "name": "Bonkers Coconut",
+    "type": "toggle",
+    "img": "images/enemies/coconut.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bonkers_coconut_static"
+  },
+  {
+    "name": "Bronto Burt",
+    "type": "toggle",
+    "img": "images/enemies/bronto_burt.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bronto_burt_static"
+  },
+  {
+    "name": "Broom Hatter",
+    "type": "toggle",
+    "img": "images/enemies/broom_hatter.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "broom_hatter_static"
+  },
+  {
+    "name": "Bubbles",
+    "type": "toggle",
+    "img": "images/enemies/bubbles.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bubbles_static"
+  },
+  {
+    "name": "Bugzzy",
+    "type": "toggle",
+    "img": "images/enemies/bugzzy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bugzzy_static"
+  },
+  {
+    "name": "Bugzzy Jr.",
+    "type": "toggle",
+    "img": "images/enemies/bugzzy_jr.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "bugzzy_jr_static"
+  },
+  {
+    "name": "Cappy",
+    "type": "toggle",
+    "img": "images/enemies/cappy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "cappy_static"
+  },
+  {
+    "name": "Chilly",
+    "type": "toggle",
+    "img": "images/enemies/chilly.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "chilly_static"
+  },
+  {
+    "name": "Coconut",
+    "type": "toggle",
+    "img": "images/enemies/coconut.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "coconut_static"
+  },
+  {
+    "name": "Coner",
+    "type": "toggle",
+    "img": "images/enemies/coner.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "coner_static"
+  },
+  {
+    "name": "Cool Spook",
+    "type": "toggle",
+    "img": "images/enemies/cool_spook.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "cool_spook_static"
+  },
+  {
+    "name": "Drop Star",
+    "type": "toggle",
+    "img": "images/items/warpstationkey.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "drop_star_static"
+  },
+  {
+    "name": "Fire Lion",
+    "type": "toggle",
+    "img": "images/enemies/fire_lion.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "fire_lion_static"
+  },
+  {
+    "name": "Flamer",
+    "type": "toggle",
+    "img": "images/enemies/flamer.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "flamer_static"
+  },
+  {
+    "name": "Gip",
+    "type": "toggle",
+    "img": "images/enemies/gip.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "gip_static"
+  },
+  {
+    "name": "Glunk",
+    "type": "toggle",
+    "img": "images/enemies/glunk.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "glunk_static"
+  },
+  {
+    "name": "Grand Wheelie",
+    "type": "toggle",
+    "img": "images/enemies/grand_wheelie.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "grand_wheelie_static"
+  },
+  {
+    "name": "Grand Wheelie Wheelie",
+    "type": "toggle",
+    "img": "images/enemies/grand_wheelie_wheelie.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "grand_wheelie_wheelie_static"
+  },
+  {
+    "name": "Hot Head",
+    "type": "toggle",
+    "img": "images/enemies/hot_head.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "hot_head_static"
+  },
+  {
+    "name": "Ice Block",
+    "type": "toggle",
+    "img": "images/enemies/ice_block.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "ice_block_static"
+  },
+  {
+    "name": "Javelin Knight",
+    "type": "toggle",
+    "img": "images/enemies/javelin_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "javelin_knight_static"
+  },
+  {
+    "name": "Kabu",
+    "type": "toggle",
+    "img": "images/enemies/kabu.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "kabu_static"
+  },
+  {
+    "name": "Laser Ball",
+    "type": "toggle",
+    "img": "images/enemies/laser_ball.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "laser_ball_static"
+  },
+  {
+    "name": "Mace Knight",
+    "type": "toggle",
+    "img": "images/enemies/mace_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "mace_knight_static"
+  },
+  {
+    "name": "Mr. Frosty",
+    "type": "toggle",
+    "img": "images/enemies/mr_frosty.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "mr_frosty_static"
+  },
+  {
+    "name": "Mr. Tick-Tock",
+    "type": "toggle",
+    "img": "images/enemies/mr_tick_tock.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "mr_tick_tock_static"
+  },
+  {
+    "name": "Needlous",
+    "type": "toggle",
+    "img": "images/enemies/needlous.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "needlous_static"
+  },
+  {
+    "name": "Noddy",
+    "type": "toggle",
+    "img": "images/enemies/noddy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "noddy_static"
+  },
+  {
+    "name": "Note",
+    "type": "toggle",
+    "img": "images/enemies/note.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "note_static"
+  },
+  {
+    "name": "Parasol",
+    "type": "toggle",
+    "img": "images/enemies/parasol.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "parasol_enemy_static"
+  },
+  {
+    "name": "Parasol Waddle Dee",
+    "type": "toggle",
+    "img": "images/enemies/parasol_waddle_dee.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "parasol_waddle_dee_static"
+  },
+  {
+    "name": "Parasol Waddle Doo",
+    "type": "toggle",
+    "img": "images/enemies/parasol_waddle_doo.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "parasol_waddle_doo_static"
+  },
+  {
+    "name": "Pengy",
+    "type": "toggle",
+    "img": "images/enemies/pengy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "pengy_static"
+  },
+  {
+    "name": "Phan Phan",
+    "type": "toggle",
+    "img": "images/enemies/phan_phan.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "phan_phan_static"
+  },
+  {
+    "name": "Phan Phan Apple",
+    "type": "toggle",
+    "img": "images/enemies/apple.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "phan_phan_apple_static"
+  },
+  {
+    "name": "Poppy Bros Jr.",
+    "type": "toggle",
+    "img": "images/enemies/poppy_bros_jr.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "poppy_bros_jr_static"
+  },
+  {
+    "name": "Poppy Bros Sr.",
+    "type": "toggle",
+    "img": "images/enemies/poppy_bros_sr.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "poppy_bros_sr_static"
+  },
+  {
+    "name": "Rocky",
+    "type": "toggle",
+    "img": "images/enemies/rocky.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "rocky_static"
+  },
+  {
+    "name": "Shotzo",
+    "type": "toggle",
+    "img": "images/enemies/shotzo.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "shotzo_static"
+  },
+  {
+    "name": "Sir Kibble",
+    "type": "toggle",
+    "img": "images/enemies/sir_kibble.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "sir_kibble_static"
+  },
+  {
+    "name": "Slippy",
+    "type": "toggle",
+    "img": "images/enemies/slippy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "slippy_static"
+  },
+  {
+    "name": "Sparky",
+    "type": "toggle",
+    "img": "images/enemies/sparky.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "sparky_static"
+  },
+  {
+    "name": "Squishy",
+    "type": "toggle",
+    "img": "images/enemies/squishy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "squishy_static"
+  },
+  {
+    "name": "Starman",
+    "type": "toggle",
+    "img": "images/enemies/starman.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "starman_static"
+  },
+  {
+    "name": "Sword Knight",
+    "type": "toggle",
+    "img": "images/enemies/sword_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "sword_knight_static"
+  },
+  {
+    "name": "Trident Knight",
+    "type": "toggle",
+    "img": "images/enemies/trident_knight.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "trident_knight_static"
+  },
+  {
+    "name": "Twister",
+    "type": "toggle",
+    "img": "images/enemies/twister.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "twister_static"
+  },
+  {
+    "name": "Twizzy",
+    "type": "toggle",
+    "img": "images/enemies/twizzy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "twizzy_static"
+  },
+  {
+    "name": "UFO",
+    "type": "toggle",
+    "img": "images/enemies/ufo_enemy.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "ufo_enemy_static"
+  },
+  {
+    "name": "Waddle Dee",
+    "type": "toggle",
+    "img": "images/enemies/waddle_dee.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "waddle_dee_static"
+  },
+  {
+    "name": "Waddle Doo",
+    "type": "toggle",
+    "img": "images/enemies/waddle_doo.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "waddle_doo_static"
+  },
+  {
+    "name": "Wheelie",
+    "type": "toggle",
+    "img": "images/enemies/wheelie.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "wheelie_static"
+  }
+]

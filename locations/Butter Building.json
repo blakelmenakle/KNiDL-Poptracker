@@ -389,7 +389,7 @@
             {
                 "name": "Boss (Mr. Shine and Mr. Bright)",
                 "access_rules": [
-                    "$boss_w3"
+                    "$boss_access|l3"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -407,7 +407,7 @@
             }
         ],
         "access_rules": [
-            "$access_w3"
+            "$level_access|l3"
         ],
         "overlay_background": "#000000"
     }

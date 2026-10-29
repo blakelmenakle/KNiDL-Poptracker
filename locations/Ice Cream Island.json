@@ -92,16 +92,8 @@
                     {
                         "name": "Tomato (UFO Room)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "vneedle",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "[advanced_logic], $ability_throw"
+                            "$has_ability|beam|spark|burning|sword|freeze|needle|hi_jump|parasol|hammer",
+                            "[advanced_logic], $has_ability|throw"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -111,17 +103,7 @@
                     {
                         "name": "1up (Cave Tunnel)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_wheel",
-                            "$ability_ufo"
+                            "$has_ability|beam|spark|burning|sword|freeze|needle|hi_jump|parasol|hammer|wheel|ufo"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -177,20 +159,8 @@
                     {
                         "name": "Pep Drink (Laser Room 1)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_fire",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_laser",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_ice",
-                            "$ability_throw",
-                            "[advanced_logic], $ability_cutter"
+                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
+                            "[advanced_logic], $has_ability|cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -200,20 +170,8 @@
                     {
                         "name": "Pep Drink (Laser Room 2)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_fire",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_laser",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_ice",
-                            "$ability_throw",
-                            "[advanced_logic], $ability_cutter"
+                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
+                            "[advanced_logic], $has_ability|cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -223,20 +181,8 @@
                     {
                         "name": "Pep Drink (Laser Room 3)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_fire",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_laser",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_ice",
-                            "$ability_throw",
-                            "[advanced_logic], $ability_cutter"
+                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
+                            "[advanced_logic], $has_ability|cutter"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -246,20 +192,7 @@
                     {
                         "name": "1up (Laser Room 4)",
                         "access_rules": [
-                            "$ability_beam",
-                            "$ability_spark",
-                            "$ability_fire",
-                            "$ability_burning",
-                            "$ability_sword",
-                            "$ability_freeze",
-                            "$ability_needle",
-                            "$ability_laser",
-                            "$ability_hi_jump",
-                            "$ability_parasol",
-                            "$ability_hammer",
-                            "$ability_ice",
-                            "$ability_throw",
-                            "$ability_wheel"
+                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw|wheel"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -316,7 +249,7 @@
                         "name": "1up (Metal Blocks 1)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw",
+                            "$has_ability|throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -328,7 +261,7 @@
                         "name": "1up (Metal Blocks 2)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$ability_throw",
+                            "$has_ability|throw",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -339,9 +272,8 @@
                     {
                         "name": "1up (Gordo Guarded)",
                         "access_rules": [
-                            "[$ability_burning]",
-                            "[$ability_tornado]",
-                            "[advanced_logic], [$ability_wheel]"
+                            "[$has_ability|burning|tornado]",
+                            "[advanced_logic], [$has_ability|wheel]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -428,7 +360,7 @@
             {
                 "name": "Boss (Paint Roller)",
                 "access_rules": [
-                    "$boss_w2"
+                    "$boss_access|l2"
                 ],
                 "visibility_rules": [],
                 "item_count": 1,
@@ -446,7 +378,7 @@
             }
         ],
         "access_rules": [
-            "$access_w2"
+            "$level_access|l2"
         ],
         "overlay_background": "#000000"
     }

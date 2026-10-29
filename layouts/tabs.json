@@ -64,6 +64,13 @@
                         "Rainbow Resort"
                     ]
                 }
+            },
+            {
+                "title": "Enemy Abilities",
+                "content": {
+                    "type": "layout",
+                    "key": "enemy_abilities"
+                }
             }
         ]
     },

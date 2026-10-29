@@ -304,20 +304,20 @@ function OnClear(slot_data)
             end
         end
         if REQ_PERCENT == 0 then
-            local item = Tracker:FindObjectForCode("star_rod_pieces_needed")
+            local item = Tracker:FindObjectForCode("star_rod_pieces_l7")
             item.AcquiredCount = REQ_PIECES
             REQ_BOSS = math.floor(REQ_PIECES/7)
         else
-            local item = Tracker:FindObjectForCode("star_rod_pieces_needed")
+            local item = Tracker:FindObjectForCode("star_rod_pieces_l7")
             item.AcquiredCount = math.floor(REQ_PERCENT/100 * TOTAL_PIECES)
             REQ_BOSS = math.floor(math.floor(REQ_PERCENT/100 * TOTAL_PIECES)/7)
         end
-        local REQ_PIECES_W1 = Tracker:FindObjectForCode("star_rod_pieces_w1")
-        local REQ_PIECES_W2 = Tracker:FindObjectForCode("star_rod_pieces_w2")
-        local REQ_PIECES_W3 = Tracker:FindObjectForCode("star_rod_pieces_w3")
-        local REQ_PIECES_W4 = Tracker:FindObjectForCode("star_rod_pieces_w4")
-        local REQ_PIECES_W5 = Tracker:FindObjectForCode("star_rod_pieces_w5")
-        local REQ_PIECES_W6 = Tracker:FindObjectForCode("star_rod_pieces_w6")
+        local REQ_PIECES_W1 = Tracker:FindObjectForCode("star_rod_pieces_l1")
+        local REQ_PIECES_W2 = Tracker:FindObjectForCode("star_rod_pieces_l2")
+        local REQ_PIECES_W3 = Tracker:FindObjectForCode("star_rod_pieces_l3")
+        local REQ_PIECES_W4 = Tracker:FindObjectForCode("star_rod_pieces_l4")
+        local REQ_PIECES_W5 = Tracker:FindObjectForCode("star_rod_pieces_l5")
+        local REQ_PIECES_W6 = Tracker:FindObjectForCode("star_rod_pieces_l6")
         REQ_PIECES_W1.AcquiredCount = REQ_BOSS
         REQ_PIECES_W2.AcquiredCount = REQ_BOSS * 2
         REQ_PIECES_W3.AcquiredCount = REQ_BOSS * 3

@@ -31,7 +31,7 @@
                                 "fire",
                                 "freeze",
                                 "hammer",
-                                "hi-jump",
+                                "hi_jump",
                                 "ice",
                                 "laser"
                             ],
@@ -40,10 +40,11 @@
                                 "mike",
                                 "needle",
                                 "parasol",
-                                "spark",
-                                "stone"
+                                "sleep",
+                                "spark"
                             ],
                             [
+                                "stone",
                                 "sword",
                                 "throw",
                                 "tornado",
@@ -88,7 +89,7 @@
                                 "fire",
                                 "freeze",
                                 "hammer",
-                                "hi-jump",
+                                "hi_jump",
                                 "ice",
                                 "laser"
                             ],
@@ -97,10 +98,11 @@
                                 "mike",
                                 "needle",
                                 "parasol",
-                                "spark",
-                                "stone"
+                                "sleep",
+                                "spark"
                             ],
                             [
+                                "stone",
                                 "sword",
                                 "throw",
                                 "tornado",
@@ -167,13 +169,13 @@
                         "item_width": 48,
                         "rows": [
                             [
-                                "star_rod_pieces_w1",
-                                "star_rod_pieces_w2",
-                                "star_rod_pieces_w3",
-                                "star_rod_pieces_w4",
-                                "star_rod_pieces_w5",
-                                "star_rod_pieces_w6",
-                                "star_rod_pieces_needed"
+                                "star_rod_pieces_l1",
+                                "star_rod_pieces_l2",
+                                "star_rod_pieces_l3",
+                                "star_rod_pieces_l4",
+                                "star_rod_pieces_l5",
+                                "star_rod_pieces_l6",
+                                "star_rod_pieces_l7"
                             ],
                             [
                                 "",
@@ -190,8 +192,7 @@
                                 "butterbuildingmuseumkey",
                                 "grapegardenmuseumkey",
                                 "yogurtyardmuseumkey",
-                                "orangeoceanmuseumkey",
-                                ""
+                                "orangeoceanmuseumkey"
                             ],
                             [
                                 "vegetablevalleywarpstationkey",
@@ -201,6 +202,165 @@
                                 "yogurtyardwarpstationkey",
                                 "orangeoceanwarpstationkey",
                                 "rainbowresortwarpstationkey"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "enemy_abilities": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "apple_static",
+                                "apple",
+                                "blade_knight_static",
+                                "blade_knight",
+                                "blipper_static",
+                                "blipper",
+                                "bomber_static",
+                                "bomber",
+                                "bronto_burt_static",
+                                "bronto_burt",
+                                "broom_hatter_static",
+                                "broom_hatter",
+                                "bubbles_static",
+                                "bubbles",
+                                "cappy_static",
+                                "cappy"
+                            ],
+                            [
+                                "chilly_static",
+                                "chilly",
+                                "coconut_static",
+                                "coconut",
+                                "coner_static",
+                                "coner",
+                                "cool_spook_static",
+                                "cool_spook",
+                                "drop_star_static",
+                                "drop_star",
+                                "flamer_static",
+                                "flamer",
+                                "gip_static",
+                                "gip",
+                                "glunk_static",
+                                "glunk"
+                            ],
+                            [
+                                "hot_head_static",
+                                "hot_head",
+                                "kabu_static",
+                                "kabu",
+                                "needlous_static",
+                                "needlous",
+                                "noddy_static",
+                                "noddy",
+                                "parasol_enemy_static",
+                                "parasol_enemy",
+                                "parasol_waddle_dee_static",
+                                "parasol_waddle_dee",
+                                "parasol_waddle_doo_static",
+                                "parasol_waddle_doo",
+                                "pengy_static",
+                                "pengy"
+                            ],
+                            [
+                                "poppy_bros_jr_static",
+                                "poppy_bros_jr",
+                                "rocky_static",
+                                "rocky",
+                                "shotzo_static",
+                                "shotzo",
+                                "sir_kibble_static",
+                                "sir_kibble",
+                                "slippy_static",
+                                "slippy",
+                                "sparky_static",
+                                "sparky",
+                                "squishy_static",
+                                "squishy",
+                                "starman_static",
+                                "starman"
+                            ],
+                            [
+                                "sword_knight_static",
+                                "sword_knight",
+                                "twister_static",
+                                "twister",
+                                "twizzy_static",
+                                "twizzy",
+                                "ufo_enemy_static",
+                                "ufo_enemy",
+                                "waddle_dee_static",
+                                "waddle_dee",
+                                "waddle_doo_static",
+                                "waddle_doo",
+                                "wheelie_static",
+                                "wheelie"
+                            ],
+                            [
+                                "axe_knight_static",
+                                "axe_knight",
+                                "javelin_knight_static",
+                                "javelin_knight",
+                                "mace_knight_static",
+                                "mace_knight",
+                                "trident_knight_static",
+                                "trident_knight"
+                            ],
+                            [
+                                "bonkers_static",
+                                "bonkers",
+                                "bugzzy_static",
+                                "bugzzy",
+                                "fire_lion_static",
+                                "fire_lion",
+                                "grand_wheelie_static",
+                                "grand_wheelie",
+                                "mr_frosty_static",
+                                "mr_frosty",
+                                "mr_tick_tock_static",
+                                "mr_tick_tock",
+                                "phan_phan_static",
+                                "phan_phan",
+                                "poppy_bros_sr_static",
+                                "poppy_bros_sr"
+                            ],
+                            [
+                                "bonkers_coconut_static",
+                                "bonkers_coconut",
+                                "bugzzy_jr_static",
+                                "bugzzy_jr",
+                                "",
+                                "",
+                                "grand_wheelie_wheelie_static",
+                                "grand_wheelie_wheelie",
+                                "ice_block_static",
+                                "ice_block",
+                                "note_static",
+                                "note",
+                                "phan_phan_apple_static",
+                                "phan_phan_apple",
+                                "bomb_static",
+                                "bomb"
                             ]
                         ]
                     }
