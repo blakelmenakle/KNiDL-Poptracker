@@ -67,10 +67,34 @@
             },
             {
                 "title": "Enemy Abilities",
-                "content": {
-                    "type": "layout",
-                    "key": "enemy_abilities"
-                }
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "top",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Ability Auto-Fill Options",
+                                "dock": "top",
+                                "margin": "3,3,3,3",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "enemy_ability_settings"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Enemy Abilities",
+                                "dock": "top",
+                                "margin": "3,3,3,3",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "enemy_abilities"
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

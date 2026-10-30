@@ -165,5 +165,62 @@
         "inherit_codes":false
       }
     ]
-  }
+  },
+	{
+		"name": "Reset Enemy Abilities",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/reset_abilities_off.png",
+				"codes": "reset_abilities, reset_abilities_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/reset_abilities_on.png",
+				"codes": "reset_abilities, reset_abilities_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Clear Enemy Abilities",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/clear_abilities_off.png",
+				"codes": "clear_abilities, clear_abilities_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/clear_abilities_on.png",
+				"codes": "clear_abilities, clear_abilities_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fill Enemy Abilities",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/fill_abilities_off.png",
+				"codes": "fill_abilities, fill_abilities_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fill_abilities_on.png",
+				"codes": "fill_abilities, fill_abilities_on",
+				"inherit_codes": false
+			}
+		]
+	}
 ]

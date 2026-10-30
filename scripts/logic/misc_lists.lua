@@ -1,4 +1,5 @@
 ABILITY_LOOKUP = {
+    ["none"] = 0,
     ["backdrop"] = 1,
     ["ball"] = 2,
     ["beam"] = 3,
@@ -36,6 +37,7 @@ STAGE_ENEMIES = {
         "waddle_doo"
     },
     ["S1_2"] = {
+        "apple",
         "bronto_burt",
         "broom_hatter",
         "cappy",
@@ -66,6 +68,7 @@ STAGE_ENEMIES = {
         "waddle_doo"
     },
     ["S1_4"] = {
+        -- "blade_knight",
         "bronto_burt",
         "cappy",
         "kabu",
@@ -98,6 +101,7 @@ STAGE_ENEMIES = {
         "waddle_doo"
     },
     ["S2_2"] = {
+        "apple",
         "coner",
         "gip",
         "grand_wheelie",
@@ -143,6 +147,7 @@ STAGE_ENEMIES = {
         "waddle_doo"
     },
     ["S2_5"] = {
+        "apple",
         "bomber",
         "bronto_burt",
         "flamer",
@@ -231,6 +236,7 @@ STAGE_ENEMIES = {
         "bomber",
         "bonkers",
         "bonkers_coconut",
+        "drop_star",
         "chilly",
         "laser_ball",
         "sir_kibble",
@@ -382,6 +388,7 @@ STAGE_ENEMIES = {
         "blipper",
         "bonkers",
         "bonkers_coconut",
+        "drop_star",
         "bubbles",
         "coconut",
         "coner",
@@ -426,6 +433,7 @@ STAGE_ENEMIES = {
         --"apple"
         "bronto_burt",
         "fire_lion",
+        "drop_star",
         "flamer",
         "gip",
         "hot_head",
@@ -450,7 +458,9 @@ STAGE_ENEMIES = {
         "twister"
     },
     ["S5_A"] = {
-        "bonkers"
+        "bonkers",
+        "bonkers_coconut",
+        "drop_star"
     },
 
     ["S6_1"] = {
@@ -495,6 +505,7 @@ STAGE_ENEMIES = {
     ["S6_3"] = {
         "bonkers",
         "bonkers_coconut",
+        "drop_star",
         "bronto_burt",
         "broom_hatter",
         "coconut",
@@ -570,7 +581,8 @@ STAGE_ENEMIES = {
         "wheelie"
     },
     ["S6_A"] = {
-        "fire_lion"
+        "fire_lion",
+        "drop_star"
     },
 
     ["S7_1"] = {
@@ -590,6 +602,7 @@ STAGE_ENEMIES = {
         "blade_knight",
         "bonkers",
         "bonkers_coconut",
+        "drop_star",
         "bugzzy",
         "bugzzy_jr",
         "fire_lion",
@@ -725,4 +738,128 @@ LEVEL_ENEMIES = {
         table.unpack(STAGE_ENEMIES["S7_5"]),
         table.unpack(STAGE_ENEMIES["S7_6"])
     }
+}
+
+DEFAULT_ABILITIES = {
+    ["apple"] = "none",
+    ["axe_knight"] = "none",
+    ["blade_knight"] = "sword",
+    ["blipper"] = "none",
+    ["bomb"] = "none",
+    ["bomber"] = "crash",
+    ["bonkers"] = "hammer",
+    ["bonkers_coconut"] = "none",
+    ["bronto_burt"] = "none",
+    ["broom_hatter"] = "none",
+    ["bubbles"] = "ball",
+    ["bugzzy"] = "backdrop",
+    ["bugzzy_jr"] = "none",
+    ["cappy"] = "none",
+    ["chilly"] = "freeze",
+    ["coconut"] = "none",
+    ["coner"] = "none",
+    ["cool_spook"] = "light",
+    ["drop_star"] = "none",
+    ["fire_lion"] = "burning",
+    ["flamer"] = "burning",
+    ["gip"] = "none",
+    ["glunk"] = "none",
+    ["grand_wheelie"] = "wheel",
+    ["grand_wheelie_wheelie"] = "none",
+    ["hot_head"] = "fire",
+    ["ice_block"] = "none",
+    ["javelin_knight"] = "none",
+    ["kabu"] = "none",
+    ["laser_ball"] = "laser",
+    ["mace_knight"] = "none",
+    ["mr_frosty"] = "freeze",
+    ["mr_tick_tock"] = "mike",
+    ["needlous"] = "needle",
+    ["noddy"] = "sleep",
+    ["note"] = "none",
+    ["parasol_enemy"] = "parasol",
+    ["parasol_waddle_dee"] = "parasol",
+    ["parasol_waddle_doo"] = "parasol",
+    ["pengy"] = "ice",
+    ["phan_phan"] = "throw",
+    ["phan_phan_apple"] = "none",
+    ["poppy_bros_jr"] = "none",
+    ["poppy_bros_sr"] = "crash",
+    ["rocky"] = "stone",
+    ["shotzo"] = "none",
+    ["sir_kibble"] = "cutter",
+    ["slippy"] = "none",
+    ["sparky"] = "spark",
+    ["squishy"] = "none",
+    ["starman"] = "hi_jump",
+    ["sword_knight"] = "sword",
+    ["trident_knight"] = "none",
+    ["twister"] = "tornado",
+    ["twizzy"] = "none",
+    ["ufo_enemy"] = "ufo",
+    ["waddle_dee"] = "none",
+    ["waddle_doo"] = "beam",
+    ["wheelie"] = "wheel"
+}
+
+ALL_ENEMIES = {
+    "apple",
+    "axe_knight",
+    "blade_knight",
+    "blipper",
+    "bomb",
+    "bomber",
+    "bonkers",
+    "bonkers_coconut",
+    "bronto_burt",
+    "broom_hatter",
+    "bubbles",
+    "bugzzy",
+    "bugzzy_jr",
+    "cappy",
+    "chilly",
+    "coconut",
+    "coner",
+    "cool_spook",
+    "drop_star",
+    "fire_lion",
+    "flamer",
+    "gip",
+    "glunk",
+    "grand_wheelie",
+    "grand_wheelie_wheelie",
+    "hot_head",
+    "ice_block",
+    "javelin_knight",
+    "kabu",
+    "laser_ball",
+    "mace_knight",
+    "mr_frosty",
+    "mr_tick_tock",
+    "needlous",
+    "noddy",
+    "note",
+    "parasol_enemy",
+    "parasol_waddle_dee",
+    "parasol_waddle_doo",
+    "pengy",
+    "phan_phan",
+    "phan_phan_apple",
+    "poppy_bros_jr",
+    "poppy_bros_sr",
+    "rocky",
+    "shotzo",
+    "sir_kibble",
+    "slippy",
+    "sparky",
+    "squishy",
+    "starman",
+    "sword_knight",
+    "trident_knight",
+    "twister",
+    "twizzy",
+    "ufo_enemy",
+    "waddle_dee",
+    "waddle_doo",
+    "wheelie"
 }
