@@ -198,7 +198,7 @@
                         "chest_opened_img": "/images/items/candy_gray.png"
                     },
                     {
-                        "name": "Pep Drink (Exterior Wall)",
+                        "name": "Pep Drink (Outside Wall)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -254,7 +254,7 @@
                         "chest_opened_img": "/images/items/clear_gray.png"
                     },
                     {
-                        "name": "Pep Drink (Laser Room)",
+                        "name": "Pep Drink (Bomber Room)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,

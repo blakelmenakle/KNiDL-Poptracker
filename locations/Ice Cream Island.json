@@ -93,7 +93,7 @@
                         "name": "Tomato (UFO Room)",
                         "access_rules": [
                             "$has_ability|beam|spark|burning|sword|freeze|needle|hi_jump|parasol|hammer",
-                            "[advanced_logic], $has_ability|throw"
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_3,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -101,9 +101,11 @@
                         "chest_opened_img": "/images/items/tomato_gray.png"
                     },
                     {
-                        "name": "1up (Cave Tunnel)",
+                        "name": "1up (Cave Ceiling Passage)",
                         "access_rules": [
-                            "$has_ability|beam|spark|burning|sword|freeze|needle|hi_jump|parasol|hammer|wheel|ufo"
+                            "$has_ability|beam|spark|burning|sword|freeze|needle|hi_jump|parasol|hammer|wheel",
+                            "[advanced_logic], $has_ability|throw",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_3_1up,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -160,7 +162,8 @@
                         "name": "Pep Drink (Laser Room 1)",
                         "access_rules": [
                             "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
-                            "[advanced_logic], $has_ability|cutter"
+                            "[advanced_logic], $has_ability|cutter",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -171,7 +174,8 @@
                         "name": "Pep Drink (Laser Room 2)",
                         "access_rules": [
                             "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
-                            "[advanced_logic], $has_ability|cutter"
+                            "[advanced_logic], $has_ability|cutter",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -182,7 +186,8 @@
                         "name": "Pep Drink (Laser Room 3)",
                         "access_rules": [
                             "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw",
-                            "[advanced_logic], $has_ability|cutter"
+                            "[advanced_logic], $has_ability|cutter",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -192,7 +197,8 @@
                     {
                         "name": "1up (Laser Room 4)",
                         "access_rules": [
-                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw|wheel"
+                            "$has_ability|beam|spark|fire|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|ice|throw|wheel",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s2_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,

@@ -28,15 +28,15 @@ function arena_enemy(ability_name)
     local grape_arena = Tracker:FindObjectForCode("grapegardenarenakey")
     local yogurt_arena = Tracker:FindObjectForCode("yogurtyardarenakey")
     local orange_arena = Tracker:FindObjectForCode("orangeoceanarenakey")
-    if level_access("l2") and ice_cream_arena.Active and stage_ability(ability_name, "S2_A") then
+    if level_access("l2") and ice_cream_arena.Active and stage_ability(ability_name, "s2_a") then
         return true
-    elseif level_access("l3") and butter_arena.Active and stage_ability(ability_name, "S3_A") then
+    elseif level_access("l3") and butter_arena.Active and stage_ability(ability_name, "s3_a") then
         return true
-    elseif level_access("l4") and grape_arena.Active and stage_ability(ability_name, "S4_A") then
+    elseif level_access("l4") and grape_arena.Active and stage_ability(ability_name, "s4_a") then
         return true
-    elseif level_access("l5") and yogurt_arena.Active and stage_ability(ability_name, "S5_A") then
+    elseif level_access("l5") and yogurt_arena.Active and stage_ability(ability_name, "s5_a") then
         return true
-    elseif level_access("l6") and orange_arena.Active and stage_ability(ability_name, "S6_A") then
+    elseif level_access("l6") and orange_arena.Active and stage_ability(ability_name, "s6_a") then
         return true
     end
     return false
@@ -49,17 +49,17 @@ function museum_enemy(ability_name)
     local grape_museum = Tracker:FindObjectForCode("grapegardenmuseumkey")
     local yogurt_museum = Tracker:FindObjectForCode("yogurtyardmuseumkey")
     local orange_museum = Tracker:FindObjectForCode("orangeoceanmuseumkey")
-    if level_access("l1") and vegetable_museum.Active and stage_ability(ability_name, "S1_M") then
+    if level_access("l1") and vegetable_museum.Active and stage_ability(ability_name, "s1_m") then
         return true
-    elseif level_access("l2") and ice_cream_museum.Active and stage_ability(ability_name, "S2_M") then
+    elseif level_access("l2") and ice_cream_museum.Active and stage_ability(ability_name, "s2_m") then
         return true
-    elseif level_access("l3") and butter_museum.Active and stage_ability(ability_name, "S3_M") then
+    elseif level_access("l3") and butter_museum.Active and stage_ability(ability_name, "s3_m") then
         return true
-    elseif level_access("l4") and grape_museum.Active and stage_ability(ability_name, "S4_M") then
+    elseif level_access("l4") and grape_museum.Active and stage_ability(ability_name, "s4_m") then
         return true
-    elseif level_access("l5") and yogurt_museum.Active and stage_ability(ability_name, "S5_M") then
+    elseif level_access("l5") and yogurt_museum.Active and stage_ability(ability_name, "s5_m") then
         return true
-    elseif level_access("l6") and orange_museum.Active and stage_ability(ability_name, "S6_M") then
+    elseif level_access("l6") and orange_museum.Active and stage_ability(ability_name, "s6_m") then
         return true
     end
     return false

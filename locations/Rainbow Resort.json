@@ -17,7 +17,9 @@
                         "name": "1up (Laser Room)",
                         "access_rules": [
                             "$has_ability|beam|spark|burning|sword|freeze|needle|laser|hi_jump|parasol|hammer|throw",
-                            "[advanced_logic], $has_ability|cutter|wheel"
+                            "[advanced_logic], $has_ability|cutter|wheel",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_1,[ufo_logic_on]"
+                            
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -35,7 +37,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$has_ability|hammer|burning"
+                            "$has_ability|hammer|burning",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_1_switch,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -253,8 +256,9 @@
                     {
                         "name": "1up (Cannon Reward 1)",
                         "access_rules": [
-                            "$has_ability|fire",
-                            "[advanced_logic],$has_ability|crash|burning"
+                            "$has_ability|fire,$has_ability|burning",
+                            "[advanced_logic],$has_ability|crash|burning|fire",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -264,8 +268,9 @@
                     {
                         "name": "1up (Cannon Reward 2)",
                         "access_rules": [
-                            "$has_ability|fire",
-                            "[advanced_logic],$has_ability|crash|burning"
+                            "$has_ability|fire,$has_ability|burning",
+                            "[advanced_logic],$has_ability|crash|burning|fire",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -275,8 +280,9 @@
                     {
                         "name": "1up (Cannon Reward 3)",
                         "access_rules": [
-                            "$has_ability|fire",
-                            "[advanced_logic],$has_ability|crash|burning"
+                            "$has_ability|fire,$has_ability|burning",
+                            "[advanced_logic],$has_ability|crash|burning|fire",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -286,8 +292,9 @@
                     {
                         "name": "1up (Cannon Reward 4)",
                         "access_rules": [
-                            "$has_ability|fire",
-                            "[advanced_logic],$has_ability|crash|burning"
+                            "$has_ability|fire,$has_ability|burning",
+                            "[advanced_logic],$has_ability|crash|burning|fire",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -297,8 +304,9 @@
                     {
                         "name": "1up (Cannon Reward 5)",
                         "access_rules": [
-                            "$has_ability|fire",
-                            "[advanced_logic],$has_ability|crash|burning"
+                            "$has_ability|fire,$has_ability|burning",
+                            "[advanced_logic],$has_ability|crash|burning|fire",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s7_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,

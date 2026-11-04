@@ -27,20 +27,20 @@ ABILITY_LOOKUP = {
 }
 
 STAGE_ENEMIES = {
-    ["S1_1"] = {
+    ["s1_1"] = {
         "bronto_burt",
         "hot_head",
         "poppy_bros_jr",
         "sparky",
-        "ufo_enemy",
         "waddle_dee",
         "waddle_doo"
     },
-    ["S1_2"] = {
+    ["s1_2"] = {
         "apple",
         "bronto_burt",
         "broom_hatter",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "hot_head",
         "poppy_bros_jr",
         "poppy_bros_sr",
@@ -51,11 +51,12 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S1_3"] = {
+    ["s1_3"] = {
         "blipper",
         "bronto_burt",
         "broom_hatter",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "coner",
         "flamer",
         "glunk",
@@ -67,10 +68,11 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S1_4"] = {
+    ["s1_4"] = {
         -- "blade_knight",
         "bronto_burt",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "kabu",
         "mr_frosty",
         "ice_block",
@@ -82,25 +84,24 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S1_M"] = {
+    ["s1_m"] = {
         "blade_knight"
     },
 
-    ["S2_1"] = {
+    ["s2_1"] = {
         "bomber",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "coconut",
         "coner",
         "hot_head",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "sword_knight",
         "twister",
         "waddle_dee",
         "waddle_doo"
     },
-    ["S2_2"] = {
+    ["s2_2"] = {
         "apple",
         "coner",
         "gip",
@@ -109,30 +110,29 @@ STAGE_ENEMIES = {
         "hot_head",
         "needlous",
         "parasol",
-        "parasol_waddle_dee",
         "poppy_bros_jr",
         "sparky",
         "sword_knight",
         "waddle_dee",
         "wheelie"
     },
-    ["S2_3"] = {
+    ["s2_3"] = {
         "axe_knight",
         "blipper",
         "bronto_burt",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "kabu",
         "mace_knight",
         "parasol",
-        "parasol_waddle_dee",
         "sword_knight",
         "trident_knight",
-        "ufo_enemy",
         "waddle_dee"
     },
-    ["S2_4"] = {
+    ["s2_4"] = {
         "bronto_burt",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "gip",
         "glunk",
         "hot_head",
@@ -140,13 +140,12 @@ STAGE_ENEMIES = {
         "mr_tick_tock",
         "note",
         "parasol",
-        "parasol_waddle_dee",
         "rocky",
         "sparky",
         "waddle_dee",
         "waddle_doo"
     },
-    ["S2_5"] = {
+    ["s2_5"] = {
         "apple",
         "bomber",
         "bronto_burt",
@@ -155,8 +154,6 @@ STAGE_ENEMIES = {
         "laser_ball",
         "noddy",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "poppy_bros_jr",
         "sir_kibble",
         "starman",
@@ -165,16 +162,16 @@ STAGE_ENEMIES = {
         "waddle_doo",
         "wheelie"
     },
-    ["S2_M"] = {
+    ["s2_m"] = {
         "hot_head",
         "laser_ball"
     },
-    ["S2_A"] = {
+    ["s2_a"] = {
         "mr_frosty",
         "ice_block"
     },
 
-    ["S3_1"] = {
+    ["s3_1"] = {
         "bomber",
         "bronto_burt",
         "flamer",
@@ -182,20 +179,19 @@ STAGE_ENEMIES = {
         "mr_tick_tock",
         "note",
         "parasol",
-        "parasol_waddle_dee",
         "rocky",
         "sword_knight",
         "waddle_dee"
     },
-    ["S3_2"] = {
+    ["s3_2"] = {
         "blade_knight",
-        "bronto_burt",
+        --"bronto_burt",
         "bugzzy",
         "bugzzy_jr",
         "gip",
         "glunk",
-        "grand_wheelie",
-        "grand_wheelie_wheelie",
+        --"grand_wheelie",
+        --"grand_wheelie_wheelie",
         "hot_head",
         "needlous",
         "pengy",
@@ -205,10 +201,10 @@ STAGE_ENEMIES = {
         "sparky",
         "twizzy",
         "waddle_dee",
-        "waddle_doo",
-        "wheelie"
+        "waddle_doo"--,
+        --"wheelie"
     },
-    ["S3_3"] = {
+    ["s3_3"] = {
         "blade_knight",
         "bronto_burt",
         "broom_hatter",
@@ -219,19 +215,19 @@ STAGE_ENEMIES = {
         "pengy",
         "starman",
         "sword_knight",
-        "waddle_dee",
+        "waddle_dee"
     },
-    ["S3_4"] = {
+    ["s3_4"] = {
         "axe_knight",
         "broom_hatter",
         "javelin_knight",
         "kabu",
         "mace_knight",
         "parasol",
-        "parasol_waddle_doo",
-        "sword_knight"
+        "sword_knight",
+        "waddle_doo"
     },
-    ["S3_5"] = {
+    ["s3_5"] = {
         "blade_knight",
         "bomber",
         "bonkers",
@@ -241,9 +237,11 @@ STAGE_ENEMIES = {
         "laser_ball",
         "sir_kibble",
         "sparky",
-        "waddle_dee",
+        "sword_knight",
+        "twizzy",
+        "waddle_dee"
     },
-    ["S3_6"] = {
+    ["s3_6"] = {
         "blade_knight",
         "bomber",
         "cool_spook",
@@ -255,19 +253,19 @@ STAGE_ENEMIES = {
         "sir_kibble",
         "slippy",
         "starman",
-        "sword_knight",
+        --"sword_knight",
         "twizzy",
-        "waddle_dee",
+        "waddle_dee"
     },
-    ["S3_M"] = {
+    ["s3_m"] = {
         "starman"
     },
-    ["S3_A"] = {
+    ["s3_a"] = {
         "grand_wheelie",
         "grand_wheelie_wheelie"
     },
 
-    ["S4_1"] = {
+    ["s4_1"] = {
         "blade_knight",
         "bubbles",
         "glunk",
@@ -275,41 +273,41 @@ STAGE_ENEMIES = {
         "laser_ball",
         "noddy",
         "parasol",
-        "parasol_waddle_dee",
         "sir_kibble",
         "sparky",
         "twister",
-        "ufo_enemy",
+        "twizzy",
         "waddle_dee",
-        "waddle_doo",
+        "waddle_doo"
     },
-    ["S4_2"] = {
-        --"apple",
+    ["s4_2"] = {
+        "apple",
         "hot_head",
         "parasol",
-        "parasol_waddle_dee",
         "poppy_bros_jr",
         "poppy_bros_sr",
         "bomb",
         "sparky",
-        "squishy"
+        "squishy",
+        "waddle_dee"
     },
-    ["S4_3"] = {
+    ["s4_3"] = {
         "bomber",
         "bronto_burt",
         "broom_hatter",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "gip",
         "hot_head",
+        "kabu",
         "laser_ball",
         "parasol",
-        "parasol_waddle_dee",
         "sir_kibble",
         "starman",
         "sword_knight",
         "waddle_dee"
     },
-    ["S4_4"] = {
+    ["s4_4"] = {
         "blade_knight",
         "bronto_burt",
         "bubbles",
@@ -322,7 +320,7 @@ STAGE_ENEMIES = {
         "waddle_doo",
         "wheelie"
     },
-    ["S4_5"] = {
+    ["s4_5"] = {
         "axe_knight",
         "bronto_burt",
         "broom_hatter",
@@ -337,9 +335,9 @@ STAGE_ENEMIES = {
         "trident_knight",
         "waddle_dee"
     },
-    ["S4_6"] = {
+    ["s4_6"] = {
         "blade_knight",
-        "blipper",
+        --"blipper",
         "bronto_burt",
         "cool_spook",
         "glunk",
@@ -348,34 +346,33 @@ STAGE_ENEMIES = {
         "mr_tick_tock",
         "note",
         "parasol",
-        "parasol_waddle_dee",
         "rocky",
         "slippy",
         "sir_kibble",
         "starman",
         "sword_knight",
+        "waddle_dee",
         "waddle_doo"
     },
-    ["S4_M"] = {
+    ["s4_m"] = {
         "bubbles",
         "noddy"
     },
-    ["S4_A"] = {
+    ["s4_a"] = {
         "bugzzy",
         "bugzzy_jr"
     },
 
-    ["S5_1"] = {
+    ["s5_1"] = {
         "bomber",
         "bronto_burt",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "chilly",
         "cool_spook",
         "kabu",
         "needlous",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "pengy",
         "rocky",
         "starman",
@@ -383,7 +380,7 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S5_2"] = {
+    ["s5_2"] = {
         "blade_knight",
         "blipper",
         "bonkers",
@@ -398,23 +395,23 @@ STAGE_ENEMIES = {
         "sparky",
         "waddle_dee"
     },
-    ["S5_3"] = {
-        --"apple"
+    ["s5_3"] = {
+        "apple",
         "gip",
         "hot_head",
         "laser_ball",
         "parasol",
-        "parasol_waddle_dee",
         "poppy_bros_jr",
         "rocky",
         "sparky",
         "starman",
         "sword_knight",
         "twizzy",
+        "waddle_dee",
         "wheelie"
     },
-    ["S5_4"] = {
-        --"apple"
+    ["s5_4"] = {
+        "apple",
         "axe_knight",
         "blade_knight",
         "blipper",
@@ -429,8 +426,8 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S5_5"] = {
-        --"apple"
+    ["s5_5"] = {
+        "apple",
         "bronto_burt",
         "fire_lion",
         "drop_star",
@@ -439,31 +436,29 @@ STAGE_ENEMIES = {
         "hot_head",
         "laser_ball",
         "parasol",
-        "parasol_waddle_dee",
         "poppy_bros_jr",
         "sir_kibble",
         "starman",
         "sword_knight",
         "waddle_dee",
     },
-    ["S5_6"] = {
+    ["s5_6"] = {
         "blade_knight",
-        "blipper",
         "rocky",
         "waddle_dee",
         "wheelie"
     },
-    ["S5_M"] = {
+    ["s5_m"] = {
         "rocky",
         "twister"
     },
-    ["S5_A"] = {
+    ["s5_a"] = {
         "bonkers",
         "bonkers_coconut",
         "drop_star"
     },
 
-    ["S6_1"] = {
+    ["s6_1"] = {
         "blade_knight",
         "blipper",
         "coner",
@@ -477,19 +472,18 @@ STAGE_ENEMIES = {
         "sparky",
         "twizzy"
     },
-    ["S6_2"] = {
+    ["s6_2"] = {
         "blade_knight",
         "blipper",
         "bomber",
         "bronto_burt",
         "broom_hatter",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "flamer", 
         "glunk",
         "kabu",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "poppy_bros_jr",
         "rocky",
         "slippy",
@@ -498,11 +492,10 @@ STAGE_ENEMIES = {
         "starman",
         "sword_knight",
         "twister",
-        "ufo_enemy",
         "waddle_dee",
         "waddle_doo"
     },
-    ["S6_3"] = {
+    ["s6_3"] = {
         "bonkers",
         "bonkers_coconut",
         "drop_star",
@@ -514,33 +507,34 @@ STAGE_ENEMIES = {
         "glunk",
         "hot_head",
         "kabu",
-        "laser_ball",
+        --"laser_ball",
         "poppy_bros_jr",
-        "sir_kibble",
+        --"sir_kibble",
         "sparky",
-        "sword_knight",
-        "waddle_dee"
+        --"sword_knight",
+        "waddle_dee",
+        "waddle_doo"
     },
-    ["S6_4"] = {
-        "blipper",
+    ["s6_4"] = {
+        --"blipper",
+        "blade_knight",
         "bomber",
         "broom_hatter",
         "coner",
         "coconut",
         "glunk",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "sir_kibble",
         "slippy",
         "sword_knight",
         "twizzy",
+        "waddle_dee",
         "waddle_doo"
     },
-    ["S6_5"] = {
-        --"apple"
+    ["s6_5"] = {
+        "apple",
         "blade_knight",
-        "blipper",
+        --"blipper",
         "bomber",
         "bronto_burt",
         "chilly",
@@ -553,12 +547,13 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S6_6"] = {
+    ["s6_6"] = {
         "axe_knight",
         "blade_knight",
         "blipper",
         "bronto_burt",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "flamer", 
         "glunk",
         "hot_head",
@@ -573,19 +568,18 @@ STAGE_ENEMIES = {
         "slippy",
         "sparky",
         "trident_knight",
-        "ufo_enemy",
         "waddle_dee",
         "waddle_doo"
     },
-    ["S6_M"] = {
+    ["s6_m"] = {
         "wheelie"
     },
-    ["S6_A"] = {
+    ["s6_a"] = {
         "fire_lion",
         "drop_star"
     },
 
-    ["S7_1"] = {
+    ["s7_1"] = {
         "blade_knight",
         "chilly",
         "flamer",
@@ -598,7 +592,7 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S7_2"] = {
+    ["s7_2"] = {
         "blade_knight",
         "bonkers",
         "bonkers_coconut",
@@ -615,7 +609,7 @@ STAGE_ENEMIES = {
         "poppy_bros_sr",
         "bomb"
     },
-    ["S7_3"] = {
+    ["s7_3"] = {
         "blade_knight",
         "blipper",
         "bronto_burt",
@@ -627,7 +621,7 @@ STAGE_ENEMIES = {
         "waddle_dee",
         "waddle_doo"
     },
-    ["S7_4"] = {
+    ["s7_4"] = {
         "bomber",
         "bronto_burt",
         "bubbles",
@@ -643,7 +637,7 @@ STAGE_ENEMIES = {
         "twizzy",
         "waddle_dee"
     },
-    ["S7_5"] = {
+    ["s7_5"] = {
         "bomber",
         "flamer",
         "gip",
@@ -651,26 +645,178 @@ STAGE_ENEMIES = {
         "grand_wheelie_wheelie",
         "hot_head",
         "laser_ball",
-        "sparky",
+        "sparky"
     },
-    ["S7_6"] = {
-        --"apple"
+    ["s7_6"] = {
+        "apple",
         "blipper",
         "bronto_burt",
         "broom_hatter",
-        "cappy",
+        "cappy_cap",
+        "capless_cappy",
         "coconut",
         "coner",
         "kabu",
         "parasol",
-        "parasol_waddle_dee",
-        "parasol_waddle_doo",
         "poppy_bros_jr",
         "sir_kibble",
         "squishy",
         "twizzy",
         "waddle_dee",
         "waddle_doo"
+    }
+}
+
+UFO_ENEMY_STAGE_LOGIC = {
+    ["vanilla"] = {
+        "ufo_enemy"
+    },
+    ["s2_3"] = {
+        "sword_knight"
+    },
+    ["s2_3_1up"] = {
+        "blipper",
+        "bronto_burt",
+        "kabu",
+        "sword_knight",
+        "waddle_dee"
+    },
+    ["s2_4"] = {
+        "bronto_burt",
+        "cappy_cap",
+        "capless_cappy",
+        "gip",
+        "hot_head",
+        "laser_ball",
+        "mr_tick_tock",
+        "note",
+        "parasol",
+        "rocky",
+        "sparky",
+        "waddle_dee"
+    },
+    ["s4_3"] = {
+        "hot_head"
+    },
+    ["s5_4"] = {
+        "apple",
+        "flamer",
+        "poppy_bros_jr",
+        "sparky"
+    },
+    ["s5_5"] = {
+        "bronto_burt",
+        "hot_head",
+        "parasol",
+        "sir_kibble",
+        "starman",
+        "sword_knight",
+        "waddle_dee"
+    },
+    ["s5_6"] = {
+        "blade_knight",
+        "rocky",
+        "waddle_dee",
+        "wheelie"
+    },
+    ["s6_1"] = {
+        "blipper",
+        "glunk",
+        "phan_phan",
+        "phan_phan_apple"
+    },
+    ["s6_1_switch"] = {
+        "blipper",
+        "flamer",
+        "gip",
+        "glunk",
+        "hot_head",
+        "phan_phan",
+        "phan_phan_apple",
+        "sparky"
+    },
+    ["s6_3"] = {
+        "poppy_bros_jr",
+        "sir_kibble",
+        "sword_knight",
+        "laser_ball",
+        "hot_head"
+    },
+    ["s6_4"] = {
+        "broom_hatter",
+        "coner",
+        "coconut",
+        "glunk",
+        "sir_kibble",
+        "slippy",
+        "sword_knight",
+        "waddle_doo"
+    },
+    ["s6_5"] = {
+        "apple",
+        "blade_knight",
+        "bomber",
+        "bronto_burt",
+        "chilly",
+        "hot_head",
+        "laser_ball",
+        "needlous",
+        "pengy",
+        "poppy_bros_jr",
+        "sparky",
+        "waddle_dee",
+        "waddle_doo"
+    },
+    ["s6_6"] = {
+        "blade_knight",
+        "bronto_burt",
+        "cappy_cap",
+        "capless_cappy",
+        "flamer",
+        "hot_head",
+        "laser_ball",
+        "pengy",
+        "poppy_bros_sr",
+        "bomb",
+        "sparky",
+        "ufo_enemy",
+        "waddle_dee",
+        "waddle_doo"
+    },
+    ["s6_6_switch"] = {
+        "blade_knight",
+        "pengy",
+        "sparky",
+        "waddle_dee",
+        "waddle_doo"
+    },
+    ["s7_1"] = {
+        "blade_knight",
+        "laser_ball",
+        "noddy",
+        "sir_kibble",
+        "waddle_dee"
+    },
+    ["s7_1_switch"] = {
+        "blade_knight",
+        "flamer",
+        "hot_head",
+        "laser_ball",
+        "noddy",
+        "sir_kibble",
+        "sparky",
+        "waddle_dee",
+        "waddle_doo"
+    },
+    ["s7_5"] = {
+        "bomber",
+        "flamer",
+        "gip",
+        "grand_wheelie",
+        "grand_wheelie_wheelie",
+        "hot_head",
+        "laser_ball",
+        "sparky"
     }
 }
 
@@ -686,57 +832,57 @@ LEVEL_NAMES = {
 
 LEVEL_ENEMIES = {
     ["l1"] = {
-        table.unpack(STAGE_ENEMIES["S1_1"]),
-        table.unpack(STAGE_ENEMIES["S1_2"]),
-        table.unpack(STAGE_ENEMIES["S1_3"]),
-        table.unpack(STAGE_ENEMIES["S1_4"])
+        table.unpack(STAGE_ENEMIES["s1_1"]),
+        table.unpack(STAGE_ENEMIES["s1_2"]),
+        table.unpack(STAGE_ENEMIES["s1_3"]),
+        table.unpack(STAGE_ENEMIES["s1_4"])
     },
     ["l2"] = {
-        table.unpack(STAGE_ENEMIES["S2_1"]),
-        table.unpack(STAGE_ENEMIES["S2_2"]),
-        table.unpack(STAGE_ENEMIES["S2_3"]),
-        table.unpack(STAGE_ENEMIES["S2_4"]),
-        table.unpack(STAGE_ENEMIES["S2_5"])
+        table.unpack(STAGE_ENEMIES["s2_1"]),
+        table.unpack(STAGE_ENEMIES["s2_2"]),
+        table.unpack(STAGE_ENEMIES["s2_3"]),
+        table.unpack(STAGE_ENEMIES["s2_4"]),
+        table.unpack(STAGE_ENEMIES["s2_5"])
     },
     ["l3"] = {
-        table.unpack(STAGE_ENEMIES["S3_1"]),
-        table.unpack(STAGE_ENEMIES["S3_2"]),
-        table.unpack(STAGE_ENEMIES["S3_3"]),
-        table.unpack(STAGE_ENEMIES["S3_4"]),
-        table.unpack(STAGE_ENEMIES["S3_5"]),
-        table.unpack(STAGE_ENEMIES["S3_6"])
+        table.unpack(STAGE_ENEMIES["s3_1"]),
+        table.unpack(STAGE_ENEMIES["s3_2"]),
+        table.unpack(STAGE_ENEMIES["s3_3"]),
+        table.unpack(STAGE_ENEMIES["s3_4"]),
+        table.unpack(STAGE_ENEMIES["s3_5"]),
+        table.unpack(STAGE_ENEMIES["s3_6"])
     },
     ["l4"] = {
-        table.unpack(STAGE_ENEMIES["S4_1"]),
-        table.unpack(STAGE_ENEMIES["S4_2"]),
-        table.unpack(STAGE_ENEMIES["S4_3"]),
-        table.unpack(STAGE_ENEMIES["S4_4"]),
-        table.unpack(STAGE_ENEMIES["S4_5"]),
-        table.unpack(STAGE_ENEMIES["S4_6"])
+        table.unpack(STAGE_ENEMIES["s4_1"]),
+        table.unpack(STAGE_ENEMIES["s4_2"]),
+        table.unpack(STAGE_ENEMIES["s4_3"]),
+        table.unpack(STAGE_ENEMIES["s4_4"]),
+        table.unpack(STAGE_ENEMIES["s4_5"]),
+        table.unpack(STAGE_ENEMIES["s4_6"])
     },
     ["l5"] = {
-        table.unpack(STAGE_ENEMIES["S5_1"]),
-        table.unpack(STAGE_ENEMIES["S5_2"]),
-        table.unpack(STAGE_ENEMIES["S5_3"]),
-        table.unpack(STAGE_ENEMIES["S5_4"]),
-        table.unpack(STAGE_ENEMIES["S5_5"]),
-        table.unpack(STAGE_ENEMIES["S5_6"])
+        table.unpack(STAGE_ENEMIES["s5_1"]),
+        table.unpack(STAGE_ENEMIES["s5_2"]),
+        table.unpack(STAGE_ENEMIES["s5_3"]),
+        table.unpack(STAGE_ENEMIES["s5_4"]),
+        table.unpack(STAGE_ENEMIES["s5_5"]),
+        table.unpack(STAGE_ENEMIES["s5_6"])
     },
     ["l6"] = {
-        table.unpack(STAGE_ENEMIES["S6_1"]),
-        table.unpack(STAGE_ENEMIES["S6_2"]),
-        table.unpack(STAGE_ENEMIES["S6_3"]),
-        table.unpack(STAGE_ENEMIES["S6_4"]),
-        table.unpack(STAGE_ENEMIES["S6_5"]),
-        table.unpack(STAGE_ENEMIES["S6_6"])
+        table.unpack(STAGE_ENEMIES["s6_1"]),
+        table.unpack(STAGE_ENEMIES["s6_2"]),
+        table.unpack(STAGE_ENEMIES["s6_3"]),
+        table.unpack(STAGE_ENEMIES["s6_4"]),
+        table.unpack(STAGE_ENEMIES["s6_5"]),
+        table.unpack(STAGE_ENEMIES["s6_6"])
     },
     ["l7"] = {
-        table.unpack(STAGE_ENEMIES["S7_1"]),
-        table.unpack(STAGE_ENEMIES["S7_2"]),
-        table.unpack(STAGE_ENEMIES["S7_3"]),
-        table.unpack(STAGE_ENEMIES["S7_4"]),
-        table.unpack(STAGE_ENEMIES["S7_5"]),
-        table.unpack(STAGE_ENEMIES["S7_6"])
+        table.unpack(STAGE_ENEMIES["s7_1"]),
+        table.unpack(STAGE_ENEMIES["s7_2"]),
+        table.unpack(STAGE_ENEMIES["s7_3"]),
+        table.unpack(STAGE_ENEMIES["s7_4"]),
+        table.unpack(STAGE_ENEMIES["s7_5"]),
+        table.unpack(STAGE_ENEMIES["s7_6"])
     }
 }
 
@@ -754,7 +900,8 @@ DEFAULT_ABILITIES = {
     ["bubbles"] = "ball",
     ["bugzzy"] = "backdrop",
     ["bugzzy_jr"] = "none",
-    ["cappy"] = "none",
+    ["cappy_cap"] = "none",
+    ["capless_cappy"] = "none",
     ["chilly"] = "freeze",
     ["coconut"] = "none",
     ["coner"] = "none",
@@ -816,7 +963,8 @@ ALL_ENEMIES = {
     "bubbles",
     "bugzzy",
     "bugzzy_jr",
-    "cappy",
+    "cappy_cap",
+    "capless_cappy",
     "chilly",
     "coconut",
     "coner",

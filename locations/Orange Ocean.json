@@ -17,7 +17,8 @@
                         "name": "1up (Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$has_ability|throw"
+                            "$has_ability|throw",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_1,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -43,7 +44,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$has_ability|wheel|hammer|stone"
+                            "$has_ability|wheel|hammer|stone",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_1_switch,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -201,7 +203,10 @@
                         "access_rules": [
                             "$has_ability|laser,$destroy_metal",
                             "$has_ability|laser,$has_ability|throw",
-                            "[advanced_logic],$has_ability|laser"
+                            "[advanced_logic],$has_ability|laser",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_3,$destroy_metal",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_3,$has_ability|throw",
+                            "enemy_ability_shuffle_on,[advanced_logic],$can_use_ufo|s6_3"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -251,7 +256,8 @@
                     {
                         "name": "1up (Beam Bomb Block 2)",
                         "access_rules": [
-                            "$has_ability|beam"
+                            "$has_ability|beam",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -261,7 +267,8 @@
                     {
                         "name": "1up (Beam Bomb Block 3)",
                         "access_rules": [
-                            "$has_ability|beam"
+                            "$has_ability|beam",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -323,7 +330,7 @@
                         "chest_opened_img": "/images/items/tomato_gray.png"
                     },
                     {
-                        "name": "1up (Cannon Pit)",
+                        "name": "1up (Cannon Fuse Pit)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -334,7 +341,8 @@
                         "name": "Big Switch",
                         "access_rules": [
                             "$light_fuse",
-                            "[$light_fuse],$has_ability|crash"
+                            "[advanced_logic],$has_ability|crash",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_5,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -383,7 +391,8 @@
                         "name": "1up (Upper Path Metal Blocks)",
                         "access_rules": [
                             "$destroy_metal",
-                            "$has_ability|ufo",
+                            "enemy_ability_shuffle_off,$can_use_ufo|vanilla",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_6",
                             "[advanced_logic]"
                         ],
                         "visibility_rules": [],
@@ -394,7 +403,9 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$has_ability|burning|ufo",
+                            "$has_ability|burning",
+                            "enemy_ability_shuffle_off,$can_use_ufo|vanilla",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s6_6_switch",
                             "[advanced_logic], $destroy_metal"
                         ],
                         "visibility_rules": [],

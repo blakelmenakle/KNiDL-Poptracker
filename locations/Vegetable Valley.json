@@ -44,7 +44,7 @@
                         "chest_opened_img": "/images/items/clear_gray.png"
                     },
                     {
-                        "name": "Tomato (Cave)",
+                        "name": "Tomato (Cave Blocks)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -52,7 +52,7 @@
                         "chest_opened_img": "/images/items/tomato_gray.png"
                     },
                     {
-                        "name": "1up (Hidden Room)",
+                        "name": "1up (Hidden Cave Room)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -128,7 +128,7 @@
                         "chest_opened_img": "/images/items/1up_gray.png"
                     },
                     {
-                        "name": "Candy (Stump)",
+                        "name": "Candy (Canopy)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,

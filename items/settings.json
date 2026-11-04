@@ -166,6 +166,44 @@
       }
     ]
   },
+  {
+    "name": "Enemy Ability Shuffle",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/enemy_ability_shuffle_off.png",
+        "codes": "enemy_ability_shuffle,enemy_ability_shuffle_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/enemy_ability_shuffle_on.png",
+        "codes": "enemy_ability_shuffle,enemy_ability_shuffle_on",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "UFO Logic", 
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/enemy_ability_shuffle_off.png",
+        "codes": "ufo_logic,ufo_logic_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/enemy_ability_shuffle_on.png",
+        "codes": "ufo_logic,ufo_logic_on",
+        "inherit_codes":false
+      }
+    ]
+  },
 	{
 		"name": "Reset Enemy Abilities",
 		"type": "progressive",

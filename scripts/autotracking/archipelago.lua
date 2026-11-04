@@ -302,6 +302,10 @@ function OnClear(slot_data)
                 local item = Tracker:FindObjectForCode("warp_station_skips")
                 item.CurrentStage = v
             end
+            if k == "enemy_ability_shuffle" then
+                local item = Tracker:FindObjectForCode("enemy_ability_shuffle")
+                item.CurrentStage = v
+            end
         end
         if REQ_PERCENT == 0 then
             local item = Tracker:FindObjectForCode("star_rod_pieces_l7")

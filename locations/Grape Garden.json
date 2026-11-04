@@ -93,7 +93,8 @@
                         "name": "1up (Cannon Reward)",
                         "access_rules": [
                             "$light_fuse",
-                            "[$light_fuse],$has_ability|crash"
+                            "[advanced_logic],$has_ability|crash",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s4_3,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -259,7 +260,7 @@
                         "chest_opened_img": "/images/items/drink_gray.png"
                     },
                     {
-                        "name": "1up (Stake)",
+                        "name": "1up (Stake Room)",
                         "access_rules": [
                             "$pound_stake"
                         ],

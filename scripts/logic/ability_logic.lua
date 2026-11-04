@@ -19,6 +19,16 @@ function has_ability(...)
     return false
 end
 
+function can_use_ufo(stage)
+    local ability = Tracker:FindObjectForCode("ufo")
+    if ability.Active then
+        if enemy_ability("ufo", table.unpack(UFO_ENEMY_STAGE_LOGIC[stage])) then
+            return true
+        end
+    end
+    return false
+end
+
 function destroy_metal()
     return has_ability("burning", "hammer", "wheel")
 end

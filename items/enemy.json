@@ -1,6 +1,6 @@
 [
   {
-    "name": "Apple",
+    "name": "Poppy Bros Jr. Apple",
     "type": "toggle",
     "img": "images/enemies/apple.png",
     "initial_active_state": true,
@@ -104,12 +104,20 @@
     "codes": "bugzzy_jr_static"
   },
   {
-    "name": "Cappy",
+    "name": "Capless Cappy",
     "type": "toggle",
-    "img": "images/enemies/cappy.png",
+    "img": "images/enemies/capless_cappy.png",
     "initial_active_state": true,
     "overlay_align": "right",
-    "codes": "cappy_static"
+    "codes": "capless_cappy_static"
+  },
+  {
+    "name": "Cappy Cap",
+    "type": "toggle",
+    "img": "images/enemies/cappy_cap.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "cappy_cap_static"
   },
   {
     "name": "Chilly",

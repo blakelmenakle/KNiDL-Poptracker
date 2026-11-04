@@ -126,7 +126,7 @@
                         "chest_opened_img": "/images/items/1up_gray.png"
                     },
                     {
-                        "name": "Pep Drink (Spike Descent)",
+                        "name": "Pep Drink (Spike Shaft)",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -159,7 +159,8 @@
                         "name": "1up (Spike Tunnel)",
                         "access_rules": [
                             "[$has_ability|burning]",
-                            "[advanced_logic],[$has_ability|tornado]"
+                            "[advanced_logic],[$has_ability|tornado]",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s5_4,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -232,9 +233,17 @@
                         "name": "Big Switch",
                         "access_rules": [
                             "$has_ability|burning",
-                            "$light_fuse,$has_ability|hi_jump",
-                            "$has_ability|fire,$has_ability|spark|sword|freeze|needle|hammer|throw",
-                            "[advanced_logic],$has_ability|fire,$has_ability|parasol"
+                            "enemy_ability_shuffle_off,$light_fuse,$has_ability|hi_jump",
+                            "enemy_ability_shuffle_off,$has_ability|fire,$has_ability|spark|sword|freeze|needle|hammer|throw",
+                            "[advanced_logic],enemy_ability_shuffle_off,$has_ability|fire,$has_ability|parasol",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s5_5,[ufo_logic_on]",
+                            "enemy_ability_shuffle_on,hi_jump,$light_fuse,$enemy_ability|hi_jump|hot_head|starman",
+                            "enemy_ability_shuffle_on,fire,$enemy_ability|fire|hot_head|starman,$has_ability|spark|sword|freeze|needle|hammer|throw",
+                            "enemy_ability_shuffle_on,laser,$enemy_ability|laser|hot_head|starman,$has_ability|spark|sword|freeze|needle|hammer|throw",
+                            "enemy_ability_shuffle_on,crash,$enemy_ability|crash|hot_head|starman,$has_ability|spark|sword|freeze|needle|hammer|throw",
+                            "enemy_ability_shuffle_on,[advanced_logic],fire,$enemy_ability|fire|hot_head|starman,$has_ability|parasol",
+                            "enemy_ability_shuffle_on,[advanced_logic],laser,$enemy_ability|laser|hot_head|starman,$has_ability|parasol",
+                            "enemy_ability_shuffle_on,[advanced_logic],crash,$enemy_ability|crash|hot_head|starman,$has_ability|parasol"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -282,7 +291,8 @@
                     {
                         "name": "1up (Big Switch Room Left)",
                         "access_rules": [
-                            "$has_ability|hammer"
+                            "$has_ability|hammer",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s5_6,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
@@ -292,7 +302,8 @@
                     {
                         "name": "Big Switch",
                         "access_rules": [
-                            "$has_ability|hammer"
+                            "$has_ability|hammer",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s5_6,[ufo_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,

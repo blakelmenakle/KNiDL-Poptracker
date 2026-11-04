@@ -142,6 +142,9 @@
                             ],
                             [
                                 "warp_station_skips"
+                            ],
+                            [
+                                "enemy_ability_shuffle"
                             ]
                         ]
                     }
@@ -229,8 +232,6 @@
                         "item_width": 48,
                         "rows": [
                             [
-                                "apple_static",
-                                "apple",
                                 "blade_knight_static",
                                 "blade_knight",
                                 "blipper_static",
@@ -243,8 +244,10 @@
                                 "broom_hatter",
                                 "bubbles_static",
                                 "bubbles",
-                                "cappy_static",
-                                "cappy"
+                                "capless_cappy_static",
+                                "capless_cappy",
+                                "cappy_cap_static",
+                                "cappy_cap"
                             ],
                             [
                                 "chilly_static",
@@ -260,11 +263,11 @@
                                 "gip_static",
                                 "gip",
                                 "glunk_static",
-                                "glunk"
+                                "glunk",
+                                "hot_head_static",
+                                "hot_head"
                             ],
                             [
-                                "hot_head_static",
-                                "hot_head",
                                 "kabu_static",
                                 "kabu",
                                 "needlous_static",
@@ -273,20 +276,16 @@
                                 "noddy",
                                 "parasol_enemy_static",
                                 "parasol_enemy",
-                                "parasol_waddle_dee_static",
-                                "parasol_waddle_dee",
-                                "parasol_waddle_doo_static",
-                                "parasol_waddle_doo",
                                 "pengy_static",
-                                "pengy"
-                            ],
-                            [
+                                "pengy",
                                 "poppy_bros_jr_static",
                                 "poppy_bros_jr",
+                                "apple_static",
+                                "apple",
                                 "rocky_static",
-                                "rocky",
-                                "shotzo_static",
-                                "shotzo",
+                                "rocky"
+                            ],
+                            [
                                 "sir_kibble_static",
                                 "sir_kibble",
                                 "slippy_static",
@@ -296,15 +295,15 @@
                                 "squishy_static",
                                 "squishy",
                                 "starman_static",
-                                "starman"
-                            ],
-                            [
+                                "starman",
                                 "sword_knight_static",
                                 "sword_knight",
                                 "twister_static",
                                 "twister",
                                 "twizzy_static",
-                                "twizzy",
+                                "twizzy"
+                            ],
+                            [
                                 "ufo_enemy_static",
                                 "ufo_enemy",
                                 "waddle_dee_static",
@@ -312,9 +311,7 @@
                                 "waddle_doo_static",
                                 "waddle_doo",
                                 "wheelie_static",
-                                "wheelie"
-                            ],
-                            [
+                                "wheelie",
                                 "axe_knight_static",
                                 "axe_knight",
                                 "javelin_knight_static",

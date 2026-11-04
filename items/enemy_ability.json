@@ -1,6 +1,6 @@
 [
   {
-    "name": "Apple Ability",
+    "name": "Poppy Bros Jr. Apple Ability",
     "type": "progressive",
     "allow_disabled":false,
     "loop":true,
@@ -1430,12 +1430,122 @@
     ]
   },
   {
-    "name": "Cappy Ability",
+    "name": "Capless Cappy Ability",
     "type": "progressive",
     "allow_disabled":false,
     "loop":true,
     "initial_stage_idx": 0,
-    "codes": "cappy",
+    "codes": "capless_cappy",
+    "stages": [
+      {
+        "img": "images/items/normal.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/backdrop.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ball.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/beam.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/burning.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/crash.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/cutter.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/fire.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/freeze.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/hammer.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/hi-jump.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ice.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/laser.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/light.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/mike.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/needle.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/parasol.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sleep.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/spark.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/stone.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/sword.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/throw.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/tornado.png",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/ufo.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/wheel.png",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Cappy Cap Ability",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "codes": "cappy_cap",
     "stages": [
       {
         "img": "images/items/normal.png",
