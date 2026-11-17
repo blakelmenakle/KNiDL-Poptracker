@@ -5,63 +5,470 @@
             {
                 "title": "Vegetable Valley",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Vegetable Valley"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vegetable Valley"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-4"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Ice Cream Island",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Ice Cream Island"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Ice Cream Island"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-5"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Butter Building",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Butter Building"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Butter Building"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Grape Garden",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Grape Garden"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Grape Garden"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Yogurt Yard",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Yogurt Yard"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Yogurt Yard"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Orange Ocean",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Orange Ocean"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Orange Ocean"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Rainbow Resort",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Rainbow Resort"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Rainbow Resort"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -104,65 +511,503 @@
             {
                 "title": "Vegetable Valley",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Vegetable Valley"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vegetable Valley"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "1-4"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Ice Cream Island",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Ice Cream Island"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Ice Cream Island"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-5"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Butter Building",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Butter Building"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Butter Building"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "3-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Grape Garden",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Grape Garden"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Grape Garden"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "4-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Yogurt Yard",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Yogurt Yard"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Yogurt Yard"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Orange Ocean",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Orange Ocean"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Orange Ocean"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "6-6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Rainbow Resort",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Rainbow Resort"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stage Select",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                "Rainbow Resort"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7-6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "7-6"
+                                ]
+                            }
+                        }
                     ]
                 }
+            },
+            {
+                "title": "Enemy Abilities",
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "top",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Ability Auto-Fill Options",
+                                "dock": "top",
+                                "margin": "3,3,3,3",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "enemy_ability_settings"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Enemy Abilities",
+                                "dock": "top",
+                                "margin": "3,3,3,3",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "enemy_abilities"
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

@@ -1,0 +1,479 @@
+[
+    {
+        "name": "Ice Cream Island",
+        "children": [
+            {
+                "name": "Ice Cream Island 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Ice Cream Island/Ice Cream Island 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 943,
+                        "y": 427,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 1",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Cave)",
+                        "ref": "Ice Cream Island/Ice Cream Island 1/Pep Drink (Cave)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 1156,
+                        "y": 511,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Ice Cream Island/Ice Cream Island 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 1507,
+                        "y": 507,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Wheelie Road)",
+                        "ref": "Ice Cream Island/Ice Cream Island 2/Pep Drink (Wheelie Road)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 562,
+                        "y": 640,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Before Goal)",
+                        "ref": "Ice Cream Island/Ice Cream Island 2/Pep Drink (Before Goal)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 1402,
+                        "y": 400,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 2",
+                "sections": [
+                    {
+                        "name": "1up (Under Goal)",
+                        "ref": "Ice Cream Island/Ice Cream Island 2/1up (Under Goal)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 1457,
+                        "y": 641,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Ice Cream Island/Ice Cream Island 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 1232,
+                        "y": 108,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3",
+                "sections": [
+                    {
+                        "name": "Tomato (UFO Room)",
+                        "ref": "Ice Cream Island/Ice Cream Island 3/Tomato (UFO Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 208,
+                        "y": 432,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3",
+                "sections": [
+                    {
+                        "name": "1up (Cave Ceiling Passage)",
+                        "ref": "Ice Cream Island/Ice Cream Island 3/1up (Cave Ceiling Passage)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 656,
+                        "y": 432,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Tide Pool)",
+                        "ref": "Ice Cream Island/Ice Cream Island 3/Pep Drink (Tide Pool)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 960,
+                        "y": 144,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 1248,
+                        "y": 658,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "1up (Gip Room)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/1up (Gip Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 936,
+                        "y": 455,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Tomato (Block Cage)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Tomato (Block Cage)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 799,
+                        "y": 32,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Laser Room 1)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Pep Drink (Laser Room 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 121,
+                        "y": 375,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Laser Room 2)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Pep Drink (Laser Room 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 242,
+                        "y": 359,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Laser Room 3)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Pep Drink (Laser Room 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 401,
+                        "y": 375,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "1up (Laser Room 4)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/1up (Laser Room 4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 768,
+                        "y": 358,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Sand Detour)",
+                        "ref": "Ice Cream Island/Ice Cream Island 4/Pep Drink (Sand Detour)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 672,
+                        "y": 254,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 1049,
+                        "y": 794,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Forest Far Right)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/Pep Drink (Forest Far Right)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 1256,
+                        "y": 144,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Gordo Pond)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/Pep Drink (Gordo Pond)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 407,
+                        "y": 814,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "1up (Metal Blocks 1)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/1up (Metal Blocks 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 456,
+                        "y": 591,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "1up (Metal Blocks 2)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/1up (Metal Blocks 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 704,
+                        "y": 607,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "1up (Gordo Guarded)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/1up (Gordo Guarded)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 1071,
+                        "y": 624,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Checkerboard Room)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/Pep Drink (Checkerboard Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 1317,
+                        "y": 149,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Ice Cream Island 5",
+                "sections": [
+                    {
+                        "name": "Tomato (Poppy Bros. Jr.)",
+                        "ref": "Ice Cream Island/Ice Cream Island 5/Tomato (Poppy Bros. Jr.)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5",
+                        "x": 732,
+                        "y": 783,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l2"
+        ],
+        "overlay_background": "#000000"
+    }
+]

@@ -1,0 +1,461 @@
+[
+    {
+        "name": "Grape Garden",
+        "children": [
+            {
+                "name": "Grape Garden 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 730,
+                        "y": 475,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 1",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Grape Garden/Grape Garden 1/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 1148,
+                        "y": 66,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 615,
+                        "y": 480,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Sqishy Room)",
+                        "ref": "Grape Garden/Grape Garden 2/Tomato (Sqishy Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 1242,
+                        "y": 680,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 2",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Spiky Hallway)",
+                        "ref": "Grape Garden/Grape Garden 2/Pep Drink (Spiky Hallway)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 509,
+                        "y": 648,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-3",
+                        "x": 1724,
+                        "y": 499,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Engine Room)",
+                        "ref": "Grape Garden/Grape Garden 3/Pep Drink (Engine Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-3",
+                        "x": 1243,
+                        "y": 475,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward)",
+                        "ref": "Grape Garden/Grape Garden 3/1up (Cannon Reward)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-3",
+                        "x": 578,
+                        "y": 717,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Exploding Kabu Room)",
+                        "ref": "Grape Garden/Grape Garden 3/Tomato (Exploding Kabu Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-3",
+                        "x": 984,
+                        "y": 701,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 3",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Grape Garden/Grape Garden 3/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-3",
+                        "x": 1183,
+                        "y": 688,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-4",
+                        "x": 1211,
+                        "y": 575,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 4",
+                "sections": [
+                    {
+                        "name": "1up (Wheel Race)",
+                        "ref": "Grape Garden/Grape Garden 4/1up (Wheel Race)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-4",
+                        "x": 1284,
+                        "y": 429,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 5/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 845,
+                        "y": 842,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Candy (First Room)",
+                        "ref": "Grape Garden/Grape Garden 5/Candy (First Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 154,
+                        "y": 237,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Tomato (Bomb Pillar)",
+                        "ref": "Grape Garden/Grape Garden 5/Tomato (Bomb Pillar)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 812,
+                        "y": 303,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Hidden Room)",
+                        "ref": "Grape Garden/Grape Garden 5/Pep Drink (Hidden Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 1449,
+                        "y": 393,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "1up (Hidden Room Underside)",
+                        "ref": "Grape Garden/Grape Garden 5/1up (Hidden Room Underside)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 1175,
+                        "y": 653,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "1up (Burning Room Bottom)",
+                        "ref": "Grape Garden/Grape Garden 5/1up (Burning Room Bottom)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 621,
+                        "y": 863,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "1up (Burning Room Top)",
+                        "ref": "Grape Garden/Grape Garden 5/1up (Burning Room Top)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 859,
+                        "y": 606,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Burning Room Middle)",
+                        "ref": "Grape Garden/Grape Garden 5/Pep Drink (Burning Room Middle)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 732,
+                        "y": 734,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Grape Garden/Grape Garden 6/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6",
+                        "x": 944,
+                        "y": 76,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Poolside)",
+                        "ref": "Grape Garden/Grape Garden 6/Pep Drink (Poolside)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6",
+                        "x": 481,
+                        "y": 225,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "1up (Stake Room)",
+                        "ref": "Grape Garden/Grape Garden 6/1up (Stake Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6",
+                        "x": 560,
+                        "y": 161,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Near Goal)",
+                        "ref": "Grape Garden/Grape Garden 6/Pep Drink (Near Goal)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6",
+                        "x": 865,
+                        "y": 64,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Grape Garden 6",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Grape Garden/Grape Garden 6/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6",
+                        "x": 161,
+                        "y": 444,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l4"
+        ],
+        "overlay_background": "#000000"
+    }
+]

@@ -1,0 +1,659 @@
+[
+    {
+        "name": "Orange Ocean",
+        "children": [
+            {
+                "name": "Orange Ocean 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-1",
+                        "x": 969,
+                        "y": 650,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 1",
+                "sections": [
+                    {
+                        "name": "1up (Metal Blocks)",
+                        "ref": "Orange Ocean/Orange Ocean 1/1up (Metal Blocks)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-1",
+                        "x": 745,
+                        "y": 86,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 1",
+                "sections": [
+                    {
+                        "name": "Tomato (Before Big Switch Left)",
+                        "ref": "Orange Ocean/Orange Ocean 1/Tomato (Before Big Switch Left)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-1",
+                        "x": 811,
+                        "y": 292,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 1",
+                "sections": [
+                    {
+                        "name": "1up (Before Big Switch Right)",
+                        "ref": "Orange Ocean/Orange Ocean 1/1up (Before Big Switch Right)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-1",
+                        "x": 971,
+                        "y": 292,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 1",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 1/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-1",
+                        "x": 1147,
+                        "y": 261,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2",
+                        "x": 973,
+                        "y": 617,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 2",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Bomb Block)",
+                        "ref": "Orange Ocean/Orange Ocean 2/Pep Drink (Bomb Block)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2",
+                        "x": 688,
+                        "y": 64,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 2",
+                "sections": [
+                    {
+                        "name": "1up (Hidden Rocky Room)",
+                        "ref": "Orange Ocean/Orange Ocean 2/1up (Hidden Rocky Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2",
+                        "x": 688,
+                        "y": 31,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Poppy Bros. Jr.)",
+                        "ref": "Orange Ocean/Orange Ocean 2/Tomato (Poppy Bros. Jr.)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2",
+                        "x": 1158,
+                        "y": 543,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 2",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 2/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2",
+                        "x": 901,
+                        "y": 242,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 1754,
+                        "y": 664,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Ladder)",
+                        "ref": "Orange Ocean/Orange Ocean 3/Pep Drink (Ladder)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 625,
+                        "y": 144,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Bonkers Room)",
+                        "ref": "Orange Ocean/Orange Ocean 3/Pep Drink (Bonkers Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 48,
+                        "y": 460,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "1up (Man Overboard!)",
+                        "ref": "Orange Ocean/Orange Ocean 3/1up (Man Overboard!)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 144,
+                        "y": 766,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Laser Ball Room)",
+                        "ref": "Orange Ocean/Orange Ocean 3/Tomato (Laser Ball Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 638,
+                        "y": 670,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (High Up After Bonkers)",
+                        "ref": "Orange Ocean/Orange Ocean 3/Pep Drink (High Up After Bonkers)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 560,
+                        "y": 427,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "1up (Right Window Secret)",
+                        "ref": "Orange Ocean/Orange Ocean 3/1up (Right Window Secret)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 817,
+                        "y": 474,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "1up (Left Window Secret)",
+                        "ref": "Orange Ocean/Orange Ocean 3/1up (Left Window Secret)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 752,
+                        "y": 474,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 3",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 3/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3",
+                        "x": 897,
+                        "y": 640,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 1265,
+                        "y": 614,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Flooded Alcove)",
+                        "ref": "Orange Ocean/Orange Ocean 4/Pep Drink (Flooded Alcove)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 1104,
+                        "y": 108,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "1up (Beam Bomb Block 1)",
+                        "ref": "Orange Ocean/Orange Ocean 4/1up (Beam Bomb Block 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 952,
+                        "y": 268,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "1up (Beam Bomb Block 2)",
+                        "ref": "Orange Ocean/Orange Ocean 4/1up (Beam Bomb Block 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 984,
+                        "y": 268,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "1up (Beam Bomb Block 3)",
+                        "ref": "Orange Ocean/Orange Ocean 4/1up (Beam Bomb Block 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 1016,
+                        "y": 268,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "1up (Cave Roundabout)",
+                        "ref": "Orange Ocean/Orange Ocean 4/1up (Cave Roundabout)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 856,
+                        "y": 173,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Below Bomber)",
+                        "ref": "Orange Ocean/Orange Ocean 4/Pep Drink (Below Bomber)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 1273,
+                        "y": 124,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 4",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 4/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4",
+                        "x": 137,
+                        "y": 504,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 5/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-5",
+                        "x": 1490,
+                        "y": 421,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 5",
+                "sections": [
+                    {
+                        "name": "Tomato (Cliff Top)",
+                        "ref": "Orange Ocean/Orange Ocean 5/Tomato (Cliff Top)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-5",
+                        "x": 489,
+                        "y": 138,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Fuse Pit)",
+                        "ref": "Orange Ocean/Orange Ocean 5/1up (Cannon Fuse Pit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-5",
+                        "x": 962,
+                        "y": 683,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 5",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 5/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-5",
+                        "x": 1492,
+                        "y": 228,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Orange Ocean/Orange Ocean 6/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-6",
+                        "x": 1502,
+                        "y": 593,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 6",
+                "sections": [
+                    {
+                        "name": "Tomato (UFO Room)",
+                        "ref": "Orange Ocean/Orange Ocean 6/Tomato (UFO Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-6",
+                        "x": 1591,
+                        "y": 144,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 6",
+                "sections": [
+                    {
+                        "name": "Candy (After Poppy Bros. Sr.)",
+                        "ref": "Orange Ocean/Orange Ocean 6/Candy (After Poppy Bros. Sr.)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-6",
+                        "x": 1735,
+                        "y": 265,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 6",
+                "sections": [
+                    {
+                        "name": "1up (Upper Path Metal Blocks)",
+                        "ref": "Orange Ocean/Orange Ocean 6/1up (Upper Path Metal Blocks)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-6",
+                        "x": 1248,
+                        "y": 458,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Orange Ocean 6",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Orange Ocean/Orange Ocean 6/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-6",
+                        "x": 905,
+                        "y": 282,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l6"
+        ],
+        "overlay_background": "#000000"
+    }
+]

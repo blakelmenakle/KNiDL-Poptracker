@@ -106,6 +106,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -215,6 +219,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -326,6 +334,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -435,6 +447,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -546,6 +562,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -655,6 +675,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -766,6 +790,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -875,6 +903,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -986,6 +1018,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -1095,6 +1131,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -1206,6 +1246,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -1315,6 +1359,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -1426,6 +1474,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -1535,6 +1587,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -1646,6 +1702,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -1755,6 +1815,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -1866,6 +1930,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -1975,6 +2043,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -2086,6 +2158,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -2195,6 +2271,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -2306,6 +2386,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -2415,6 +2499,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -2526,6 +2614,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -2635,6 +2727,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -2746,6 +2842,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -2855,6 +2955,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -2966,6 +3070,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -3075,6 +3183,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -3186,6 +3298,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -3295,6 +3411,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -3406,6 +3526,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -3515,6 +3639,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -3626,6 +3754,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -3735,6 +3867,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -3846,6 +3982,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -3955,6 +4095,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -4066,6 +4210,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -4175,6 +4323,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -4286,6 +4438,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -4395,6 +4551,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -4506,6 +4666,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -4615,6 +4779,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -4726,6 +4894,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -4835,6 +5007,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -4946,6 +5122,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -5055,6 +5235,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -5166,6 +5350,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -5275,6 +5463,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -5386,6 +5578,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -5495,6 +5691,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -5606,6 +5806,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -5715,6 +5919,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -5826,6 +6034,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -5935,6 +6147,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -6046,6 +6262,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -6155,6 +6375,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -6266,6 +6490,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -6375,6 +6603,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]
@@ -6486,6 +6718,10 @@
       {
         "img": "images/items/wheel.png",
         "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
+        "inherit_codes":false
       }
     ]
   },
@@ -6595,6 +6831,10 @@
       },
       {
         "img": "images/items/wheel.png",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/items/unknown.png",
         "inherit_codes":false
       }
     ]

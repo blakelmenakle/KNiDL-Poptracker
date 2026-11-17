@@ -10,6 +10,15 @@ function enemy_ability(ability_name, ...)
     return false
 end
 
+function enemy_ability_check(enemy)
+    local ability_number = Tracker:FindObjectForCode(enemy).CurrentStage
+    if ability_number == 0 or ability_number == 25 then
+        return true
+    end
+    local ability = ABILITY_CHECK[ability_number]
+    return Tracker:FindObjectForCode(ability).Active
+end
+
 function stage_ability(ability_name, stage)
     local enemy_list = STAGE_ENEMIES[stage]
     local ability = ABILITY_LOOKUP[ability_name]

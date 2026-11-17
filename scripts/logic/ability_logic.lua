@@ -54,7 +54,7 @@ function ability_clear()
 	if Tracker:FindObjectForCode("clear_abilities").CurrentStage == 1 then
 		local enemyList = ALL_ENEMIES
 		for _, enemy in ipairs(enemyList) do
-			Tracker:FindObjectForCode(enemy).CurrentStage = 0
+			Tracker:FindObjectForCode(enemy).CurrentStage = 25
 		end
     Tracker:FindObjectForCode("clear_abilities").CurrentStage = 0
 	end

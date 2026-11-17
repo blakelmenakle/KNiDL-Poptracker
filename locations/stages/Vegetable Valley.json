@@ -1,0 +1,209 @@
+[
+    {
+        "name": "Vegetable Valley",
+        "children": [
+            {
+                "name": "Vegetable Valley 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Vegetable Valley/Vegetable Valley 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-1",
+                        "x": 976,
+                        "y": 413,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 1",
+                "sections": [
+                    {
+                        "name": "Tomato (Waterfall)",
+                        "ref": "Vegetable Valley/Vegetable Valley 1/Tomato (Waterfall)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-1",
+                        "x": 545,
+                        "y": 497,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Vegetable Valley/Vegetable Valley 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-2",
+                        "x": 1232,
+                        "y": 252,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Cave Blocks)",
+                        "ref": "Vegetable Valley/Vegetable Valley 2/Tomato (Cave Blocks)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-2",
+                        "x": 993,
+                        "y": 464,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 2",
+                "sections": [
+                    {
+                        "name": "1up (Hidden Cave Room)",
+                        "ref": "Vegetable Valley/Vegetable Valley 2/1up (Hidden Cave Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-2",
+                        "x": 1072,
+                        "y": 338,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Vegetable Valley/Vegetable Valley 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-3",
+                        "x": 1022,
+                        "y": 500,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Hotheads)",
+                        "ref": "Vegetable Valley/Vegetable Valley 3/Tomato (Hotheads)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-3",
+                        "x": 814,
+                        "y": 536,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Vegetable Valley/Vegetable Valley 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-4",
+                        "x": 1248,
+                        "y": 145,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Platform)",
+                        "ref": "Vegetable Valley/Vegetable Valley 4/Pep Drink (Platform)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-4",
+                        "x": 848,
+                        "y": 250,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4",
+                "sections": [
+                    {
+                        "name": "1up (Shotzos)",
+                        "ref": "Vegetable Valley/Vegetable Valley 4/1up (Shotzos)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-4",
+                        "x": 962,
+                        "y": 69,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Vegetable Valley 4",
+                "sections": [
+                    {
+                        "name": "Candy (Canopy)",
+                        "ref": "Vegetable Valley/Vegetable Valley 4/Candy (Canopy)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-4",
+                        "x": 368,
+                        "y": 116,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l1"
+        ],
+        "overlay_background": "#000000"
+    }
+]

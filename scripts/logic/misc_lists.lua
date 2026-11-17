@@ -23,7 +23,35 @@ ABILITY_LOOKUP = {
     ["throw"] = 21,
     ["tornado"] = 22,
     ["ufo"] = 23,
-    ["wheel"] = 24,
+    ["wheel"] = 24
+}
+
+ABILITY_CHECK = {
+    [0] = "none",
+    [1] = "backdrop",
+    [2] = "ball",
+    [3] = "beam",
+    [4] = "burning",
+    [5] = "crash",
+    [6] = "cutter",
+    [7] = "fire",
+    [8] = "freeze",
+    [9] = "hammer",
+    [10] = "hi_jump",
+    [11] = "ice",
+    [12] = "laser",
+    [13] = "light",
+    [14] = "mike",
+    [15] = "needle",
+    [16] = "parasol",
+    [17] = "sleep",
+    [18] = "spark",
+    [19] = "stone",
+    [20] = "sword",
+    [21] = "throw",
+    [22] = "tornado",
+    [23] = "ufo",
+    [24] = "wheel"
 }
 
 STAGE_ENEMIES = {

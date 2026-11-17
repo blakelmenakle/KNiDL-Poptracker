@@ -1,0 +1,551 @@
+[
+    {
+        "name": "Butter Building",
+        "children": [
+            {
+                "name": "Butter Building 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-1",
+                        "x": 80,
+                        "y": 100,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 1",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Big Switch Room)",
+                        "ref": "Butter Building/Butter Building 1/Pep Drink (Big Switch Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-1",
+                        "x": 717,
+                        "y": 240,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 1",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Butter Building/Butter Building 1/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-1",
+                        "x": 653,
+                        "y": 131,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 1289,
+                        "y": 730,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Poppy Bros. Jr.)",
+                        "ref": "Butter Building/Butter Building 2/Tomato (Poppy Bros. Jr.)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 117,
+                        "y": 494,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Fire Escape)",
+                        "ref": "Butter Building/Butter Building 2/Pep Drink (Fire Escape)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 278,
+                        "y": 577,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Before Bugsy Left)",
+                        "ref": "Butter Building/Butter Building 2/Tomato (Before Bugsy Left)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 804,
+                        "y": 475,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 2",
+                "sections": [
+                    {
+                        "name": "1up (Before Bugsy Right",
+                        "ref": "Butter Building/Butter Building 2/1up (Before Bugsy Right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 981,
+                        "y": 492,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-3",
+                        "x": 137,
+                        "y": 421,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Parallel Rooms)",
+                        "ref": "Butter Building/Butter Building 3/Tomato (Parallel Rooms)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-3",
+                        "x": 233,
+                        "y": 539,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 3",
+                "sections": [
+                    {
+                        "name": "1up (Spikes Room)",
+                        "ref": "Butter Building/Butter Building 3/1up (Spikes Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-3",
+                        "x": 650,
+                        "y": 322,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-4",
+                        "x": 316,
+                        "y": 90,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4",
+                "sections": [
+                    {
+                        "name": "1up (Updraft Room 1)",
+                        "ref": "Butter Building/Butter Building 4/1up (Updraft Room 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-4",
+                        "x": 412,
+                        "y": 432,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4",
+                "sections": [
+                    {
+                        "name": "Tomato (Updraft Room 2)",
+                        "ref": "Butter Building/Butter Building 4/Tomato (Updraft Room 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-4",
+                        "x": 348,
+                        "y": 304,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 4",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Updraft Room 3)",
+                        "ref": "Butter Building/Butter Building 4/Pep Drink (Updraft Room 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-4",
+                        "x": 412,
+                        "y": 240,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 5/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 297,
+                        "y": 397,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "Candy (First Room)",
+                        "ref": "Butter Building/Butter Building 5/Candy (First Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 455,
+                        "y": 665,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Outside Wall)",
+                        "ref": "Butter Building/Butter Building 5/Pep Drink (Outside Wall)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 193,
+                        "y": 352,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "Tomato (Stake Room 1)",
+                        "ref": "Butter Building/Butter Building 5/Tomato (Stake Room 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 456,
+                        "y": 384,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 5",
+                "sections": [
+                    {
+                        "name": "1up (Stake Room 2)",
+                        "ref": "Butter Building/Butter Building 5/1up (Stake Room 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 489,
+                        "y": 384,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Butter Building/Butter Building 6/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 1158,
+                        "y": 93,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Bomber Room)",
+                        "ref": "Butter Building/Butter Building 6/Pep Drink (Bomber Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 635,
+                        "y": 833,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Tomato (Ladder Room)",
+                        "ref": "Butter Building/Butter Building 6/Tomato (Ladder Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 584,
+                        "y": 581,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Defog Room)",
+                        "ref": "Butter Building/Butter Building 6/Pep Drink (Defog Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 730,
+                        "y": 313,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Before Big Switch)",
+                        "ref": "Butter Building/Butter Building 6/Pep Drink (Before Big Switch)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 460,
+                        "y": 418,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "1up (Dark Room)",
+                        "ref": "Butter Building/Butter Building 6/1up (Dark Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 410,
+                        "y": 27,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Hi Jump Room Mid Right)",
+                        "ref": "Butter Building/Butter Building 6/Pep Drink (Hi Jump Room Mid Right)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 1222,
+                        "y": 595,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Tomato (Hi Jump Room End Left)",
+                        "ref": "Butter Building/Butter Building 6/Tomato (Hi Jump Room End Left)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 1078,
+                        "y": 194,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "1up (Hi Jump Room End Right)",
+                        "ref": "Butter Building/Butter Building 6/1up (Hi Jump Room End Right)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 1222,
+                        "y": 194,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Butter Building 6",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Butter Building/Butter Building 6/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 395,
+                        "y": 300,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l3"
+        ],
+        "overlay_background": "#000000"
+    }
+]

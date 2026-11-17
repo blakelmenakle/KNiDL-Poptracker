@@ -1,0 +1,659 @@
+[
+    {
+        "name": "Rainbow Resort",
+        "children": [
+            {
+                "name": "Rainbow Resort 1",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 1/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-1",
+                        "x": 976,
+                        "y": 476,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 1",
+                "sections": [
+                    {
+                        "name": "1up (Laser Room)",
+                        "ref": "Rainbow Resort/Rainbow Resort 1/1up (Laser Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-1",
+                        "x": 929,
+                        "y": 17,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 1",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Block Tunnel)",
+                        "ref": "Rainbow Resort/Rainbow Resort 1/Pep Drink (Block Tunnel)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-1",
+                        "x": 225,
+                        "y": 224,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 1",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Rainbow Resort/Rainbow Resort 1/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-1",
+                        "x": 888,
+                        "y": 291,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1203,
+                        "y": 316,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "1up (Hard Midboss Reward 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/1up (Hard Midboss Reward 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1038,
+                        "y": 81,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "1up (Hard Midboss Reward 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/1up (Hard Midboss Reward 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1054,
+                        "y": 129,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "1up (Hard Midboss Reward 3)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/1up (Hard Midboss Reward 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1102,
+                        "y": 112,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "1up (Hard Midboss Reward 4)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/1up (Hard Midboss Reward 4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1135,
+                        "y": 49,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "1up (Hard Midboss Reward 5)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/1up (Hard Midboss Reward 5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1198,
+                        "y": 97,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 2",
+                "sections": [
+                    {
+                        "name": "Tomato (Near Goal)",
+                        "ref": "Rainbow Resort/Rainbow Resort 2/Tomato (Near Goal)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-2",
+                        "x": 1076,
+                        "y": 302,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 1186,
+                        "y": 285,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Icy Climb)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Tomato (Icy Climb)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 65,
+                        "y": 64,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Candy (Icy Path)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Candy (Icy Path)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 528,
+                        "y": 79,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "1up (Slope Shotzo)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/1up (Slope Shotzo)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 738,
+                        "y": 225,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Shotzo Gauntlet 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Pep Drink (Shotzo Gauntlet 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 929,
+                        "y": 336,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Shotzo Gauntlet 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Pep Drink (Shotzo Gauntlet 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 993,
+                        "y": 336,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "Tomato (Shotzo Gauntlet 3)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/Tomato (Shotzo Gauntlet 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 1057,
+                        "y": 336,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 3",
+                "sections": [
+                    {
+                        "name": "1up (Shotzo Gauntlet 4)",
+                        "ref": "Rainbow Resort/Rainbow Resort 3/1up (Shotzo Gauntlet 4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-3",
+                        "x": 1121,
+                        "y": 336,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 4",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 4/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-4",
+                        "x": 1216,
+                        "y": 52,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 4",
+                "sections": [
+                    {
+                        "name": "1up (Behind Gordo)",
+                        "ref": "Rainbow Resort/Rainbow Resort 4/1up (Behind Gordo)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-4",
+                        "x": 1152,
+                        "y": 265,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 733,
+                        "y": 455,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Cannon Room)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/Pep Drink (Cannon Room)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 429,
+                        "y": 413,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/1up (Cannon Reward 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 870,
+                        "y": 394,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/1up (Cannon Reward 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 886,
+                        "y": 378,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward 3)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/1up (Cannon Reward 3)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 902,
+                        "y": 410,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward 4)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/1up (Cannon Reward 4)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 918,
+                        "y": 378,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 5",
+                "sections": [
+                    {
+                        "name": "1up (Cannon Reward 5)",
+                        "ref": "Rainbow Resort/Rainbow Resort 5/1up (Cannon Reward 5)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-5",
+                        "x": 934,
+                        "y": 394,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Level Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1426,
+                        "y": 288,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Tomato (Castle Lololo 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Tomato (Castle Lololo 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1237,
+                        "y": 250,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "1up (Castle Lololo 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/1up (Castle Lololo 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1220,
+                        "y": 284,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Pep Drink (Float Islands 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Pep Drink (Float Islands 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 61,
+                        "y": 718,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Tomato (Float Islands 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Tomato (Float Islands 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 429,
+                        "y": 606,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Tomato (Moon Room 1)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Tomato (Moon Room 1)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1566,
+                        "y": 547,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "1up (Moon Room 2)",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/1up (Moon Room 2)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1758,
+                        "y": 547,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            },
+            {
+                "name": "Rainbow Resort 6",
+                "sections": [
+                    {
+                        "name": "Big Switch",
+                        "ref": "Rainbow Resort/Rainbow Resort 6/Big Switch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "7-6",
+                        "x": 1679,
+                        "y": 532,
+                        "shape": "rect"
+                    }
+                ],
+                "overlay_background": "#000000"
+            }
+        ],
+        "access_rules": [
+            "$level_access|l7"
+        ],
+        "overlay_background": "#000000"
+    }
+]

@@ -40,5 +40,239 @@
         "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/Yogurt Yard.png"
+    },
+    {
+        "name": "1-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/1-1.png"
+    },
+    {
+        "name": "1-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/1-2.png"
+    },
+    {
+        "name": "1-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/1-3.png"
+    },
+    {
+        "name": "1-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/1-4.png"
+    },
+    {
+        "name": "2-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/2-1.png"
+    },
+    {
+        "name": "2-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/2-2.png"
+    },
+    {
+        "name": "2-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/2-3.png"
+    },
+    {
+        "name": "2-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/2-4.png"
+    },
+    {
+        "name": "2-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/2-5.png"
+    },
+    {
+        "name": "3-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-1.png"
+    },
+    {
+        "name": "3-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-2.png"
+    },
+    {
+        "name": "3-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-3.png"
+    },
+    {
+        "name": "3-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-4.png"
+    },
+    {
+        "name": "3-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-5.png"
+    },
+    {
+        "name": "3-6",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/3-6.png"
+    },
+    {
+        "name": "4-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-1.png"
+    },
+    {
+        "name": "4-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-2.png"
+    },
+    {
+        "name": "4-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-3.png"
+    },
+    {
+        "name": "4-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-4.png"
+    },
+    {
+        "name": "4-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-5.png"
+    },
+    {
+        "name": "4-6",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/4-6.png"
+    },
+    {
+        "name": "5-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-1.png"
+    },
+    {
+        "name": "5-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-2.png"
+    },
+    {
+        "name": "5-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-3.png"
+    },
+    {
+        "name": "5-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-4.png"
+    },
+    {
+        "name": "5-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-5.png"
+    },
+    {
+        "name": "5-6",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/5-6.png"
+    },
+    {
+        "name": "6-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-1.png"
+    },
+    {
+        "name": "6-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-2.png"
+    },
+    {
+        "name": "6-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-3.png"
+    },
+    {
+        "name": "6-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-4.png"
+    },
+    {
+        "name": "6-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-5.png"
+    },
+    {
+        "name": "6-6",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/6-6.png"
+    },
+    {
+        "name": "7-1",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-1.png"
+    },
+    {
+        "name": "7-2",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-2.png"
+    },
+    {
+        "name": "7-3",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-3.png"
+    },
+    {
+        "name": "7-4",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-4.png"
+    },
+    {
+        "name": "7-5",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-5.png"
+    },
+    {
+        "name": "7-6",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/stages/7-6.png"
     }
 ]

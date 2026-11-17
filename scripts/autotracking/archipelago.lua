@@ -306,6 +306,10 @@ function OnClear(slot_data)
                 local item = Tracker:FindObjectForCode("enemy_ability_shuffle")
                 item.CurrentStage = v
             end
+            if k == "starting_vitality" then
+                local item = Tracker:FindObjectForCode("vitality")
+                item.AcquiredCount = v
+            end
         end
         if REQ_PERCENT == 0 then
             local item = Tracker:FindObjectForCode("star_rod_pieces_l7")

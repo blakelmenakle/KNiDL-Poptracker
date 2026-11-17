@@ -1,0 +1,744 @@
+[
+    {
+        "name": "Enemy Abilities",
+        "children": [
+            {
+                "name": "Enemies",
+                "sections": [
+                    {
+                        "name": "Blade Knight",
+                        "hosted_item": "blade_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/blade_knight.png",
+                        "chest_opened_img": "images/enemies/blade_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|blade_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|blade_knight}"]
+                    },
+                    {
+                        "name": "Blipper",
+                        "hosted_item": "blipper",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/blipper.png",
+                        "chest_opened_img": "images/enemies/blipper.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|blipper"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|blipper}"]
+                    },
+                    {
+                        "name": "Bomber",
+                        "hosted_item": "bomber",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bomber.png",
+                        "chest_opened_img": "images/enemies/bomber.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bomber"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bomber}"]
+                    },
+                    {
+                        "name": "Bronto Burt",
+                        "hosted_item": "bronto_burt",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bronto_burt.png",
+                        "chest_opened_img": "images/enemies/bronto_burt.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bronto_burt"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bronto_burt}"]
+                    },
+                    {
+                        "name": "Broom Hatter",
+                        "hosted_item": "bronto_burt",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bronto_burt.png",
+                        "chest_opened_img": "images/enemies/bronto_burt.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bronto_burt"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bronto_burt}"]
+                    },
+                    {
+                        "name": "Bubbles",
+                        "hosted_item": "bubbles",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bubbles.png",
+                        "chest_opened_img": "images/enemies/bubbles.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bubbles"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bubbles}"]
+                    },
+                    {
+                        "name": "Capless Cappy",
+                        "hosted_item": "capless_cappy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/capless_cappy.png",
+                        "chest_opened_img": "images/enemies/capless_cappy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|capless_cappy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|capless_cappy}"]
+                    },
+                    {
+                        "name": "Cappy Cap",
+                        "hosted_item": "cappy_cap",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/cappy_cap.png",
+                        "chest_opened_img": "images/enemies/cappy_cap.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|cappy_cap"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|cappy_cap}"]
+                    },
+                    {
+                        "name": "Chilly",
+                        "hosted_item": "chilly",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/chilly.png",
+                        "chest_opened_img": "images/enemies/chilly.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|chilly"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|chilly}"]
+                    },
+                    {
+                        "name": "Coconut",
+                        "hosted_item": "coconut",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/coconut.png",
+                        "chest_opened_img": "images/enemies/coconut.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|coconut"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|coconut}"]
+                    },
+                    {
+                        "name": "Coner",
+                        "hosted_item": "coner",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/coner.png",
+                        "chest_opened_img": "images/enemies/coner.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|coner"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|coner}"]
+                    },
+                    {
+                        "name": "Cool Spook",
+                        "hosted_item": "cool_spook",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/cool_spook.png",
+                        "chest_opened_img": "images/enemies/cool_spook.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|cool_spook"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|cool_spook}"]
+                    },
+                    {
+                        "name": "Flamer",
+                        "hosted_item": "flamer",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/flamer.png",
+                        "chest_opened_img": "images/enemies/flamer.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|flamer"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|flamer}"]
+                    },
+                    {
+                        "name": "Gip",
+                        "hosted_item": "gip",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/gip.png",
+                        "chest_opened_img": "images/enemies/gip.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|gip"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|gip}"]
+                    },
+                    {
+                        "name": "Glunk",
+                        "hosted_item": "glunk",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/glunk.png",
+                        "chest_opened_img": "images/enemies/glunk.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|glunk"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|glunk}"]
+                    },
+                    {
+                        "name": "Hot Head",
+                        "hosted_item": "hot_head",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/hot_head.png",
+                        "chest_opened_img": "images/enemies/hot_head.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|hot_head"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|hot_head}"]
+                    },
+                    {
+                        "name": "Kabu",
+                        "hosted_item": "kabu",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/kabu.png",
+                        "chest_opened_img": "images/enemies/kabu.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|kabu"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|kabu}"]
+                    },
+                    {
+                        "name": "Needlous",
+                        "hosted_item": "needlous",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/needlous.png",
+                        "chest_opened_img": "images/enemies/needlous.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|needlous"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|needlous}"]
+                    },
+                    {
+                        "name": "Noddy",
+                        "hosted_item": "noddy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/noddy.png",
+                        "chest_opened_img": "images/enemies/noddy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|noddy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|noddy}"]
+                    },
+                    {
+                        "name": "Parasol",
+                        "hosted_item": "parasol_enemy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/parasol.png",
+                        "chest_opened_img": "images/enemies/parasol.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|parasol_enemy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|parasol_enemy}"]
+                    },
+                    {
+                        "name": "Pengy",
+                        "hosted_item": "pengy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/pengy.png",
+                        "chest_opened_img": "images/enemies/pengy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|pengy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|pengy}"]
+                    },
+                    {
+                        "name": "Poppy Bros Jr.",
+                        "hosted_item": "poppy_bros_jr",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/poppy_bros_jr.png",
+                        "chest_opened_img": "images/enemies/poppy_bros_jr.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|poppy_bros_jr"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|poppy_bros_jr}"]
+                    },
+                    {
+                        "name": "Poppy Bros Jr. Apple",
+                        "hosted_item": "apple",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/apple.png",
+                        "chest_opened_img": "images/enemies/apple.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|apple"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|apple}"]
+                    },
+                    {
+                        "name": "Rocky",
+                        "hosted_item": "rocky",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/rocky.png",
+                        "chest_opened_img": "images/enemies/rocky.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|rocky"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|rocky}"]
+                    },
+                    {
+                        "name": "Sir Kibble",
+                        "hosted_item": "sir_kibble",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/sir_kibble.png",
+                        "chest_opened_img": "images/enemies/sir_kibble.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|sir_kibble"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|sir_kibble}"]
+                    },
+                    {
+                        "name": "Slippy",
+                        "hosted_item": "slippy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/slippy.png",
+                        "chest_opened_img": "images/enemies/slippy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|slippy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|slippy}"]
+                    },
+                    {
+                        "name": "Sparky",
+                        "hosted_item": "sparky",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/sparky.png",
+                        "chest_opened_img": "images/enemies/sparky.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|sparky"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|sparky}"]
+                    },
+                    {
+                        "name": "Squishy",
+                        "hosted_item": "squishy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/squishy.png",
+                        "chest_opened_img": "images/enemies/squishy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|squishy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|squishy}"]
+                    },
+                    {
+                        "name": "Starman",
+                        "hosted_item": "starman",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/starman.png",
+                        "chest_opened_img": "images/enemies/starman.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|starman"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|starman}"]
+                    },
+                    {
+                        "name": "Sword Knight",
+                        "hosted_item": "sword_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/sword_knight.png",
+                        "chest_opened_img": "images/enemies/sword_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|sword_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|sword_knight}"]
+                    },
+                    {
+                        "name": "Twister",
+                        "hosted_item": "twister",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/twister.png",
+                        "chest_opened_img": "images/enemies/twister.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|twister"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|twister}"]
+                    },
+                    {
+                        "name": "Twizzy",
+                        "hosted_item": "twizzy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/twizzy.png",
+                        "chest_opened_img": "images/enemies/twizzy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|twizzy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|twizzy}"]
+                    },
+                    {
+                        "name": "UFO",
+                        "hosted_item": "ufo_enemy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/ufo_enemy.png",
+                        "chest_opened_img": "images/enemies/ufo_enemy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|ufo_enemy"
+                        ],
+                        "access_rules": ["$enemy_ability_check|ufo_enemy,[ufo_logic_on]"]
+                    },
+                    {
+                        "name": "Waddle Dee",
+                        "hosted_item": "waddle_dee",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/waddle_dee.png",
+                        "chest_opened_img": "images/enemies/waddle_dee.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|waddle_dee"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|waddle_dee}"]
+                    },
+                    {
+                        "name": "Waddle Doo",
+                        "hosted_item": "waddle_doo",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/waddle_doo.png",
+                        "chest_opened_img": "images/enemies/waddle_doo.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|waddle_doo"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|waddle_doo}"]
+                    },
+                    {
+                        "name": "Wheelie",
+                        "hosted_item": "wheelie",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/wheelie.png",
+                        "chest_opened_img": "images/enemies/wheelie.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|wheelie"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|wheelie}"]
+                    },
+                    {
+                        "name": "Axe Knight",
+                        "hosted_item": "axe_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/axe_knight.png",
+                        "chest_opened_img": "images/enemies/axe_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|axe_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|axe_knight}"]
+                    },
+                    {
+                        "name": "Javelin Knight",
+                        "hosted_item": "javelin_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/javelin_knight.png",
+                        "chest_opened_img": "images/enemies/javelin_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|javelin_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|javelin_knight}"]
+                    },
+                    {
+                        "name": "Mace Knight",
+                        "hosted_item": "mace_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/mace_knight.png",
+                        "chest_opened_img": "images/enemies/mace_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|mace_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|mace_knight}"]
+                    },
+                    {
+                        "name": "Trident Knight",
+                        "hosted_item": "trident_knight",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/trident_knight.png",
+                        "chest_opened_img": "images/enemies/trident_knight.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|trident_knight"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|trident_knight}"]
+                    },
+                    {
+                        "name": "Bonkers",
+                        "hosted_item": "bonkers",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bonkers.png",
+                        "chest_opened_img": "images/enemies/bonkers.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bonkers"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bonkers}"]
+                    },
+                    {
+                        "name": "Bugzzy",
+                        "hosted_item": "bugzzy",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bugzzy.png",
+                        "chest_opened_img": "images/enemies/bugzzy.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bugzzy"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bugzzy}"]
+                    },
+                    {
+                        "name": "Fire Lion",
+                        "hosted_item": "fire_lion",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/fire_lion.png",
+                        "chest_opened_img": "images/enemies/fire_lion.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|fire_lion"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|fire_lion}"]
+                    },
+                    {
+                        "name": "Grand Wheelie",
+                        "hosted_item": "grand_wheelie",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/grand_wheelie.png",
+                        "chest_opened_img": "images/enemies/grand_wheelie.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|grand_wheelie"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|grand_wheelie}"]
+                    },
+                    {
+                        "name": "Mr. Frosty",
+                        "hosted_item": "mr_frosty",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/mr_frosty.png",
+                        "chest_opened_img": "images/enemies/mr_frosty.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|mr_frosty"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|mr_frosty}"]
+                    },
+                    {
+                        "name": "Mr. Tick-Tock",
+                        "hosted_item": "mr_tick_tock",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/mr_tick_tock.png",
+                        "chest_opened_img": "images/enemies/mr_tick_tock.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|mr_tick_tock"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|mr_tick_tock}"]
+                    },
+                    {
+                        "name": "Phan Phan",
+                        "hosted_item": "phan_phan",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/phan_phan.png",
+                        "chest_opened_img": "images/enemies/phan_phan.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|phan_phan"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|phan_phan}"]
+                    },
+                    {
+                        "name": "Poppy Bros Sr.",
+                        "hosted_item": "poppy_bros_sr",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/poppy_bros_sr.png",
+                        "chest_opened_img": "images/enemies/poppy_bros_sr.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|poppy_bros_sr"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|poppy_bros_sr}"]
+                    },
+                    {
+                        "name": "Bonkers Coconut",
+                        "hosted_item": "bonkers_coconut",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/coconut.png",
+                        "chest_opened_img": "images/enemies/coconut.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bonkers_coconut"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bonkers_coconut}"]
+                    },
+                    {
+                        "name": "Drop Star",
+                        "hosted_item": "drop_star",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/warpstationkey.png",
+                        "chest_opened_img": "images/items/warpstationkey.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|drop_star"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|drop_star}"]
+                    },
+                    {
+                        "name": "Grand Wheelie Wheelie",
+                        "hosted_item": "grand_wheelie_wheelie",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/grand_wheelie_wheelie.png",
+                        "chest_opened_img": "images/enemies/grand_wheelie_wheelie.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|grand_wheelie_wheelie"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|grand_wheelie_wheelie}"]
+                    },
+                    {
+                        "name": "Ice Block",
+                        "hosted_item": "ice_block",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/ice_block.png",
+                        "chest_opened_img": "images/enemies/ice_block.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|ice_block"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|ice_block}"]
+                    },
+                    {
+                        "name": "Note",
+                        "hosted_item": "note",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/note.png",
+                        "chest_opened_img": "images/enemies/note.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|note"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|note}"]
+                    },
+                    {
+                        "name": "Phan Phan Apple",
+                        "hosted_item": "phan_phan_apple",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/apple.png",
+                        "chest_opened_img": "images/enemies/apple.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|phan_phan_apple"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|phan_phan_apple}"]
+                    },
+                    {
+                        "name": "Bomb",
+                        "hosted_item": "bomb",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bomb.png",
+                        "chest_opened_img": "images/enemies/bomb.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bomb"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bomb}"]
+                    },
+                    {
+                        "name": "Bugzzy Jr.",
+                        "hosted_item": "bugzzy_jr",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/enemies/bugzzy_jr.png",
+                        "chest_opened_img": "images/enemies/bugzzy_jr.png",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "show_abilities_on",
+                            "$enemy_ability_check|bugzzy_jr"
+                        ],
+                        "access_rules": ["{$enemy_ability_check|bugzzy_jr}"]
+                    }
+                ]
+            }
+        ],
+        "visibility_rules": [
+            "show_abilities_unlocked"
+        ],
+        "overlay_background": "#000000"
+    }
+]
