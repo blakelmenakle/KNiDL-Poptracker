@@ -158,9 +158,10 @@
                     {
                         "name": "1up (Spike Tunnel)",
                         "access_rules": [
-                            "[$has_ability|burning]",
-                            "[advanced_logic],[$has_ability|tornado]",
-                            "enemy_ability_shuffle_on,$can_use_ufo|s5_4,[ufo_logic_on]"
+                            "$has_ability|burning",
+                            "[advanced_logic],$has_ability|tornado",
+                            "enemy_ability_shuffle_on,$can_use_ufo|s5_4,[ufo_logic_on]",
+                            "vitality:2, [health_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,

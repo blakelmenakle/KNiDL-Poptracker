@@ -148,6 +148,25 @@
     ]
   },
   {
+    "name": "Enemies Without Abilities",
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/hide_no_ability.png",
+        "codes": "no_ability_enemies,no_ability_enemies_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/settings/show_no_ability.png",
+        "codes": "no_ability_enemies,no_ability_enemies_on",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
     "name": "Warp Station Skips",
     "type": "progressive",
     "allow_disabled":false,
@@ -193,13 +212,32 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/settings/enemy_ability_shuffle_off.png",
+        "img": "images/enemies/ufo_enemy.png",
         "codes": "ufo_logic,ufo_logic_off",
         "inherit_codes":false
       },    
       {
-        "img": "images/settings/enemy_ability_shuffle_on.png",
+        "img": "images/enemies/ufo_enemy.png",
         "codes": "ufo_logic,ufo_logic_on",
+        "inherit_codes":false
+      }
+    ]
+  },
+  {
+    "name": "Health Logic", 
+    "type": "progressive",
+    "allow_disabled":false,
+    "loop":true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/vitality.png",
+        "codes": "health_logic,health_logic_off",
+        "inherit_codes":false
+      },    
+      {
+        "img": "images/items/vitality.png",
+        "codes": "health_logic,health_logic_on",
         "inherit_codes":false
       }
     ]

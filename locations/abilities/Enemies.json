@@ -13,8 +13,8 @@
                         "chest_opened_img": "images/enemies/blade_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|blade_knight"
+                            "show_abilities_on, $show_no_ability_check|blade_knight",
+                            "$enemy_ability_check|blade_knight, $show_no_ability_check|blade_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|blade_knight}"]
                     },
@@ -26,8 +26,8 @@
                         "chest_opened_img": "images/enemies/blipper.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|blipper"
+                            "show_abilities_on, $show_no_ability_check|blipper",
+                            "$enemy_ability_check|blipper, $show_no_ability_check|blipper"
                         ],
                         "access_rules": ["{$enemy_ability_check|blipper}"]
                     },
@@ -39,8 +39,8 @@
                         "chest_opened_img": "images/enemies/bomber.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bomber"
+                            "show_abilities_on, $show_no_ability_check|bomber",
+                            "$enemy_ability_check|bomber, $show_no_ability_check|bomber"
                         ],
                         "access_rules": ["{$enemy_ability_check|bomber}"]
                     },
@@ -52,23 +52,23 @@
                         "chest_opened_img": "images/enemies/bronto_burt.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bronto_burt"
+                            "show_abilities_on, $show_no_ability_check|bronto_burt",
+                            "$enemy_ability_check|bronto_burt, $show_no_ability_check|bronto_burt"
                         ],
                         "access_rules": ["{$enemy_ability_check|bronto_burt}"]
                     },
                     {
                         "name": "Broom Hatter",
-                        "hosted_item": "bronto_burt",
+                        "hosted_item": "broom_hatter",
                         "item_count": 1,
-                        "chest_unopened_img": "images/enemies/bronto_burt.png",
-                        "chest_opened_img": "images/enemies/bronto_burt.png",
+                        "chest_unopened_img": "images/enemies/broom_hatter.png",
+                        "chest_opened_img": "images/enemies/broom_hatter.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bronto_burt"
+                            "show_abilities_on, $show_no_ability_check|broom_hatter",
+                            "$enemy_ability_check|broom_hatter, $show_no_ability_check|broom_hatter"
                         ],
-                        "access_rules": ["{$enemy_ability_check|bronto_burt}"]
+                        "access_rules": ["{$enemy_ability_check|broom_hatter}"]
                     },
                     {
                         "name": "Bubbles",
@@ -78,8 +78,8 @@
                         "chest_opened_img": "images/enemies/bubbles.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bubbles"
+                            "show_abilities_on, $show_no_ability_check|bubbles",
+                            "$enemy_ability_check|bubbles, $show_no_ability_check|bubbles"
                         ],
                         "access_rules": ["{$enemy_ability_check|bubbles}"]
                     },
@@ -91,8 +91,8 @@
                         "chest_opened_img": "images/enemies/capless_cappy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|capless_cappy"
+                            "show_abilities_on, $show_no_ability_check|capless_cappy",
+                            "$enemy_ability_check|capless_cappy, $show_no_ability_check|capless_cappy"
                         ],
                         "access_rules": ["{$enemy_ability_check|capless_cappy}"]
                     },
@@ -104,8 +104,8 @@
                         "chest_opened_img": "images/enemies/cappy_cap.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|cappy_cap"
+                            "show_abilities_on, $show_no_ability_check|cappy_cap",
+                            "$enemy_ability_check|cappy_cap, $show_no_ability_check|cappy_cap"
                         ],
                         "access_rules": ["{$enemy_ability_check|cappy_cap}"]
                     },
@@ -117,8 +117,8 @@
                         "chest_opened_img": "images/enemies/chilly.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|chilly"
+                            "show_abilities_on, $show_no_ability_check|chilly",
+                            "$enemy_ability_check|chilly, $show_no_ability_check|chilly"
                         ],
                         "access_rules": ["{$enemy_ability_check|chilly}"]
                     },
@@ -130,8 +130,8 @@
                         "chest_opened_img": "images/enemies/coconut.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|coconut"
+                            "show_abilities_on, $show_no_ability_check|coconut",
+                            "$enemy_ability_check|coconut, $show_no_ability_check|coconut"
                         ],
                         "access_rules": ["{$enemy_ability_check|coconut}"]
                     },
@@ -143,8 +143,8 @@
                         "chest_opened_img": "images/enemies/coner.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|coner"
+                            "show_abilities_on, $show_no_ability_check|coner",
+                            "$enemy_ability_check|coner, $show_no_ability_check|coner"
                         ],
                         "access_rules": ["{$enemy_ability_check|coner}"]
                     },
@@ -156,8 +156,8 @@
                         "chest_opened_img": "images/enemies/cool_spook.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|cool_spook"
+                            "show_abilities_on, $show_no_ability_check|cool_spook",
+                            "$enemy_ability_check|cool_spook, $show_no_ability_check|cool_spook"
                         ],
                         "access_rules": ["{$enemy_ability_check|cool_spook}"]
                     },
@@ -169,8 +169,8 @@
                         "chest_opened_img": "images/enemies/flamer.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|flamer"
+                            "show_abilities_on, $show_no_ability_check|flamer",
+                            "$enemy_ability_check|flamer, $show_no_ability_check|flamer"
                         ],
                         "access_rules": ["{$enemy_ability_check|flamer}"]
                     },
@@ -182,8 +182,8 @@
                         "chest_opened_img": "images/enemies/gip.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|gip"
+                            "show_abilities_on, $show_no_ability_check|gip",
+                            "$enemy_ability_check|gip, $show_no_ability_check|gip"
                         ],
                         "access_rules": ["{$enemy_ability_check|gip}"]
                     },
@@ -195,8 +195,8 @@
                         "chest_opened_img": "images/enemies/glunk.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|glunk"
+                            "show_abilities_on, $show_no_ability_check|glunk",
+                            "$enemy_ability_check|glunk, $show_no_ability_check|glunk"
                         ],
                         "access_rules": ["{$enemy_ability_check|glunk}"]
                     },
@@ -208,8 +208,8 @@
                         "chest_opened_img": "images/enemies/hot_head.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|hot_head"
+                            "show_abilities_on, $show_no_ability_check|hot_head",
+                            "$enemy_ability_check|hot_head, $show_no_ability_check|hot_head"
                         ],
                         "access_rules": ["{$enemy_ability_check|hot_head}"]
                     },
@@ -221,8 +221,8 @@
                         "chest_opened_img": "images/enemies/kabu.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|kabu"
+                            "show_abilities_on, $show_no_ability_check|kabu",
+                            "$enemy_ability_check|kabu, $show_no_ability_check|kabu"
                         ],
                         "access_rules": ["{$enemy_ability_check|kabu}"]
                     },
@@ -234,8 +234,8 @@
                         "chest_opened_img": "images/enemies/needlous.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|needlous"
+                            "show_abilities_on, $show_no_ability_check|needlous",
+                            "$enemy_ability_check|needlous, $show_no_ability_check|needlous"
                         ],
                         "access_rules": ["{$enemy_ability_check|needlous}"]
                     },
@@ -247,8 +247,8 @@
                         "chest_opened_img": "images/enemies/noddy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|noddy"
+                            "show_abilities_on, $show_no_ability_check|noddy",
+                            "$enemy_ability_check|noddy, $show_no_ability_check|noddy"
                         ],
                         "access_rules": ["{$enemy_ability_check|noddy}"]
                     },
@@ -260,8 +260,8 @@
                         "chest_opened_img": "images/enemies/parasol.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|parasol_enemy"
+                            "show_abilities_on, $show_no_ability_check|parasol_enemy",
+                            "$enemy_ability_check|parasol_enemy, $show_no_ability_check|parasol_enemy"
                         ],
                         "access_rules": ["{$enemy_ability_check|parasol_enemy}"]
                     },
@@ -273,8 +273,8 @@
                         "chest_opened_img": "images/enemies/pengy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|pengy"
+                            "show_abilities_on, $show_no_ability_check|pengy",
+                            "$enemy_ability_check|pengy, $show_no_ability_check|pengy"
                         ],
                         "access_rules": ["{$enemy_ability_check|pengy}"]
                     },
@@ -286,8 +286,8 @@
                         "chest_opened_img": "images/enemies/poppy_bros_jr.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|poppy_bros_jr"
+                            "show_abilities_on, $show_no_ability_check|poppy_bros_jr",
+                            "$enemy_ability_check|poppy_bros_jr, $show_no_ability_check|poppy_bros_jr"
                         ],
                         "access_rules": ["{$enemy_ability_check|poppy_bros_jr}"]
                     },
@@ -299,8 +299,8 @@
                         "chest_opened_img": "images/enemies/apple.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|apple"
+                            "show_abilities_on, $show_no_ability_check|apple",
+                            "$enemy_ability_check|apple, $show_no_ability_check|apple"
                         ],
                         "access_rules": ["{$enemy_ability_check|apple}"]
                     },
@@ -312,8 +312,8 @@
                         "chest_opened_img": "images/enemies/rocky.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|rocky"
+                            "show_abilities_on, $show_no_ability_check|rocky",
+                            "$enemy_ability_check|rocky, $show_no_ability_check|rocky"
                         ],
                         "access_rules": ["{$enemy_ability_check|rocky}"]
                     },
@@ -325,8 +325,8 @@
                         "chest_opened_img": "images/enemies/sir_kibble.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|sir_kibble"
+                            "show_abilities_on, $show_no_ability_check|sir_kibble",
+                            "$enemy_ability_check|sir_kibble, $show_no_ability_check|sir_kibble"
                         ],
                         "access_rules": ["{$enemy_ability_check|sir_kibble}"]
                     },
@@ -338,8 +338,8 @@
                         "chest_opened_img": "images/enemies/slippy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|slippy"
+                            "show_abilities_on, $show_no_ability_check|slippy",
+                            "$enemy_ability_check|slippy, $show_no_ability_check|slippy"
                         ],
                         "access_rules": ["{$enemy_ability_check|slippy}"]
                     },
@@ -351,8 +351,8 @@
                         "chest_opened_img": "images/enemies/sparky.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|sparky"
+                            "show_abilities_on, $show_no_ability_check|sparky",
+                            "$enemy_ability_check|sparky, $show_no_ability_check|sparky"
                         ],
                         "access_rules": ["{$enemy_ability_check|sparky}"]
                     },
@@ -364,8 +364,8 @@
                         "chest_opened_img": "images/enemies/squishy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|squishy"
+                            "show_abilities_on, $show_no_ability_check|squishy",
+                            "$enemy_ability_check|squishy, $show_no_ability_check|squishy"
                         ],
                         "access_rules": ["{$enemy_ability_check|squishy}"]
                     },
@@ -377,8 +377,8 @@
                         "chest_opened_img": "images/enemies/starman.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|starman"
+                            "show_abilities_on, $show_no_ability_check|starman",
+                            "$enemy_ability_check|starman, $show_no_ability_check|starman"
                         ],
                         "access_rules": ["{$enemy_ability_check|starman}"]
                     },
@@ -390,8 +390,8 @@
                         "chest_opened_img": "images/enemies/sword_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|sword_knight"
+                            "show_abilities_on, $show_no_ability_check|sword_knight",
+                            "$enemy_ability_check|sword_knight, $show_no_ability_check|sword_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|sword_knight}"]
                     },
@@ -403,8 +403,8 @@
                         "chest_opened_img": "images/enemies/twister.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|twister"
+                            "show_abilities_on, $show_no_ability_check|twister",
+                            "$enemy_ability_check|twister, $show_no_ability_check|twister"
                         ],
                         "access_rules": ["{$enemy_ability_check|twister}"]
                     },
@@ -416,8 +416,8 @@
                         "chest_opened_img": "images/enemies/twizzy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|twizzy"
+                            "show_abilities_on, $show_no_ability_check|twizzy",
+                            "$enemy_ability_check|twizzy, $show_no_ability_check|twizzy"
                         ],
                         "access_rules": ["{$enemy_ability_check|twizzy}"]
                     },
@@ -429,8 +429,8 @@
                         "chest_opened_img": "images/enemies/ufo_enemy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|ufo_enemy"
+                            "show_abilities_on, $show_no_ability_check|ufo_enemy",
+                            "$enemy_ability_check|ufo_enemy, $show_no_ability_check|ufo_enemy"
                         ],
                         "access_rules": ["$enemy_ability_check|ufo_enemy,[ufo_logic_on]"]
                     },
@@ -442,8 +442,8 @@
                         "chest_opened_img": "images/enemies/waddle_dee.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|waddle_dee"
+                            "show_abilities_on, $show_no_ability_check|waddle_dee",
+                            "$enemy_ability_check|waddle_dee, $show_no_ability_check|waddle_dee"
                         ],
                         "access_rules": ["{$enemy_ability_check|waddle_dee}"]
                     },
@@ -455,8 +455,8 @@
                         "chest_opened_img": "images/enemies/waddle_doo.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|waddle_doo"
+                            "show_abilities_on, $show_no_ability_check|waddle_doo",
+                            "$enemy_ability_check|waddle_doo, $show_no_ability_check|waddle_doo"
                         ],
                         "access_rules": ["{$enemy_ability_check|waddle_doo}"]
                     },
@@ -468,8 +468,8 @@
                         "chest_opened_img": "images/enemies/wheelie.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|wheelie"
+                            "show_abilities_on, $show_no_ability_check|wheelie",
+                            "$enemy_ability_check|wheelie, $show_no_ability_check|wheelie"
                         ],
                         "access_rules": ["{$enemy_ability_check|wheelie}"]
                     },
@@ -481,8 +481,8 @@
                         "chest_opened_img": "images/enemies/axe_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|axe_knight"
+                            "show_abilities_on, $show_no_ability_check|axe_knight",
+                            "$enemy_ability_check|axe_knight, $show_no_ability_check|axe_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|axe_knight}"]
                     },
@@ -494,8 +494,8 @@
                         "chest_opened_img": "images/enemies/javelin_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|javelin_knight"
+                            "show_abilities_on, $show_no_ability_check|javelin_knight",
+                            "$enemy_ability_check|javelin_knight, $show_no_ability_check|javelin_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|javelin_knight}"]
                     },
@@ -507,8 +507,8 @@
                         "chest_opened_img": "images/enemies/mace_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|mace_knight"
+                            "show_abilities_on, $show_no_ability_check|mace_knight",
+                            "$enemy_ability_check|mace_knight, $show_no_ability_check|mace_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|mace_knight}"]
                     },
@@ -520,8 +520,8 @@
                         "chest_opened_img": "images/enemies/trident_knight.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|trident_knight"
+                            "show_abilities_on, $show_no_ability_check|trident_knight",
+                            "$enemy_ability_check|trident_knight, $show_no_ability_check|trident_knight"
                         ],
                         "access_rules": ["{$enemy_ability_check|trident_knight}"]
                     },
@@ -533,8 +533,8 @@
                         "chest_opened_img": "images/enemies/bonkers.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bonkers"
+                            "show_abilities_on, $show_no_ability_check|bonkers",
+                            "$enemy_ability_check|bonkers, $show_no_ability_check|bonkers"
                         ],
                         "access_rules": ["{$enemy_ability_check|bonkers}"]
                     },
@@ -546,8 +546,8 @@
                         "chest_opened_img": "images/enemies/bugzzy.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bugzzy"
+                            "show_abilities_on, $show_no_ability_check|bugzzy",
+                            "$enemy_ability_check|bugzzy, $show_no_ability_check|bugzzy"
                         ],
                         "access_rules": ["{$enemy_ability_check|bugzzy}"]
                     },
@@ -559,8 +559,8 @@
                         "chest_opened_img": "images/enemies/fire_lion.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|fire_lion"
+                            "show_abilities_on, $show_no_ability_check|fire_lion",
+                            "$enemy_ability_check|fire_lion, $show_no_ability_check|fire_lion"
                         ],
                         "access_rules": ["{$enemy_ability_check|fire_lion}"]
                     },
@@ -572,8 +572,8 @@
                         "chest_opened_img": "images/enemies/grand_wheelie.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|grand_wheelie"
+                            "show_abilities_on, $show_no_ability_check|grand_wheelie",
+                            "$enemy_ability_check|grand_wheelie, $show_no_ability_check|grand_wheelie"
                         ],
                         "access_rules": ["{$enemy_ability_check|grand_wheelie}"]
                     },
@@ -585,8 +585,8 @@
                         "chest_opened_img": "images/enemies/mr_frosty.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|mr_frosty"
+                            "show_abilities_on, $show_no_ability_check|mr_frosty",
+                            "$enemy_ability_check|mr_frosty, $show_no_ability_check|mr_frosty"
                         ],
                         "access_rules": ["{$enemy_ability_check|mr_frosty}"]
                     },
@@ -598,8 +598,8 @@
                         "chest_opened_img": "images/enemies/mr_tick_tock.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|mr_tick_tock"
+                            "show_abilities_on, $show_no_ability_check|mr_tick_tock",
+                            "$enemy_ability_check|mr_tick_tock, $show_no_ability_check|mr_tick_tock"
                         ],
                         "access_rules": ["{$enemy_ability_check|mr_tick_tock}"]
                     },
@@ -611,8 +611,8 @@
                         "chest_opened_img": "images/enemies/phan_phan.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|phan_phan"
+                            "show_abilities_on, $show_no_ability_check|phan_phan",
+                            "$enemy_ability_check|phan_phan, $show_no_ability_check|phan_phan"
                         ],
                         "access_rules": ["{$enemy_ability_check|phan_phan}"]
                     },
@@ -624,8 +624,8 @@
                         "chest_opened_img": "images/enemies/poppy_bros_sr.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|poppy_bros_sr"
+                            "show_abilities_on, $show_no_ability_check|poppy_bros_sr",
+                            "$enemy_ability_check|poppy_bros_sr, $show_no_ability_check|poppy_bros_sr"
                         ],
                         "access_rules": ["{$enemy_ability_check|poppy_bros_sr}"]
                     },
@@ -637,8 +637,8 @@
                         "chest_opened_img": "images/enemies/coconut.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bonkers_coconut"
+                            "show_abilities_on, $show_no_ability_check|bonkers_coconut",
+                            "$enemy_ability_check|bonkers_coconut, $show_no_ability_check|bonkers_coconut"
                         ],
                         "access_rules": ["{$enemy_ability_check|bonkers_coconut}"]
                     },
@@ -650,8 +650,8 @@
                         "chest_opened_img": "images/items/warpstationkey.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|drop_star"
+                            "show_abilities_on, $show_no_ability_check|drop_star",
+                            "$enemy_ability_check|drop_star, $show_no_ability_check|drop_star"
                         ],
                         "access_rules": ["{$enemy_ability_check|drop_star}"]
                     },
@@ -663,8 +663,8 @@
                         "chest_opened_img": "images/enemies/grand_wheelie_wheelie.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|grand_wheelie_wheelie"
+                            "show_abilities_on, $show_no_ability_check|grand_wheelie_wheelie",
+                            "$enemy_ability_check|grand_wheelie_wheelie, $show_no_ability_check|grand_wheelie_wheelie"
                         ],
                         "access_rules": ["{$enemy_ability_check|grand_wheelie_wheelie}"]
                     },
@@ -676,8 +676,8 @@
                         "chest_opened_img": "images/enemies/ice_block.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|ice_block"
+                            "show_abilities_on, $show_no_ability_check|ice_block",
+                            "$enemy_ability_check|ice_block, $show_no_ability_check|ice_block"
                         ],
                         "access_rules": ["{$enemy_ability_check|ice_block}"]
                     },
@@ -689,8 +689,8 @@
                         "chest_opened_img": "images/enemies/note.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|note"
+                            "show_abilities_on, $show_no_ability_check|note",
+                            "$enemy_ability_check|note, $show_no_ability_check|note"
                         ],
                         "access_rules": ["{$enemy_ability_check|note}"]
                     },
@@ -702,8 +702,8 @@
                         "chest_opened_img": "images/enemies/apple.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|phan_phan_apple"
+                            "show_abilities_on, $show_no_ability_check|phan_phan_apple",
+                            "$enemy_ability_check|phan_phan_apple, $show_no_ability_check|phan_phan_apple"
                         ],
                         "access_rules": ["{$enemy_ability_check|phan_phan_apple}"]
                     },
@@ -715,8 +715,8 @@
                         "chest_opened_img": "images/enemies/bomb.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bomb"
+                            "show_abilities_on, $show_no_ability_check|bomb",
+                            "$enemy_ability_check|bomb, $show_no_ability_check|bomb"
                         ],
                         "access_rules": ["{$enemy_ability_check|bomb}"]
                     },
@@ -728,8 +728,8 @@
                         "chest_opened_img": "images/enemies/bugzzy_jr.png",
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "show_abilities_on",
-                            "$enemy_ability_check|bugzzy_jr"
+                            "show_abilities_on, $show_no_ability_check|bugzzy_jr",
+                            "$enemy_ability_check|bugzzy_jr, $show_no_ability_check|bugzzy_jr"
                         ],
                         "access_rules": ["{$enemy_ability_check|bugzzy_jr}"]
                     }

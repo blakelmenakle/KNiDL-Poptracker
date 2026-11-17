@@ -12,11 +12,20 @@ end
 
 function enemy_ability_check(enemy)
     local ability_number = Tracker:FindObjectForCode(enemy).CurrentStage
-    if ability_number == 0 or ability_number == 25 then
+    if ability_number == 25 or ability_number == 0 then
         return true
     end
     local ability = ABILITY_CHECK[ability_number]
     return Tracker:FindObjectForCode(ability).Active
+end
+
+function show_no_ability_check(enemy)
+    local ability_number = Tracker:FindObjectForCode(enemy).CurrentStage
+    local ability_enemy = Tracker:FindObjectForCode("no_ability_enemies").CurrentStage
+    if ability_number == 0 and ability_enemy == 0 then
+        return false
+    end
+    return true
 end
 
 function stage_ability(ability_name, stage)

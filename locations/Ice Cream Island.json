@@ -278,8 +278,9 @@
                     {
                         "name": "1up (Gordo Guarded)",
                         "access_rules": [
-                            "[$has_ability|burning|tornado]",
-                            "[advanced_logic], [$has_ability|wheel]"
+                            "$has_ability|burning|tornado",
+                            "[advanced_logic], $has_ability|wheel",
+                            "vitality:2, [health_logic_on]"
                         ],
                         "visibility_rules": [],
                         "item_count": 1,
