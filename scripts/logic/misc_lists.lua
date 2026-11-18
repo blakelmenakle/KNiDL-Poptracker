@@ -860,57 +860,25 @@ LEVEL_NAMES = {
 
 LEVEL_ENEMIES = {
     ["l1"] = {
-        table.unpack(STAGE_ENEMIES["s1_1"]),
-        table.unpack(STAGE_ENEMIES["s1_2"]),
-        table.unpack(STAGE_ENEMIES["s1_3"]),
-        table.unpack(STAGE_ENEMIES["s1_4"])
+        unpack_multiple("s1_1", "s1_2", "s1_3", "s1_4")
     },
     ["l2"] = {
-        table.unpack(STAGE_ENEMIES["s2_1"]),
-        table.unpack(STAGE_ENEMIES["s2_2"]),
-        table.unpack(STAGE_ENEMIES["s2_3"]),
-        table.unpack(STAGE_ENEMIES["s2_4"]),
-        table.unpack(STAGE_ENEMIES["s2_5"])
+        unpack_multiple("s2_1", "s2_2", "s2_3", "s2_4", "s2_5")
     },
     ["l3"] = {
-        table.unpack(STAGE_ENEMIES["s3_1"]),
-        table.unpack(STAGE_ENEMIES["s3_2"]),
-        table.unpack(STAGE_ENEMIES["s3_3"]),
-        table.unpack(STAGE_ENEMIES["s3_4"]),
-        table.unpack(STAGE_ENEMIES["s3_5"]),
-        table.unpack(STAGE_ENEMIES["s3_6"])
+        unpack_multiple("s3_1", "s3_2", "s3_3", "s3_4", "s3_5", "s3_6")
     },
     ["l4"] = {
-        table.unpack(STAGE_ENEMIES["s4_1"]),
-        table.unpack(STAGE_ENEMIES["s4_2"]),
-        table.unpack(STAGE_ENEMIES["s4_3"]),
-        table.unpack(STAGE_ENEMIES["s4_4"]),
-        table.unpack(STAGE_ENEMIES["s4_5"]),
-        table.unpack(STAGE_ENEMIES["s4_6"])
+        unpack_multiple("s4_1", "s4_2", "s4_3", "s4_4", "s4_5", "s4_6")
     },
     ["l5"] = {
-        table.unpack(STAGE_ENEMIES["s5_1"]),
-        table.unpack(STAGE_ENEMIES["s5_2"]),
-        table.unpack(STAGE_ENEMIES["s5_3"]),
-        table.unpack(STAGE_ENEMIES["s5_4"]),
-        table.unpack(STAGE_ENEMIES["s5_5"]),
-        table.unpack(STAGE_ENEMIES["s5_6"])
+        unpack_multiple("s5_1", "s5_2", "s5_3", "s5_4", "s5_5", "s5_6")
     },
     ["l6"] = {
-        table.unpack(STAGE_ENEMIES["s6_1"]),
-        table.unpack(STAGE_ENEMIES["s6_2"]),
-        table.unpack(STAGE_ENEMIES["s6_3"]),
-        table.unpack(STAGE_ENEMIES["s6_4"]),
-        table.unpack(STAGE_ENEMIES["s6_5"]),
-        table.unpack(STAGE_ENEMIES["s6_6"])
+        unpack_multiple("s6_1", "s6_2", "s6_3", "s6_4", "s6_5", "s6_6")
     },
     ["l7"] = {
-        table.unpack(STAGE_ENEMIES["s7_1"]),
-        table.unpack(STAGE_ENEMIES["s7_2"]),
-        table.unpack(STAGE_ENEMIES["s7_3"]),
-        table.unpack(STAGE_ENEMIES["s7_4"]),
-        table.unpack(STAGE_ENEMIES["s7_5"]),
-        table.unpack(STAGE_ENEMIES["s7_6"])
+        unpack_multiple("s7_1", "s7_2", "s7_3", "s7_4", "s7_5", "s7_6")
     }
 }
 

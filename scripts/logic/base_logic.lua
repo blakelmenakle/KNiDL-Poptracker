@@ -54,3 +54,15 @@ function level_access(level)
     end
     return false
 end
+
+function unpack_multiple(...)
+    local combined = {}
+    local stages = {...}
+    for _, stage in pairs(stages) do
+        local enemies = STAGE_ENEMIES[stage]
+        for _, enemy in pairs(enemies) do
+            table.insert(combined, enemy)
+        end
+    end
+    return table.unpack(combined)
+end
